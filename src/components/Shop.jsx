@@ -25,7 +25,7 @@ function Shop() {
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="https://images.immediate.co.uk/production/volatile/sites/24/2020/05/flute_625-15bb1a0.jpg?quality=90&resize=768,574" alt="play flute" class="card-img-top" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmagvp_SgPnb29gV-FI6netYz9WG2BhVJxg&usqp=CAU" alt="playing clarinet" class="card-img-top" />
                         <div class="card-body">
                             <h2 class="card-title">Woodwinds</h2>
                             <p class="card-text">Browse</p>
@@ -34,7 +34,7 @@ function Shop() {
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/71kmnqSGVQL._AC_SL1500_.jpg" alt="drumset" class="card-img-top" />
+                        <img src="https://images.squarespace-cdn.com/content/v1/5a57dd0c010027ec424db45c/1550796308545-BWVTTW2KJ6H4AWBRY2PA/ke17ZwdGBToddI8pDm48kG87Sfbgg29A4BYEDq3OXvgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcf4OxbJOyh_wHUnyc4kQLQ6SBshRGOku7c30Y_IRDNPta8R2IY5BHMaEj1zOWoDTZ/photo-1519892300165-cb5542fb47c7.jpg?format=2500w" alt="drumset" class="card-img-top" />
                         <div class="card-body">
                             <h2 class="card-title">Percussion</h2>
                             <p class="card-text">Browse</p>
