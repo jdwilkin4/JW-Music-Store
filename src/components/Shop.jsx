@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link, withRouter } from "react-router-dom";
+
 
 function Shop() {
     return (
@@ -7,9 +9,10 @@ function Shop() {
                 <div className="col">
                     <div className="card">
                         <img src="https://play-guitars.com/wp-content/uploads/2019/03/electric-guitar-for-beginners-01.jpg" alt="guitar" className="card-img-top product-img" />
-                        <div className="card-body">
-                            <h2 className="card-title">Guitars</h2>
-                            <p className="card-text">Browse</p>
+                        <div>
+                            <Link className="card-body align-items-center d-flex justify-content-center" to="/guitars">
+                                Guitars
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -120,4 +123,4 @@ function Shop() {
         </div>
     )
 }
-export default Shop
+export default withRouter(Shop) 
