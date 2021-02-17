@@ -1,9 +1,16 @@
 .row{
     margin: 70px auto;
 }
+.sub-page-heading{
+    margin-top: 40px;
+}
 
 .card{
     width: 200px;
+}
+
+.card-body{
+    font-size: 1.5rem;
 }
 
 .product-img{
@@ -11,9 +18,11 @@
     height: 150px;
 }
 
-.link-name{
-    margin: 0 auto;
+.img-thumbnail{
+    width: 170px;
+    height: 180px;
 }
+
 
 .card-text, .card-title{
     text-align: center;
