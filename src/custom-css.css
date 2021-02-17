@@ -1,3 +1,28 @@
+.shop-title{
+    text-align: center;
+    margin: 20px 0;
+}
+.row{
+    margin: 70px auto;
+}
+
+.card{
+    width: 200px;
+}
+
+.product-img{
+    width: 199px;
+    height: 150px;
+}
+
+.card-text, .card-title{
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.2rem;
+}
+
 footer{
     height: 10px;
 }
