@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, Shop, About, Contact } from "./components";
-import './App.css';
-
+import './custom-css.css';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Navigation />
         <Switch>
