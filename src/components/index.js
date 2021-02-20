@@ -10,3 +10,4 @@ export { default as LiveSound } from './LiveSound';
 export { default as Recording } from './Recording';
 export { default as Accessories } from './Accessories';
 export { default as DJ } from './DJ';
+export { default as Band } from './Band';
