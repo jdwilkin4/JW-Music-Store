@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording, Accessories, DJ, Band } from "./components";
+import { Navigation, Footer, Home, Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording, Accessories, DJ, Band, Classroom } from "./components";
 import './custom-css.css';
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path="/accessories" exact component={() => <Accessories />} />
           <Route path="/DJ" exact component={() => <DJ />} />
           <Route path="/band" exact component={() => <Band />} />
+          <Route path="/classroom" exact component={() => <Classroom />} />
         </Switch>
         <Footer />
       </Router>
