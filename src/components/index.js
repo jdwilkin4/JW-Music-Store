@@ -9,3 +9,4 @@ export { default as Keyboards } from './Keyboards';
 export { default as LiveSound } from './LiveSound';
 export { default as Recording } from './Recording';
 export { default as Accessories } from './Accessories';
+export { default as DJ } from './DJ';
