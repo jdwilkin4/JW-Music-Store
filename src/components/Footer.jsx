@@ -5,7 +5,7 @@ import React from 'react';
 function Footer() {
     return (
         <div classNameName="footer">
-            <footer className="py-2 fixed-bottom">
+            <footer className="py-2">
                 <div className="container">
                     <p className="m-0 text-center text-white">
                         Copyright &copy; 2021

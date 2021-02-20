@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Navigation(props) {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <Link className="navbar-brand" to="/">
                     JW Music Store
                 </Link>
