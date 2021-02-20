@@ -53,9 +53,21 @@ function Navigation(props) {
                                 More
                             </Link>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <Link className="dropdown-item" to="/accessories">
+                                    Accessories
+                                </Link>
+                                <Link className="dropdown-item" to="/DJ">
+                                    DJ Gear
+                                </Link>
+                                <Link className="dropdown-item" to="/band">
+                                    Band &amp; Orchestra
+                                </Link>
+                                <Link className="dropdown-item" to="/classroom">
+                                    Classroom &amp; Kids
+                                </Link>
+                                <Link className="dropdown-item" to="/music">
+                                    Sheet Music
+                                </Link>
                             </div>
                         </li>
                     </ul>
