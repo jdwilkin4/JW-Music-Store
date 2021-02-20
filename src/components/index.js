@@ -12,3 +12,4 @@ export { default as Accessories } from './Accessories';
 export { default as DJ } from './DJ';
 export { default as Band } from './Band';
 export { default as Classroom } from './Classroom';
+export { default as Music } from './Music';
