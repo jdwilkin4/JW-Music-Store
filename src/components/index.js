@@ -3,3 +3,4 @@ export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
 export { default as Guitars } from "./Guitars";
 export { default as Basses } from './Basses';
+export { default as Amps } from './Amps';
