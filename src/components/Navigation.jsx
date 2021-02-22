@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Navigation(props) {
     return (
         <div>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
                 <Link className="navbar-brand" to="/">
                     JW Music Store
                 </Link>
@@ -48,11 +48,11 @@ function Navigation(props) {
                                 Recording
                             </Link>
                         </li>
-                        <li className={`nav-item dropdown  ${props.location.pathname === "/more" ? "active" : ""}`} >
-                            <Link className="nav-link dropdown-toggle" to="/more" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 More
                             </Link>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="dropdown-item" to="/accessories">
                                     Accessories
                                 </Link>

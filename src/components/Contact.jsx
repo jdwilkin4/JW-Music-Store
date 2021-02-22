@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return (
-        <div classNameName="contact">
+        <div className="contact">
             <div className="container">
                 <div className="row align-items-center my-5">
                     <div className="col-lg-7">

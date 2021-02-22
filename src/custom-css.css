@@ -2,37 +2,54 @@ nav, footer {
     background-color: #043352;
 }
 
-.row{
-    margin: 70px auto;
-}
-.sub-page-heading{
-    margin-top: 60px;
+
+.sub-page-heading {
+    margin: 80px 0 50px;
 }
 
-.card{
+
+.product-div {
+    margin: auto;
+    max-width: 90%;
+}
+
+.product-description {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+
+.card {
     width: 200px;
+    margin-bottom: 20px;
+
 }
 
-.card-body{
+
+.card-body {
     font-size: 1.5rem;
 }
 
-.product-img{
+.product-img {
     width: 199px;
     height: 150px;
 }
 
-.img-thumbnail{
+.img-thumbnail {
     width: 170px;
     height: 180px;
 }
 
 
-.card-text, .card-title{
+.card-text, .card-title {
     text-align: center;
 }
 
-.card-title{
+.card-title {
+    margin-bottom:0;
     font-size: 1.2rem;
 }
+
+
 
