@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording, Accessories, DJ, Band, Classroom, Music } from "./components";
+import { Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording, Accessories, DJ, Band, Classroom, Music } from "./components";
+import { Home, Navigation, Footer } from './components';
 import './custom-css.css';
 function App() {
   return (
