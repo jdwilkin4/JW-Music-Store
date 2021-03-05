@@ -2,26 +2,36 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className="home">
-            <div className="container">
-                <div className="row align-items-center my-5">
-                    <div className="col-lg-7">
-                        <img
-                            className="img-fluid rounded mb-4 mb-lg-0"
-                            src="https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860_AT_guitar_acoustics.png"
-                            alt="Placeholder"
-                        />
+        <div>
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={process.env.PUBLIC_URL + '/home-guitars.jpeg'} className="d-block img-fluid home-img" alt="Guitars" />
                     </div>
-                    <div className="col-lg-5">
-                        <h1 className="font-weight-light">Home</h1>
-                        <p>
-                            Welcome to JW Music Store.
-                            You will find an extensive collection of instruments, sheet music, audio gear and more!
-                            You can also find a lesson teacher to help you get started in jamming out.
-                            If you need an instrument repaired, we have you covered!
-                        </p>
+                    <div className="carousel-item">
+                        <img src={process.env.PUBLIC_URL + '/home-recording-img.jpeg'} className="d-block  img-fluid home-img" alt="Recording gear" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={process.env.PUBLIC_URL + '/home-keyboard.jpeg'} className="d-block  img-fluid home-img" alt="Piano keyboard" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={process.env.PUBLIC_URL + '/home-strings.jpeg'} className="d-block  img-fluid home-img" alt="Strings" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={process.env.PUBLIC_URL + '/home-dj-gear.jpeg'} className="d-block  img-fluid home-img" alt="Dj gear" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={process.env.PUBLIC_URL + '/home-drumset.jpeg'} className="d-block  img-fluid home-img" alt="Drumset" />
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     )
