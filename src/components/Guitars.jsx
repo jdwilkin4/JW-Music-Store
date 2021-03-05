@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
+import ThreeStars from './3Star';
+import FourStars from './4Star';
+import FiveStars from './5Star';
 
 const Guitars = () => {
     return (
@@ -13,6 +16,7 @@ const Guitars = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Guitars-images/DAngelico Premier Series EXL1 Hollowbody Electric Guitar with Stairstep Tailpiece Transparent Wine.jpg'} alt="guitar" className="img-thumbnail" />
                                 <p className="card-title">D'Angelico Premier Series EXL-1</p>
+                                <ThreeStars />
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -28,6 +32,7 @@ const Guitars = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender FA135CE Concert Acoustic Electric Guitar Natural.jpg'} alt="guitar" className="img-thumbnail" />
                                 <p className="card-title">Fender FA-135CE Concert Acoustic-Electric</p>
+                                <FourStars />
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -43,6 +48,7 @@ const Guitars = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster HSS Plus Top Maple Fingerboard Limited-Edition Electric Guitar Blue Burst.jpg'} alt="guitar" className="img-thumbnail" />
                                 <p className="card-title">Fender Player Stratocaster HSS Plus</p>
+                                <FiveStars />
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
