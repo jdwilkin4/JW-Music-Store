@@ -51,8 +51,18 @@ nav, footer {
     font-size: 1.2rem;
 }
 
-.checked {
-    color: #043352;
+.colored-stars {
+    display: inline-block;
+    color: #e74c4c;
+}
+
+.stars-container{
+    text-align: center;
+}
+
+.review-text{
+    margin-bottom: -5px;
+    font-size: .9rem;
 }
 
 
