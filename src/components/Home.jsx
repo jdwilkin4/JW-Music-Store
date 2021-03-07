@@ -36,6 +36,7 @@ function Home() {
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
             <h2 className="text-center sub-page-heading">Hot Products</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -112,6 +113,55 @@ function Home() {
                                 <div class="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 className="text-center sub-page-heading">Special Deals</h2>
+            <div className="product-div">
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <div className="col">
+                        <div className="card">
+                            <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="card-img-top" />
+                            <div className="card-body">
+                                <p className="card-text"><s>$99.99</s> $74.99</p>
+                                <p className="card-text discount-text">25% off</p>
+                                <Link className="btn product-description btn-link">Details</Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <img src={process.env.PUBLIC_URL + '/DJ-images/Denon DJ SC5000 Prime Professional Media Player.jpg'} alt="dj" className="card-img-top" />
+                            <div className="card-body">
+                                <p className="card-text"><s>$749.99</s> $674.99</p>
+                                <p className="card-text discount-text">10% off</p>
+                                <Link className="btn product-description btn-link">Details</Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="card-img-top" />
+                            <div className="card-body">
+                                <p className="card-text"><s>$29.99</s> $26.99</p>
+                                <p className="card-text discount-text">10% off</p>
+                                <Link className="btn product-description btn-link">Details</Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card">
+                            <img src={process.env.PUBLIC_URL + '/Classroom-images/Suzuki Alto Xylophone.jpg'} alt="classroom" className="card-img-top" />
+                            <div className="card-body">
+                                <p className="card-text"><s>$419.99</s> $356.99</p>
+                                <p className="card-text discount-text">15% off</p>
+                                <Link className="btn product-description btn-link">Details</Link>
                             </div>
                         </div>
                     </div>
