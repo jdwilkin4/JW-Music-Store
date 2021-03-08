@@ -94,3 +94,8 @@ span.carousel-control-prev-icon {
 .discount-text {
     color: red;
 }
+
+.home-card{
+    margin: 0 50px;
+    width: 40%;
+}

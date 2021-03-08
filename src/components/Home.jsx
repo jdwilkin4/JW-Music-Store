@@ -27,13 +27,13 @@ function Home() {
                         <img src={process.env.PUBLIC_URL + '/home-drumset.jpeg'} className="d-block  img-fluid home-img" alt="Drumset" />
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
 
@@ -50,10 +50,10 @@ function Home() {
                                 <Link>
                                     <p className="review-text text-center">(9 Reviews)</p>
                                 </Link>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>
                                 </div>
                             </div>
@@ -69,10 +69,10 @@ function Home() {
                                 <Link>
                                     <p className="review-text text-center">(6 Reviews)</p>
                                 </Link>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>
                                 </div>
                             </div>
@@ -88,10 +88,10 @@ function Home() {
                                 <Link>
                                     <p className="review-text text-center">(7 Reviews)</p>
                                 </Link>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>
                                 </div>
                             </div>
@@ -107,10 +107,10 @@ function Home() {
                                 <Link>
                                     <p className="review-text text-center">(9 Reviews)</p>
                                 </Link>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
-                                <div class="col text-center">
+                                <div className="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>
                                 </div>
                             </div>
@@ -118,6 +118,25 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <div className="product-div">
+                <div className="row">
+                    <div className="card home-card">
+                        <img src={process.env.PUBLIC_URL + '/classroom-images/Nino 4-Piece Egg Shaker Assortment.jpg'} alt="classNameroom" className="card-img-top" />
+                        <div className="card-body">
+                            <Link className="card-text btn product-description btn-link">Explore our classroom instruments</Link>
+                        </div>
+                    </div>
+                    <div className="card home-card">
+                        <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha CP73 73-Key Digital Stage Piano.jpg'} alt="keyboard" className="card-img-top" />
+                        <div className="card-body">
+                            <Link className="card-text btn product-description btn-link">Check out our Keyboards</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
             <h2 className="text-center sub-page-heading">Special Deals</h2>
             <div className="product-div">
@@ -157,12 +176,30 @@ function Home() {
 
                     <div className="col">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Classroom-images/Suzuki Alto Xylophone.jpg'} alt="classroom" className="card-img-top" />
+                            <img src={process.env.PUBLIC_URL + '/Classroom-images/Suzuki Alto Xylophone.jpg'} alt="classNameroom" className="card-img-top" />
                             <div className="card-body">
                                 <p className="card-text"><s>$419.99</s> $356.99</p>
                                 <p className="card-text discount-text">15% off</p>
                                 <Link className="btn product-description btn-link">Details</Link>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="product-div">
+                <div className="row">
+                    <div className="card home-card">
+                        <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Podcaster Recording Bundle.jpg'} alt="recording" className="card-img-top" />
+                        <div className="card-body">
+                            <Link className="card-text btn product-description btn-link">Best Recording Gear</Link>
+                        </div>
+                    </div>
+                    <div className="card home-card">
+                        <img src={process.env.PUBLIC_URL + '/DJ-images/Roland DJ-202 Serato DJ Controller.jpg'} alt="dj" className="card-img-top" />
+                        <div className="card-body">
+                            <Link className="card-text btn product-description btn-link">Hottest DJ Gear</Link>
                         </div>
                     </div>
                 </div>
