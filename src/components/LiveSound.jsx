@@ -169,7 +169,7 @@ const LiveSound = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$99.99</h2>
+                            <h2 className="card-header text-center">$74.99</h2>
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">MXL 990 Condenser Microphone</p>

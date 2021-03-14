@@ -3,7 +3,7 @@ import FiveStars from './5Star';
 import { Link, withRouter } from "react-router-dom";
 
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
