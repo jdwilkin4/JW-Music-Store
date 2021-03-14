@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
+import ThreeStars from './3Star';
+import FourStars from './4Star';
+import FiveStars from './5Star';
 
 
 const LiveSound = () => {
@@ -14,6 +17,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Behringer XENYX 1002B 5-Channel Compact Mixer.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Behringer XENYX 1002B 5-Channel Compact Mixer</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -29,6 +36,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Digital Reference DRDK4 4-Piece Drum Mic Kit.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Digital Reference DRDK4 4-Piece Drum Mic Kit</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -44,6 +55,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Digital Reference DRV200 Dynamic Lead Vocal Mic.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Digital Reference DRV200 Dynamic Lead Vocal Mic</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -59,6 +74,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Harbinger L1402FX-USB 14-Channel Mixer With Digital Effects and USB.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Harbinger L1402FX-USB 14-Channel Mixer</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(9 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -76,6 +95,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Harbinger VARI V2212 600W 12" Two-Way Loudspeaker.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Harbinger VARI V2212 600W</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -91,6 +114,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Kustom PA KPX110M 10" Passive Monitor.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Kustom PA KPX110M</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -106,6 +133,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Livewire Cable Tester.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Livewire Cable Tester</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(9 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -121,6 +152,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Musician Gear Clip-Type Microphone Holder.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Musician Gear Clip-Type</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -138,6 +173,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">MXL 990 Condenser Microphone</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -153,6 +192,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Shure SM7B Cardioid Dynamic Microphone.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Shure SM7B Cardioid Dynamic Microphone</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -168,6 +211,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Sterling Audio STPF2 Professional Mesh Pop Filter.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Sterling Audio Professional Mesh Pop Filter</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -183,6 +230,10 @@ const LiveSound = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Live-images/Tascam TA-1VP Vocal Processor with Antares Auto-Tune.jpg'} alt="live sound" className="img-thumbnail" />
                                 <p className="card-title">Tascam TA-1VP Vocal Processor with Antares</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
