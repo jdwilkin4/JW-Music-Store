@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
+import ThreeStars from './3Star';
+import FourStars from './4Star';
+import FiveStars from './5Star';
 
 const Keyboards = () => {
     return (
@@ -13,6 +16,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Korg B2SP 88-Key Digital Piano with Stand Black.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Korg B2SP 88-Key Digital Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -28,6 +35,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Nord Stage 3 88 Red.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Nord Stage 3 88 Red</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -43,6 +54,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Roland DP603 Digital Home Piano Contemporary Black.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Roland DP603 Digital Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -58,6 +73,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Suzuki CTP-88 Innovation Digital Piano.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Suzuki CTP-88 Digital Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -75,6 +94,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Suzuki MDG-330 Mini Grand Digital Piano.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Suzuki MDG-330 Mini Grand Digital Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -90,6 +113,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Williams Overture 2 88-Key Console Digital Piano and Williams WPB Piano Bench Kit Black.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Williams Overture 2 88-Key Console Digital Piano</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -105,6 +132,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Williams Symphony Grand Digital Piano with Bench Mahogany Red.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Williams Symphony Grand Digital Piano</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(9 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -120,6 +151,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha Arius YDP-144 Digital Console Piano Black.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Yamaha Arius YDP-144 Digital Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -137,6 +172,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha Clavinova CVP-809 Digital Grand Piano with Bench Polished White.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Yamaha Clavinova CVP-809 Digital Grand Piano</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -152,6 +191,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha CP73 73-Key Digital Stage Piano.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Yamaha CP73 73-Key Digital Stage Piano</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(4 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -167,6 +210,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha P-45 88-Key Weighted Action Digital Piano Black.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Yamaha P-45 88-Key Weighted Digital Piano</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(7 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -182,6 +229,10 @@ const Keyboards = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha P-45 Digital Piano With Stand and Bench.jpg'} alt="keyboard" className="img-thumbnail" />
                                 <p className="card-title">Yamaha P-45 Digital Piano With Stand and Bench</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
+                                </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
