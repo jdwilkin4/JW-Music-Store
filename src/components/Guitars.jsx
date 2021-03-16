@@ -21,7 +21,7 @@ const Guitars = () => {
                                     <p className="review-text text-center">(10 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
+                                    <Link className="btn product-description btn-link" to="/angelico">Details</Link>
                                 </div>
                                 <div class="col text-center">
                                     <button className="btn btn-primary">Add to cart</button>

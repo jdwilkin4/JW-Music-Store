@@ -1,3 +1,4 @@
+//landing pages, navigation and footer exports
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
@@ -13,3 +14,6 @@ export { default as DJ } from './DJ';
 export { default as Band } from './Band';
 export { default as Classroom } from './Classroom';
 export { default as Music } from './Music';
+
+//guitar products exports
+export { default as AngelicoGuitar } from "./guitar-products/DAngelicoGuitar";

@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import { Navigation, Footer } from './components';
-import LandingPages from './LandingPages'
+import { Navigation, Footer } from './components/component-exports';
+import LandingPages from './LandingPages';
+import GuitarProducts from './GuitarProducts';
 import './custom-css.css';
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navigation />
         <Switch>
           <LandingPages />
+          <GuitarProducts />
         </Switch>
         <Footer />
       </Router>

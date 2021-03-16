@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import { Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording } from "./components";
-import { Home, Accessories, DJ, Band, Classroom, Music } from './components';
+import { Guitars, Basses, Amps, Drums, Keyboards, LiveSound, Recording } from "./components/component-exports";
+import { Home, Accessories, DJ, Band, Classroom, Music } from './components/component-exports';
 
 function LandingPages() {
     return (
