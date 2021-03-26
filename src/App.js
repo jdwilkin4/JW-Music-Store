@@ -11,6 +11,8 @@ function App() {
         <Navigation />
         <Switch>
           <LandingPages />
+        </Switch>
+        <Switch>
           <GuitarProducts />
         </Switch>
         <Footer />
