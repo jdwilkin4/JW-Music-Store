@@ -95,7 +95,79 @@ span.carousel-control-prev-icon {
     color: red;
 }
 
-.home-card{
+.home-card {
     margin: 0 50px;
     width: 40%;
+}
+
+.product-column, .product-row {
+    justify-content: space-evenly;
+    
+}
+
+.product-price {
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+.product-column {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.product-row{
+    display: flex;
+}
+
+.product-img-page {
+    width: 500px;
+    height: 50%;
+}
+
+.cart-input {
+    border: 3px solid #5a84cd;
+}
+
+.order-msg {
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+
+.product-column{
+    flex-direction: column;
+}
+
+.review-row p {
+    text-align: center;
+    margin: -10px 0 40px;
+}
+
+.stock-options-row {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ready-to-ship {
+    color: green;
+}
+
+.fa-check-square {
+    margin-right: 30px;
+}
+
+.product-icons {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.product-icon-col {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.product-icon-text {
+    font-size: 1.3rem;
 }
