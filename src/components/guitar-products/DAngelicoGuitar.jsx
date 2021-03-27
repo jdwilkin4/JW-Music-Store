@@ -4,6 +4,7 @@ import ThreeStars from '../3Star';
 import FourStars from '../4Star';
 import FiveStars from '../5Star';
 import OrderTemplate from '../OrderTemplate';
+import InStock from '../InStock';
 
 const AngelicoGuitar = () => {
     return (
@@ -18,9 +19,7 @@ const AngelicoGuitar = () => {
                 <img src={process.env.PUBLIC_URL + '/Guitars-images/DAngelico Premier Series EXL1 Hollowbody Electric Guitar with Stairstep Tailpiece Transparent Wine.jpg'} alt="guitar" className="product-img-page" />
                 <div className="product-column">
                     <h2 className="product-price text-center">$749.99</h2>
-                    <div className="stock-options-row">
-                        <p className="ready-to-ship"> <i class="fa fa-check-square ready-to-ship" aria-hidden="true" />In Stock &amp; Ready to Ship</p>
-                    </div>
+                    <InStock />
                     <OrderTemplate />
                 </div>
             </div>
