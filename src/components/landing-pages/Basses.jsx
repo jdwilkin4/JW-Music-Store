@@ -1,25 +1,24 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import ThreeStars from './3Star';
-import FourStars from './4Star';
-import FiveStars from './5Star';
+import ThreeStars from '../3Star';
+import FourStars from '../4Star';
+import FiveStars from '../5Star';
 
-
-const Recording = () => {
+const Basses = () => {
     return (
         <div>
-            <h1 className="text-center sub-page-heading">Recording Gear</h1>
+            <h1 className="text-center sub-page-heading">Basses</h1>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$169.99</h2>
+                            <h2 className="card-header text-center">$1,499.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett 2i2 USB Audio Interface (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Focusrite Scarlett 2i2 USB Audio Interface </p>
-                                <ThreeStars />
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Cremona SB-3 Upright Bass.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Cremona SB-3 Upright Bass 3/4</p>
+                                <FourStars />
                                 <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
+                                    <p className="review-text text-center">(3 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -32,13 +31,32 @@ const Recording = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$229.99</h2>
+                            <h2 className="card-header text-center">$1,999.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett Solo Studio Pack (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Focusrite Scarlett Solo Studio Pack (Gen 3)</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Fender Tony Franklin Fretless Precision Bass 3-Color Sunburst.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Fender Tony Franklin Fretless</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$749.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Ibanez Bass Workshop SRH505F Fretless 5-String Electric Bass Flat Natural Browned Burst.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Ibanez Bass SRH505F</p>
                                 <FiveStars />
                                 <Link>
-                                    <p className="review-text text-center">(6 Reviews)</p>
+                                    <p className="review-text text-center">(9 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -51,32 +69,13 @@ const Recording = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$199.99</h2>
+                            <h2 className="card-header text-center">$179.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Line 6 POD Studio UX2 with POD Farm.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Line 6 POD Studio UX2 with POD Farm</p>
-                                <FourStars />
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Ibanez GSRM20 Mikro Short-Scale Bass Guitar Starlight Blue.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Ibanez GSRM20 Mikro Short-Scale</p>
+                                <ThreeStars />
                                 <Link>
-                                    <p className="review-text text-center">(3 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$249.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Presonus AudioBox 96 Studio Package.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Presonus AudioBox 96 Studio Package</p>
-                                <FourStars />
-                                <Link>
-                                    <p className="review-text text-center">(3 Reviews)</p>
+                                    <p className="review-text text-center">(10 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -91,10 +90,29 @@ const Recording = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$999.99</h2>
+                            <h2 className="card-header text-center">$179.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Podcaster Recording Bundle.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Rode Complete Podcaster Bundle</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Rogue LX205B 5-String Series III Electric Bass Guitar Candy Apple Red.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Rogue LX205B 5-String</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(9 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$899.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Schecter Guitar Research Stiletto Session-5 Fretless Electric Bass Satin Aged Natural.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Schecter Guitar Research Stiletto</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -110,32 +128,13 @@ const Recording = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$349.00</h2>
+                            <h2 className="card-header text-center">$849.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Studio Kit with NT1 Microphone and AI-1 Interface.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Rode Complete Studio Kit</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$249.00</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/sE Electronics X1S Studio Bundle.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">sE Electronics X1S Studio Bundle</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Schecter Guitar Research Stiletto Studio-4 Fretless Bass Satin Honey.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Schecter Guitar Studio-4</p>
                                 <FiveStars />
                                 <Link>
-                                    <p className="review-text text-center">(7 Reviews)</p>
+                                    <p className="review-text text-center">(9 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -148,13 +147,13 @@ const Recording = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$199.00</h2>
+                            <h2 className="card-header text-center">$1,599.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/sE Electronics X1S Vocal Pack.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">sE Electronics X1S Vocal Pack</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Silver Creek Rocker Upright String Bass Outfit.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Silver Creek Rocker Upright</p>
                                 <ThreeStars />
                                 <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
+                                    <p className="review-text text-center">(10 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -169,13 +168,51 @@ const Recording = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$569.99</h2>
+                            <h2 className="card-header text-center">$299.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Icon Qcon EX G2 Control Surface.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Icon Qcon EX G2 Control Surface</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Sterling by Music Man StingRay Ray4 Electric Bass Vintage Cream White Pickguard.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Sterling by Music Man StingRay</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$299.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Sterling by Music Man StingRay Ray4 Maple Fingerboard Electric Bass Satin Vintage Sunburst Black Pickguard.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Sterling by Music Man Ray4</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(9 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$399.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Yamaha TRBX305 5-String Electric Bass Candy Apple Red Rosewood Fretboard.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Yamaha TRBX305 5-String</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(10 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -190,49 +227,11 @@ const Recording = () => {
                         <div className="card">
                             <h2 className="card-header text-center">$499.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Shure Choose Your Microphone Bundle SM81.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Shure Choose Your Mic Bundle</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$899.00</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Universal Audio Apollo Twin X DUO Thunderbolt 3 Audio Interface.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Universal Audio Apollo Twin X</p>
+                                <img src={process.env.PUBLIC_URL + '/Basses-images/Yamaha TRBX504 4-String Premium Electric Bass Transparent Brown Rosewood Fretboard.jpg'} alt="bass" className="img-thumbnail" />
+                                <p className="card-title">Yamaha TRBX504 4-String</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$219.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Zoom handy video recorder.jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Zoom handy video recorder</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -248,4 +247,4 @@ const Recording = () => {
         </div>
     )
 }
-export default withRouter(Recording) 
+export default withRouter(Basses) 

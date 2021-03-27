@@ -1,60 +1,22 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import ThreeStars from './3Star';
-import FourStars from './4Star';
-import FiveStars from './5Star';
+import ThreeStars from '../3Star';
+import FourStars from '../4Star';
+import FiveStars from '../5Star';
 
 
-const LiveSound = () => {
+const Drums = () => {
     return (
         <div>
-            <h1 className="text-center sub-page-heading">Live Sound</h1>
+            <h1 className="text-center sub-page-heading">Drums</h1>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$149.99</h2>
+                            <h2 className="card-header text-center">$89.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Behringer XENYX 1002B 5-Channel Compact Mixer.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Behringer XENYX 1002B 5-Channel Compact Mixer</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$99.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Digital Reference DRDK4 4-Piece Drum Mic Kit.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Digital Reference DRDK4 4-Piece Drum Mic Kit</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$59.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Digital Reference DRV200 Dynamic Lead Vocal Mic.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Digital Reference DRV200 Dynamic Lead Vocal Mic</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Alesis CompactKit 4 Electronic Drum Kit.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Alesis CompactKit 4 Electronic Drum Kit</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -70,13 +32,51 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$249.99</h2>
+                            <h2 className="card-header text-center">$899.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Harbinger L1402FX-USB 14-Channel Mixer With Digital Effects and USB.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Harbinger L1402FX-USB 14-Channel Mixer</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Alesis Crimson II 5-Piece Electronic Drum Kit.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Alesis Crimson II 5-Piece Electronic Drum Kit</p>
                                 <FiveStars />
                                 <Link>
-                                    <p className="review-text text-center">(9 Reviews)</p>
+                                    <p className="review-text text-center">(7 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$236.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Boss DR-01S Rhythm Partner Drum Machine.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Boss DR-01S Rhythm Partner Drum Machine</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(7 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$479.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/DW Performance Series Floor Tom Pewter Sparkle 16 x 14 in..jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">DW Performance Series Floor Tom Pewter</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(5 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -91,29 +91,10 @@ const LiveSound = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$249.99</h2>
+                            <h2 className="card-header text-center">$119.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Harbinger VARI V2212 600W 12" Two-Way Loudspeaker.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Harbinger VARI V2212 600W</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$149.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Kustom PA KPX110M 10" Passive Monitor.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Kustom PA KPX110M</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/KAT Percussion Electronic Drum and Percussion Pad Sound Module.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">KAT Percussion Electronic Drum</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -129,13 +110,13 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$30.99</h2>
+                            <h2 className="card-header text-center">$29.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Livewire Cable Tester.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Livewire Cable Tester</p>
-                                <FiveStars />
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Musicians Gear Hickory Drum Sticks 10-Pack.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Musician's Gear Hickory Sticks</p>
+                                <FourStars />
                                 <Link>
-                                    <p className="review-text text-center">(9 Reviews)</p>
+                                    <p className="review-text text-center">(3 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -148,13 +129,32 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$3.99</h2>
+                            <h2 className="card-header text-center">$300.00</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Musician Gear Clip-Type Microphone Holder.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Musician Gear Clip-Type</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Pork Pie Exotic Rosewood Zebrawood Snare Drum 14 x 6.5 in..jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Pork Pie Exotic Snare</p>
                                 <ThreeStars />
                                 <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
+                                    <p className="review-text text-center">(5 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$349.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Rogue 5-Piece Complete Drum Set Black.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Rogue 5-Piece Drum Set</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(7 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -169,10 +169,10 @@ const LiveSound = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$74.99</h2>
+                            <h2 className="card-header text-center">$514.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">MXL 990 Condenser Microphone</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Roland KD-120 V-Kick Trigger Pad 12 in..jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Roland KD-120 V-Kick Trigger</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -188,13 +188,13 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$399.99</h2>
+                            <h2 className="card-header text-center">$549.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Shure SM7B Cardioid Dynamic Microphone.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Shure SM7B Cardioid Dynamic Microphone</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Simmons SD600 Electronic Drum Set With Mesh Heads and Bluetooth.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Simmons SD600 Drum Set</p>
                                 <ThreeStars />
                                 <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
+                                    <p className="review-text text-center">(5 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -207,10 +207,10 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$24.99</h2>
+                            <h2 className="card-header text-center">$672.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Sterling Audio STPF2 Professional Mesh Pop Filter.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Sterling Audio Professional Mesh Pop Filter</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Traps Drums A400 Portable Acoustic Drum Set.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Traps Drums A400 Portable</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -226,13 +226,13 @@ const LiveSound = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$439.99</h2>
+                            <h2 className="card-header text-center">$119.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Live-images/Tascam TA-1VP Vocal Processor with Antares Auto-Tune.jpg'} alt="live sound" className="img-thumbnail" />
-                                <p className="card-title">Tascam TA-1VP Vocal Processor with Antares</p>
+                                <img src={process.env.PUBLIC_URL + '/Drums-images/Yamaha Stage Custom Birch Snare 14x5.5" 14 x 5.5 in. Natural Wood.jpg'} alt="drums" className="img-thumbnail" />
+                                <p className="card-title">Yamaha Stage Custom Snare</p>
                                 <ThreeStars />
                                 <Link>
-                                    <p className="review-text text-center">(10 Reviews)</p>
+                                    <p className="review-text text-center">(5 Reviews)</p>
                                 </Link>
                                 <div class="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
@@ -245,8 +245,7 @@ const LiveSound = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
-export default withRouter(LiveSound) 
+export default withRouter(Drums) 

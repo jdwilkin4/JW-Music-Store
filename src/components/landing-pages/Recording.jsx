@@ -1,22 +1,60 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import ThreeStars from './3Star';
-import FourStars from './4Star';
-import FiveStars from './5Star';
+import ThreeStars from '../3Star';
+import FourStars from '../4Star';
+import FiveStars from '../5Star';
 
 
-const Drums = () => {
+const Recording = () => {
     return (
         <div>
-            <h1 className="text-center sub-page-heading">Drums</h1>
+            <h1 className="text-center sub-page-heading">Recording Gear</h1>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$89.99</h2>
+                            <h2 className="card-header text-center">$169.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Alesis CompactKit 4 Electronic Drum Kit.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Alesis CompactKit 4 Electronic Drum Kit</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett 2i2 USB Audio Interface (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Focusrite Scarlett 2i2 USB Audio Interface </p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(5 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$229.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett Solo Studio Pack (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Focusrite Scarlett Solo Studio Pack (Gen 3)</p>
+                                <FiveStars />
+                                <Link>
+                                    <p className="review-text text-center">(6 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$199.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Line 6 POD Studio UX2 with POD Farm.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Line 6 POD Studio UX2 with POD Farm</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -32,10 +70,69 @@ const Drums = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$899.99</h2>
+                            <h2 className="card-header text-center">$249.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Alesis Crimson II 5-Piece Electronic Drum Kit.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Alesis Crimson II 5-Piece Electronic Drum Kit</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Presonus AudioBox 96 Studio Package.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Presonus AudioBox 96 Studio Package</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$999.99</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Podcaster Recording Bundle.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Rode Complete Podcaster Bundle</p>
+                                <FourStars />
+                                <Link>
+                                    <p className="review-text text-center">(3 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$349.00</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Studio Kit with NT1 Microphone and AI-1 Interface.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Rode Complete Studio Kit</p>
+                                <ThreeStars />
+                                <Link>
+                                    <p className="review-text text-center">(5 Reviews)</p>
+                                </Link>
+                                <div class="col text-center">
+                                    <Link className="btn product-description btn-link">Details</Link>
+                                </div>
+                                <div class="col text-center">
+                                    <button className="btn btn-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <h2 className="card-header text-center">$249.00</h2>
+                            <div className="card-body">
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/sE Electronics X1S Studio Bundle.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">sE Electronics X1S Studio Bundle</p>
                                 <FiveStars />
                                 <Link>
                                     <p className="review-text text-center">(7 Reviews)</p>
@@ -51,29 +148,10 @@ const Drums = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$236.99</h2>
+                            <h2 className="card-header text-center">$199.00</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Boss DR-01S Rhythm Partner Drum Machine.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Boss DR-01S Rhythm Partner Drum Machine</p>
-                                <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(7 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$479.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/DW Performance Series Floor Tom Pewter Sparkle 16 x 14 in..jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">DW Performance Series Floor Tom Pewter</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/sE Electronics X1S Vocal Pack.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">sE Electronics X1S Vocal Pack</p>
                                 <ThreeStars />
                                 <Link>
                                     <p className="review-text text-center">(5 Reviews)</p>
@@ -91,10 +169,10 @@ const Drums = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$119.99</h2>
+                            <h2 className="card-header text-center">$569.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/KAT Percussion Electronic Drum and Percussion Pad Sound Module.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">KAT Percussion Electronic Drum</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Icon Qcon EX G2 Control Surface.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Icon Qcon EX G2 Control Surface</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -110,29 +188,10 @@ const Drums = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$29.99</h2>
+                            <h2 className="card-header text-center">$499.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Musicians Gear Hickory Drum Sticks 10-Pack.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Musician's Gear Hickory Sticks</p>
-                                <FourStars />
-                                <Link>
-                                    <p className="review-text text-center">(3 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$300.00</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Pork Pie Exotic Rosewood Zebrawood Snare Drum 14 x 6.5 in..jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Pork Pie Exotic Snare</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Shure Choose Your Microphone Bundle SM81.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Shure Choose Your Mic Bundle</p>
                                 <ThreeStars />
                                 <Link>
                                     <p className="review-text text-center">(5 Reviews)</p>
@@ -148,31 +207,10 @@ const Drums = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$349.99</h2>
+                            <h2 className="card-header text-center">$899.00</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Rogue 5-Piece Complete Drum Set Black.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Rogue 5-Piece Drum Set</p>
-                                <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(7 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row row-cols-1 row-cols-md-2 g-4">
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$514.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Roland KD-120 V-Kick Trigger Pad 12 in..jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Roland KD-120 V-Kick Trigger</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Universal Audio Apollo Twin X DUO Thunderbolt 3 Audio Interface.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Universal Audio Apollo Twin X</p>
                                 <FourStars />
                                 <Link>
                                     <p className="review-text text-center">(3 Reviews)</p>
@@ -188,48 +226,10 @@ const Drums = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <h2 className="card-header text-center">$549.99</h2>
+                            <h2 className="card-header text-center">$219.99</h2>
                             <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Simmons SD600 Electronic Drum Set With Mesh Heads and Bluetooth.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Simmons SD600 Drum Set</p>
-                                <ThreeStars />
-                                <Link>
-                                    <p className="review-text text-center">(5 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$672.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Traps Drums A400 Portable Acoustic Drum Set.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Traps Drums A400 Portable</p>
-                                <FourStars />
-                                <Link>
-                                    <p className="review-text text-center">(3 Reviews)</p>
-                                </Link>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$119.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Yamaha Stage Custom Birch Snare 14x5.5" 14 x 5.5 in. Natural Wood.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Yamaha Stage Custom Snare</p>
+                                <img src={process.env.PUBLIC_URL + '/Recording-images/Zoom handy video recorder.jpg'} alt="recording" className="img-thumbnail" />
+                                <p className="card-title">Zoom handy video recorder</p>
                                 <ThreeStars />
                                 <Link>
                                     <p className="review-text text-center">(5 Reviews)</p>
@@ -248,4 +248,4 @@ const Drums = () => {
         </div>
     )
 }
-export default withRouter(Drums) 
+export default withRouter(Recording) 
