@@ -1,5 +1,5 @@
 import React from 'react';
-import FiveStars from './5Star';
+import FiveStars from './star-ratings/5Star';
 import { Link, withRouter } from "react-router-dom";
 
 

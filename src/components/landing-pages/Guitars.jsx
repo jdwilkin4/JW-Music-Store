@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import ThreeStars from '../3Star';
-import FourStars from '../4Star';
-import FiveStars from '../5Star';
+import ThreeStars from '../star-ratings/3Star';
+import FourStars from '../star-ratings/4Star';
+import FiveStars from '../star-ratings/5Star';
 
 const Guitars = () => {
     return (

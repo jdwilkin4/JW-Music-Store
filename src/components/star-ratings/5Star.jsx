@@ -1,14 +1,14 @@
 import React from 'react';
 
-function ThreeStars() {
+const FiveStars = () => {
     return (
         <div className="stars-container">
             <span class="fa fa-star colored-stars"></span>
             <span class="fa fa-star colored-stars"></span>
             <span class="fa fa-star colored-stars"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <span class="fa fa-star colored-stars"></span>
+            <span class="fa fa-star colored-stars"></span>
         </div>
     )
 }
-export default ThreeStars
+export default FiveStars
