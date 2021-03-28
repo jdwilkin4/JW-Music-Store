@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Navigation, Footer } from './components/component-exports';
-import LandingPages from './LandingPages';
-import GuitarProducts from './GuitarProducts';
+import LandingPages from './routes/LandingPages';
+import GuitarProducts from './routes/GuitarProducts';
 import './custom-css.css';
 function App() {
   return (

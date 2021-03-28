@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import { AngelicoGuitar } from './components/component-exports';
+import AngelicoGuitar from '../components/guitar-products/DAngelicoGuitar';
 
 const GuitarProducts = () => {
     return (
