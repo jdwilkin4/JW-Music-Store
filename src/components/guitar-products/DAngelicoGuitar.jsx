@@ -5,6 +5,8 @@ import FourStars from '../star-ratings/4Star';
 import FiveStars from '../star-ratings/5Star';
 import OrderTemplate from '../OrderTemplate';
 import InStock from '../InStock';
+import AddToCartBtn from '../AddToCart';
+
 
 const AngelicoGuitar = () => {
     return (
@@ -41,7 +43,7 @@ const AngelicoGuitar = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -61,7 +63,7 @@ const AngelicoGuitar = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -81,7 +83,7 @@ const AngelicoGuitar = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -101,7 +103,7 @@ const AngelicoGuitar = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -112,4 +114,4 @@ const AngelicoGuitar = () => {
         </div>
     );
 }
-export default AngelicoGuitar;
+export default withRouter(AngelicoGuitar);

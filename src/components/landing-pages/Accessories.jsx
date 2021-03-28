@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import AddToCartBtn from '../AddToCart';
-import AddToCarBtn from '../AddToCart'
+
 
 
 const Accessories = () => {
@@ -35,7 +35,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>

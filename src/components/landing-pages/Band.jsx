@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
+import AddToCartBtn from '../AddToCart';
+
 
 
 const Band = () => {
@@ -18,7 +20,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -33,7 +35,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -48,7 +50,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -63,7 +65,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -80,7 +82,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -95,7 +97,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -110,7 +112,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -125,7 +127,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -142,7 +144,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -157,7 +159,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -172,7 +174,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -187,7 +189,7 @@ const Band = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
+                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
