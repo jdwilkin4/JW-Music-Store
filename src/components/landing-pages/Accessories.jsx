@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, withRouter } from "react-router-dom";
 import DetailsAndCart from '../DetailsAndCart';
 
 
@@ -26,11 +25,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/DR-Pro-DJ-Laptop-Stand.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">DR-Pro-DJ-Laptop-Stand</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -40,11 +35,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Elixer-Electric-Guitar-Strings.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Elixer Electric Guitar Strings</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -54,11 +45,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Fender Deluxe Hanging Guitar Stand.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Fender Deluxe Guitar Stand</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -70,11 +57,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Fingerease Guitar String Lubricant.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Fingerease Guitar String Lubricant</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -84,11 +67,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Korg TM-60 Tuner Metronome White.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Korg TM-60 Tuner Metronome White</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -98,11 +77,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Braided Instrument Cable Green 1 ft.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Musicians Gear Braided Cable</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -112,11 +87,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Deluxe Dreadnought Case Black.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Musician's Gear Deluxe  Case</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -128,11 +99,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear KBX2 Double-Braced Keyboard Stand Black.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Musician's Gear Double-Braced Keyboard Stand</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -142,11 +109,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Rapco RoadHOG XLR Microphone Cable 60 ft.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Rapco RoadHOG XLR Microphone Cable 60 ft</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -156,11 +119,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Road Runner 5-Piece Fusion Drum Bag Set Black.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Road Runner 5-Piece Fusion Drum Bag Set</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -170,11 +129,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Snark Super Snark 2 Clip-On Tuner Black</p>
-                                <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div class="col text-center">
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -183,4 +138,4 @@ const Accessories = () => {
         </div>
     )
 }
-export default withRouter(Accessories) 
+export default Accessories 
