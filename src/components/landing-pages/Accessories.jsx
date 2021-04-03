@@ -1,5 +1,5 @@
 import React from 'react';
-import DetailsAndCart from '../DetailsAndCart';
+import DetailsAndCart from '../product-card-templates/DetailsAndCart';
 
 
 
