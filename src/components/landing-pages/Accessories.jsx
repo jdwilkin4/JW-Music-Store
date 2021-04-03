@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import AddToCartBtn from '../AddToCart';
+import DetailsLink from '../DetailsLink'
 
 
 
@@ -17,7 +18,7 @@ const Accessories = () => {
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
                                 <div class="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
+                                    <DetailsLink />
                                 </div>
                                 <div class="col text-center">
                                     <AddToCartBtn />
