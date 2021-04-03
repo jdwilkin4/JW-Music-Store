@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import AddToCartBtn from '../AddToCart';
-import DetailsLink from '../DetailsLink'
+import DetailsAndCart from '../DetailsAndCart';
 
 
 
@@ -17,12 +16,7 @@ const Accessories = () => {
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
                                 <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
-                                <div class="col text-center">
-                                    <DetailsLink />
-                                </div>
-                                <div class="col text-center">
-                                    <AddToCartBtn />
-                                </div>
+                                <DetailsAndCart />
                             </div>
                         </div>
                     </div>
@@ -36,7 +30,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -51,7 +44,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -66,7 +58,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -83,7 +74,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -98,7 +88,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -113,7 +102,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -128,7 +116,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -145,7 +132,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -160,7 +146,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -175,7 +160,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
@@ -190,7 +174,6 @@ const Accessories = () => {
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
                                 <div class="col text-center">
-                                    <AddToCartBtn />
                                 </div>
                             </div>
                         </div>
