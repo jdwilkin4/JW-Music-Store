@@ -15,5 +15,5 @@ export { default as Band } from './landing-pages/Band';
 export { default as Classroom } from './landing-pages/Classroom';
 export { default as Music } from './landing-pages/Music';
 
-//guitar products exports
-export { default as AngelicoGuitar } from "./guitar-products/DAngelicoGuitar";
+//guitar product page exports
+export { default as AngelicoGuitar } from "./guitar-products/DAngelicoGuitarPage";
