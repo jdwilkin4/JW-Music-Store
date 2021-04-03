@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import ThreeStars from '../star-ratings/3Star';
 import FourStars from '../star-ratings/4Star';
 import FiveStars from '../star-ratings/5Star';
-import AddToCartBtn from '../AddToCart';
+import AddToCartBtn from '../product-card-templates/AddToCart';
 
 
 const Guitars = () => {

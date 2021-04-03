@@ -1,5 +1,5 @@
 import React from 'react';
-import AddToCartBtn from './AddToCart';
+import AddToCartBtn from './product-card-templates/AddToCart';
 import DetailsLink from './DetailsLink';
 
 const DetailsAndCart = () => {

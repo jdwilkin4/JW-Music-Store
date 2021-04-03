@@ -5,7 +5,7 @@ import FourStars from '../star-ratings/4Star';
 import FiveStars from '../star-ratings/5Star';
 import OrderTemplate from '../OrderTemplate';
 import InStock from '../InStock';
-import AddToCartBtn from '../AddToCart';
+import AddToCartBtn from '../product-card-templates/AddToCart';
 
 
 const AngelicoGuitar = () => {
