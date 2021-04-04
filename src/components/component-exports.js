@@ -18,18 +18,18 @@ export { default as Classroom } from './landing-pages/Classroom';
 export { default as Music } from './landing-pages/Music';
 
 //guitar product page exports
-export { default as AngelicoGuitar } from "./guitar-products/DAngelicoGuitarPage";
+export { default as AngelicoGuitar } from "./guitar-product-pages/DAngelicoGuitarPage";
 
 //accessories product card exports
-export { default as DrBeatCard } from './accessories-products/DrBeatCard';
-export { default as DJStandCard } from './accessories-products/DJStandCard';
-export { default as ElixerGuitarStringsCard } from './accessories-products/ElixerGuitarStringsCard';
-export { default as FenderGuitarStandCard } from './accessories-products/FenderGuitarStandCard';
-export { default as FingereaseGuitarStringCard } from './accessories-products/FingereaseGuitarStringCard';
-export { default as KorgTunerCard } from './accessories-products/KorgTunerCard';
-export { default as BraidedCableCard } from './accessories-products/BraidedCableCard';
-export { default as DeluxeCaseCard } from './accessories-products/DeluxeCaseCard';
-export { default as KeyboardStandCard } from './accessories-products/KeyboardStandCard';
-export { default as RapcoMicCableCard } from './accessories-products/RapcoMicCableCard';
-export { default as RoadRunnerBagCard } from './accessories-products/RoadRunnerBagCard';
-export { default as ClipOnTunerCard } from './accessories-products/ClipOnTunerCard';
+export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';
+export { default as DJStandCard } from './accessories-product-cards/DJStandCard';
+export { default as ElixerGuitarStringsCard } from './accessories-product-cards/ElixerGuitarStringsCard';
+export { default as FenderGuitarStandCard } from './accessories-product-cards/FenderGuitarStandCard';
+export { default as FingereaseGuitarStringCard } from './accessories-product-cards/FingereaseGuitarStringCard';
+export { default as KorgTunerCard } from './accessories-product-cards/KorgTunerCard';
+export { default as BraidedCableCard } from './accessories-product-cards/BraidedCableCard';
+export { default as DeluxeCaseCard } from './accessories-product-cards/DeluxeCaseCard';
+export { default as KeyboardStandCard } from './accessories-product-cards/KeyboardStandCard';
+export { default as RapcoMicCableCard } from './accessories-product-cards/RapcoMicCableCard';
+export { default as RoadRunnerBagCard } from './accessories-product-cards/RoadRunnerBagCard';
+export { default as ClipOnTunerCard } from './accessories-product-cards/ClipOnTunerCard';
