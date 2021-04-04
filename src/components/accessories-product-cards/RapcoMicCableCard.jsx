@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import AddToCartBtn from '../product-card-templates/AddToCart';
+import ThreeStars from '../star-ratings/3Star';
+
 
 const RapcoMicCableCard = () => {
     return (
@@ -10,6 +12,10 @@ const RapcoMicCableCard = () => {
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Rapco RoadHOG XLR Microphone Cable 60 ft.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Rapco RoadHOG XLR Microphone Cable 60 ft</p>
+                    <ThreeStars />
+                    <Link>
+                        <p className="review-text text-center">(8 Reviews)</p>
+                    </Link>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
