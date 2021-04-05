@@ -1,6 +1,7 @@
-//navigation and footer exports
+//navigation, footer, citation exports
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
+export { default as Citation } from './Citation';
 
 //landing pages
 export { default as Home } from "./Home";
