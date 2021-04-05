@@ -33,3 +33,17 @@ export { default as KeyboardStandCard } from './accessories-product-cards/Keyboa
 export { default as RapcoMicCableCard } from './accessories-product-cards/RapcoMicCableCard';
 export { default as RoadRunnerBagCard } from './accessories-product-cards/RoadRunnerBagCard';
 export { default as ClipOnTunerCard } from './accessories-product-cards/ClipOnTunerCard';
+
+// guitar product card exports
+export { default as DAngelicoCard } from './guitar-product-cards/DAngelico-card';
+export { default as FenderFa135Card } from './guitar-product-cards/Fender-FA-135CE-card';
+export { default as StratocasterHSSCard } from './guitar-product-cards/Stratocaster-HSS-card';
+export { default as StratocasterLimitedCard } from './guitar-product-cards/Stratocaster-limited-card';
+export { default as TelecasterCard } from './guitar-product-cards/Telecaster-card';
+export { default as GLLimitedCard } from './guitar-product-cards/GL-limited-card';
+export { default as GuildOM240CECard } from './guitar-product-cards/Guild-OM-240CE-card';
+export { default as RogueRd80Card } from './guitar-product-cards/Rogue-RD80-card';
+export { default as RogueRocketeerCard } from './guitar-product-cards/Rogue-Rocketeer-card';
+export { default as SquierAffinityCard } from './guitar-product-cards/Squier-Affinity-card';
+export { default as SquierBulletCard } from './guitar-product-cards/Squier-Bullet-card';
+export { default as SquierBulletTelecasterCard } from './guitar-product-cards/Squier-Bullet-Telecaster-card';
