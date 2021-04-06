@@ -11,7 +11,7 @@ const ClipOnTunerCard = () => {
                 <h2 className="card-header text-center">$26.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="img-thumbnail" />
-                    <p className="card-title">Snark Super Snark 2 Clip-On Tuner Black</p>
+                    <p className="card-title">Snark Super Snark 2 Clip-On Tuner</p>
                     <FiveStars />
                     <Link>
                         <p className="review-text text-center">(4 Reviews)</p>

@@ -3,6 +3,7 @@ import ThreeStars from '../star-ratings/3Star';
 import OrderTemplate from '../OrderTemplate';
 import InStock from '../InStock';
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
+import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard } from '../component-exports';
 import threeStarReview from '../reviews/three-star-reviews';
 
 const AngelicoGuitar = () => {
@@ -30,6 +31,7 @@ const AngelicoGuitar = () => {
                 Designed for jazz players worldwide, the Premier EXL-1 is a staple. Includes gig bag.
                 <Citation />
             </blockquote>
+
             <h2 className="text-center product-page-heading">People Who Viewed This Item Also Viewed</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -49,6 +51,17 @@ const AngelicoGuitar = () => {
                     </div>
                 ))}
             </div>
+            <h2 className="text-center product-page-heading">People Who Bought This Item Also Bought</h2>
+            <div className="product-div">
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <DeluxeCaseCard />
+                    <ElixerGuitarStringsCard />
+                    <FingereaseGuitarStringCard />
+                    <BraidedCableCard />
+                </div>
+            </div>
+
+
 
         </div>
     );
