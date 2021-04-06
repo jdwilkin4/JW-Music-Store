@@ -1,7 +1,6 @@
 import React from 'react';
-import OrderTemplate from '../OrderTemplate';
-import InStock from '../InStock';
-import { Citation, ThreeStars } from '../component-exports';
+import { Citation, FourStars, OrderTemplate, InStock } from '../component-exports';
+import fender135 from './fender135-product-specs';
 
 const FenderFA135CEPage = () => {
     return (
@@ -9,7 +8,7 @@ const FenderFA135CEPage = () => {
             <h1 className="text-center sub-page-heading">Fender FA-135CE Concert Acoustic-Electric Guitar Natural</h1>
             <div className="product-row">
                 <div className="review-row">
-                    <p className="product-row"><ThreeStars />(3 Reviews)</p>
+                    <p className="product-row"><FourStars />(3 Reviews)</p>
                 </div>
             </div>
             <div className="product-row">
@@ -21,14 +20,36 @@ const FenderFA135CEPage = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Overview</h2>
-            <p className="card-title">
-                D’Angelico's flagship archtop returns in the all-new Premier Series.
-                Crafted from John D’Angelico’s original design, the Premier EXL-1's balanced, organic tone recalls the sound of a classic New York jazz box. Couple that with signature D'Angelico
-                features in the Stairstep tailpiece, Skyscraper truss rod cover, and iconic headstock, the EXL-1 embodies elegance. Its single floating mini-humbucker highlights its naturally punchy mids and warm acoustic edge.
-                Designed for jazz players worldwide, the Premier EXL-1 is a staple. Includes gig bag.
+            <div className="card-title">
+                <p>
+                    Accessible, versatile guitar perfect for beginners.
+                    The Fender FA-135CE Concert Acoustic Guitar is built on the concert-style platform for a sleek, modern design. The laminated spruce top features X-bracing for bright, punchy tone, ideal for lead guitar. The neck is nato, and the back and sides are
+                    laminated basswood-both tonewoods known for letting the mid and high frequencies sing out.
+                </p>
+                <p>The FA-135CE is fashioned with a gloss polyurethane finish, aged fretboard and body bindings, and a white concentric ring rosette that offers a striking contrast, and an appearance as beautiful as its sound.</p>
+                <p>Case sold separately.</p>
                 <Citation />
-            </p>
-
+            </div>
+            <h2 className="text-center product-page-heading">Features</h2>
+            <div className="specs">
+                {fender135.map((spec, index) => (
+                    <div key={index}>
+                        <h3 className="text-center">{spec.title}</h3>
+                        <div className="review-container product-row">
+                            <div>
+                                <p><span className="bold-text">{spec.subtitle1}</span> {spec.description1}</p>
+                                <p><span className="bold-text">{spec.subtitle2}</span> {spec.description2}</p>
+                                <p><span className="bold-text">{spec.subtitle3}</span> {spec.description3}</p>
+                            </div>
+                            <div>
+                                <p><span className="bold-text">{spec.subtitle4}</span> {spec.description4}</p>
+                                <p><span className="bold-text">{spec.subtitle5}</span> {spec.description5}</p>
+                                <p><span className="bold-text">{spec.subtitle6}</span> {spec.description6}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

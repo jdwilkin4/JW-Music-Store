@@ -3,6 +3,8 @@ export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Citation } from './Citation';
 export { default as ThreeStars } from './star-ratings/3Star';
+export { default as FourStars } from './star-ratings/4Star';
+export { default as FiveStars } from './star-ratings/5Star';
 export { default as threeStarReview } from './reviews/three-star-reviews';
 export { default as OrderTemplate } from './OrderTemplate';
 export { default as InStock } from './InStock';
