@@ -5,6 +5,7 @@ import InStock from '../InStock';
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard } from '../component-exports';
 import threeStarReview from '../reviews/three-star-reviews';
+import dAngelico from './guitar-product-specs';
 
 const AngelicoGuitar = () => {
     return (
@@ -33,31 +34,24 @@ const AngelicoGuitar = () => {
             </blockquote>
 
             <h2 className="text-center product-page-heading">Features</h2>
-            <h3 className="text-center">Body</h3>
-            <div className="review-container product-row">
-                <div>
-                    <p><span className="bold-text">Body type:</span> Hollowbody</p>
-                    <p><span className="bold-text">Body material:</span> Laminated</p>
-                    <p><span className="bold-text">Top wood:</span> Spruce</p>
-                </div>
-                <div>
-                    <p><span className="bold-text">Body wood:</span> Maple</p>
-                    <p><span className="bold-text">Body finish:</span> Gloss</p>
-                    <p><span className="bold-text">Body finish:</span> Right handed</p>
-                </div>
-            </div>
-            <h3 className="text-center">Neck</h3>
-            <div className="review-container product-row">
-                <div>
-                    <p><span className="bold-text">Neck shape:</span> C</p>
-                    <p><span className="bold-text">Neck wood:</span> Maple</p>
-                    <p><span className="bold-text">Joint:</span> Set-in </p>
-                </div>
-                <div>
-                    <p><span className="bold-text">Scale length:</span> 25.5 in.</p>
-                    <p><span className="bold-text">Truss rod: </span> Dual-action</p>
-                    <p><span className="bold-text">Neck finish: </span> Gloss</p>
-                </div>
+            <div className="specs">
+                {dAngelico.map((spec, index) => (
+                    <div key={index}>
+                        <h3 className="text-center">{spec.title}</h3>
+                        <div className="review-container product-row">
+                            <div>
+                                <p><span className="bold-text">{spec.subtitle1}</span> {spec.description1}</p>
+                                <p><span className="bold-text">{spec.subtitle2}</span> {spec.description2}</p>
+                                <p><span className="bold-text">{spec.subtitle3}</span> {spec.description3}</p>
+                            </div>
+                            <div>
+                                <p><span className="bold-text">{spec.subtitle4}</span> {spec.description4}</p>
+                                <p><span className="bold-text">{spec.subtitle5}</span> {spec.description5}</p>
+                                <p><span className="bold-text">{spec.subtitle6}</span> {spec.description6}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </div>
 
 
@@ -73,10 +67,10 @@ const AngelicoGuitar = () => {
             <h2 className="text-center product-page-heading">Reviews</h2>
             <div className="card-body">
                 {threeStarReview.map((review, index) => (
-                    <div className=" product-price review-container" key={index}>
-                        <h3>{review.title}</h3>
-                        <p>{review.name}</p>
-                        <p>{review.message}</p>
+                    <div className="review-container" key={index}>
+                        <h3 className="text-center">{review.title}</h3>
+                        <p className="text-center">{review.name}</p>
+                        <p className="text-center">{review.message}</p>
                     </div>
                 ))}
             </div>
@@ -89,9 +83,6 @@ const AngelicoGuitar = () => {
                     <BraidedCableCard />
                 </div>
             </div>
-
-
-
         </div>
     );
 }

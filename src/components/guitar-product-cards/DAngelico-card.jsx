@@ -9,7 +9,7 @@ const DAngelicoCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$749.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/DAngelico Premier Series EXL1 Hollowbody Electric Guitar with Stairstep Tailpiece Transparent Wine.jpg'} alt="guitar" className="img-thumbnail" />
+                    <Link to="/angelico"> <img src={process.env.PUBLIC_URL + '/Guitars-images/DAngelico Premier Series EXL1 Hollowbody Electric Guitar with Stairstep Tailpiece Transparent Wine.jpg'} alt="guitar" className="img-thumbnail" /></Link>
                     <p className="card-title">D'Angelico Premier Series EXL-1</p>
                     <ThreeStars />
                     <Link>
