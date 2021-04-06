@@ -20,6 +20,7 @@ export { default as Music } from './landing-pages/Music';
 
 //guitar product page exports
 export { default as AngelicoGuitar } from "./guitar-product-pages/DAngelicoGuitarPage";
+export { default as FenderFA135CEPage } from './guitar-product-pages/FenderFA135CEPage';
 
 //accessories product card exports
 export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';

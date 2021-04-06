@@ -9,14 +9,12 @@ const FenderFa135Card = () => {
             <div className="card">
                 <h2 className="card-header text-center">$199.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender FA135CE Concert Acoustic Electric Guitar Natural.jpg'} alt="guitar" className="img-thumbnail" />
-                    <p className="card-title">Fender FA-135CE Concert Acoustic-Electric</p>
+                    <Link to="/fender135" ><img src={process.env.PUBLIC_URL + '/Guitars-images/Fender FA135CE Concert Acoustic Electric Guitar Natural.jpg'} alt="guitar" className="img-thumbnail" /></Link>
+                    <p className="card-title">Fender FA-135CE Acoustic-Electric</p>
                     <FourStars />
-                    <Link>
-                        <p className="review-text text-center">(3 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(3 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/fender135" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

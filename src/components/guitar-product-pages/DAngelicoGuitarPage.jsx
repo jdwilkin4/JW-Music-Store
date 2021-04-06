@@ -25,13 +25,13 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Overview</h2>
-            <blockquote className="card-title">
+            <p className="card-title">
                 D’Angelico's flagship archtop returns in the all-new Premier Series.
                 Crafted from John D’Angelico’s original design, the Premier EXL-1's balanced, organic tone recalls the sound of a classic New York jazz box. Couple that with signature D'Angelico
                 features in the Stairstep tailpiece, Skyscraper truss rod cover, and iconic headstock, the EXL-1 embodies elegance. Its single floating mini-humbucker highlights its naturally punchy mids and warm acoustic edge.
                 Designed for jazz players worldwide, the Premier EXL-1 is a staple. Includes gig bag.
                 <Citation />
-            </blockquote>
+            </p>
 
             <h2 className="text-center product-page-heading">Features</h2>
             <div className="specs">
