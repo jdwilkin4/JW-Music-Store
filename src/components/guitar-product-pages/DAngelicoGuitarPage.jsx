@@ -3,7 +3,7 @@ import ThreeStars from '../star-ratings/3Star';
 import OrderTemplate from '../OrderTemplate';
 import InStock from '../InStock';
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
-
+import threeStarReview from '../reviews/three-star-reviews';
 
 const AngelicoGuitar = () => {
     return (
@@ -11,7 +11,7 @@ const AngelicoGuitar = () => {
             <h1 className="text-center sub-page-heading">D'Angelico Premier Series EXL-1</h1>
             <div className="product-row">
                 <div className="review-row">
-                    <p className="product-row"><ThreeStars />(10 Reviews)</p>
+                    <p className="product-row"><ThreeStars />(3 Reviews)</p>
                 </div>
             </div>
             <div className="product-row">
@@ -40,7 +40,15 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Reviews</h2>
-
+            <div className="card-body">
+                {threeStarReview.map((review, index) => (
+                    <div className="card product-price review-container" key={index}>
+                        <h3>{review.title}</h3>
+                        <p>{review.name}</p>
+                        <p>{review.message}</p>
+                    </div>
+                ))}
+            </div>
 
         </div>
     );

@@ -29,7 +29,13 @@ nav, footer {
 .card {
     width: 200px;
     margin-bottom: 20px;
+}
 
+
+.review-container {
+    margin:25px auto;
+    padding: 20px;
+    width: 60%;
 }
 
 

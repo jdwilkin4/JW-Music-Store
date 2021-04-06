@@ -13,7 +13,7 @@ const DAngelicoCard = () => {
                     <p className="card-title">D'Angelico Premier Series EXL-1</p>
                     <ThreeStars />
                     <Link>
-                        <p className="review-text text-center">(10 Reviews)</p>
+                        <p className="review-text text-center">(3 Reviews)</p>
                     </Link>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link" to="/angelico">Details</Link>
