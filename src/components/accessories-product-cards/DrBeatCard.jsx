@@ -14,9 +14,7 @@ const DrBeatCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
                     <ThreeStars />
-                    <Link>
-                        <p className="review-text text-center">(3 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(3 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

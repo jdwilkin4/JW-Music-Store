@@ -1,6 +1,7 @@
 import React from 'react';
 import { Citation, FourStars, OrderTemplate, InStock } from '../component-exports';
 import { SquierBulletCard, GuildOM240CECard, RogueRocketeerCard, GLLimitedCard, fourStarReview } from '../component-exports';
+import { DrBeatCard, DeluxeCaseCard, BraidedCableCard, FenderGuitarStandCard } from '../component-exports';
 import fender135 from './fender135-product-specs';
 
 const FenderFA135CEPage = () => {
@@ -69,7 +70,15 @@ const FenderFA135CEPage = () => {
                         <p className="text-center">{review.message}</p>
                     </div>
                 ))}
-
+            </div>
+            <h2 className="text-center product-page-heading">People Who Bought This Item Also Bought</h2>
+            <div className="product-div">
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <DrBeatCard />
+                    <BraidedCableCard />
+                    <FenderGuitarStandCard />
+                    <DeluxeCaseCard />
+                </div>
             </div>
         </div>
     )

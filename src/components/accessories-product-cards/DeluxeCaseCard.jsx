@@ -13,9 +13,7 @@ const DeluxeCaseCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Deluxe Dreadnought Case Black.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Musician's Gear Deluxe  Case</p>
                     <FiveStars />
-                    <Link>
-                        <p className="review-text text-center">(7 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(7 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
