@@ -1,10 +1,7 @@
 import React from 'react';
-import ThreeStars from '../star-ratings/3Star';
-import OrderTemplate from '../OrderTemplate';
-import InStock from '../InStock';
+import { ThreeStars, threeStarReview, OrderTemplate, InStock } from '../component-exports'
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard } from '../component-exports';
-import threeStarReview from '../reviews/three-star-reviews';
 import dAngelico from './guitar-product-specs';
 
 const AngelicoGuitar = () => {
