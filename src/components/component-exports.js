@@ -1,4 +1,4 @@
-//navigation, footer, citation, star ratings, order templates, in stock exports
+//navigation, footer, citation, star ratings, order templates, in stock, free shipping exports
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Citation } from './Citation';
@@ -9,6 +9,7 @@ export { default as threeStarReview } from './reviews/three-star-reviews';
 export { default as fourStarReview } from './reviews/four-star-reviews';
 export { default as OrderTemplate } from './OrderTemplate';
 export { default as InStock } from './InStock';
+export { default as FreeShipping } from './FreeShipping';
 
 //landing pages
 export { default as Home } from "./Home";
