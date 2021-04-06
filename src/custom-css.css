@@ -3,8 +3,14 @@ nav, footer {
 }
 
 
-.sub-page-heading {
+.sub-page-heading, .product-page-heading {
     margin: 80px 0 50px;
+}
+
+.product-page-heading {
+    background-color: #043352;
+    color: white;
+    padding: 15px;
 }
 
 
