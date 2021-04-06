@@ -27,6 +27,7 @@ export { default as Classroom } from './landing-pages/Classroom';
 export { default as Music } from './landing-pages/Music';
 
 //guitar product page exports
+export { default as GuitarWarranty } from './guitar-product-pages/GuitarWarranty';
 export { default as AngelicoGuitar } from "./guitar-product-pages/DAngelicoGuitarPage";
 export { default as FenderFA135CEPage } from './guitar-product-pages/FenderFA135CEPage';
 

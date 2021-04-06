@@ -1,7 +1,7 @@
 import React from 'react';
 import { Citation, FourStars, OrderTemplate, InStock } from '../component-exports';
 import { SquierBulletCard, GuildOM240CECard, RogueRocketeerCard, GLLimitedCard, fourStarReview } from '../component-exports';
-import { DrBeatCard, DeluxeCaseCard, BraidedCableCard, FenderGuitarStandCard, FreeShipping } from '../component-exports';
+import { DrBeatCard, DeluxeCaseCard, BraidedCableCard, FenderGuitarStandCard, FreeShipping, GuitarWarranty } from '../component-exports';
 import fender135 from './fender135-product-specs';
 
 const FenderFA135CEPage = () => {
@@ -81,6 +81,7 @@ const FenderFA135CEPage = () => {
                 </div>
             </div>
             <FreeShipping />
+            <GuitarWarranty />
         </div>
     )
 }

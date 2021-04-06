@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThreeStars, threeStarReview, OrderTemplate, InStock } from '../component-exports'
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
-import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, FreeShipping } from '../component-exports';
+import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
 import dAngelico from './angelico-product-specs';
 
 const AngelicoGuitar = () => {
@@ -81,6 +81,7 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <FreeShipping />
+            <GuitarWarranty />
         </div>
     );
 }
