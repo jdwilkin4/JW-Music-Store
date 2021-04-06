@@ -32,6 +32,35 @@ const AngelicoGuitar = () => {
                 <Citation />
             </blockquote>
 
+            <h2 className="text-center product-page-heading">Features</h2>
+            <h3 className="text-center">Body</h3>
+            <div className="review-container product-row">
+                <div>
+                    <p><span className="bold-text">Body type:</span> Hollowbody</p>
+                    <p><span className="bold-text">Body material:</span> Laminated</p>
+                    <p><span className="bold-text">Top wood:</span> Spruce</p>
+                </div>
+                <div>
+                    <p><span className="bold-text">Body wood:</span> Maple</p>
+                    <p><span className="bold-text">Body finish:</span> Gloss</p>
+                    <p><span className="bold-text">Body finish:</span> Right handed</p>
+                </div>
+            </div>
+            <h3 className="text-center">Neck</h3>
+            <div className="review-container product-row">
+                <div>
+                    <p><span className="bold-text">Neck shape:</span> C</p>
+                    <p><span className="bold-text">Neck wood:</span> Maple</p>
+                    <p><span className="bold-text">Joint:</span> Set-in </p>
+                </div>
+                <div>
+                    <p><span className="bold-text">Scale length:</span> 25.5 in.</p>
+                    <p><span className="bold-text">Truss rod: </span> Dual-action</p>
+                    <p><span className="bold-text">Neck finish: </span> Gloss</p>
+                </div>
+            </div>
+
+
             <h2 className="text-center product-page-heading">People Who Viewed This Item Also Viewed</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -44,7 +73,7 @@ const AngelicoGuitar = () => {
             <h2 className="text-center product-page-heading">Reviews</h2>
             <div className="card-body">
                 {threeStarReview.map((review, index) => (
-                    <div className="card product-price review-container" key={index}>
+                    <div className=" product-price review-container" key={index}>
                         <h3>{review.title}</h3>
                         <p>{review.name}</p>
                         <p>{review.message}</p>

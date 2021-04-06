@@ -25,6 +25,9 @@ nav, footer {
     font-size: 1.3rem;
 }
 
+.bold-text {
+    font-weight: 700;
+}
 
 .card {
     width: 200px;
@@ -32,7 +35,10 @@ nav, footer {
 }
 
 
+
 .review-container {
+    border: 1px solid gray;
+    border-radius: 15px;
     margin:25px auto;
     padding: 20px;
     width: 60%;
