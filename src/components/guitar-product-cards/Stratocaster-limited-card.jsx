@@ -10,11 +10,9 @@ const StratocasterLimitedCard = () => {
                 <h2 className="card-header text-center">$774.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster Maple Fingerboard Limited Edition Electric Guitar Shell Pink.jpg'} alt="guitar" className="img-thumbnail" />
-                    <p className="card-title">Fender Player Stratocaster Limited Edition</p>
+                    <p className="card-title">Stratocaster Limited Edition</p>
                     <FourStars />
-                    <Link>
-                        <p className="review-text text-center">(4 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

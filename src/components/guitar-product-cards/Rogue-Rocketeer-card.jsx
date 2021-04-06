@@ -10,11 +10,9 @@ const RogueRocketeerCard = () => {
                 <h2 className="card-header text-center">$179.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Rogue Rocketeer Electric Guitar Pack Red Burst.jpg'} alt="guitar" className="img-thumbnail" />
-                    <p className="card-title">Rogue Rocketeer Electric Guitar Pack Black</p>
+                    <p className="card-title">Rogue Rocketeer Guitar Pack </p>
                     <ThreeStars />
-                    <Link>
-                        <p className="review-text text-center">(5 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(5 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

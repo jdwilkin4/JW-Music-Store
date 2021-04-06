@@ -10,11 +10,9 @@ const SquierBulletCard = () => {
                 <h2 className="card-header text-center">$179.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Bullet Mustang HH Limited-Edition Electric Guitar Olympic White.jpg'} alt="guitar" className="img-thumbnail" />
-                    <p className="card-title">Squier Bullet Mustang HH Limited-Edition</p>
+                    <p className="card-title">Squier Bullet Mustang HH</p>
                     <FourStars />
-                    <Link>
-                        <p className="review-text text-center">(4 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
