@@ -66,6 +66,7 @@ const FenderFA135CEPage = () => {
                 {fourStarReview.map((review, index) => (
                     <div className="review-container" key={index}>
                         <h3 className="text-center">{review.title}</h3>
+                        <hr />
                         <p className="text-center">{review.name}</p>
                         <p className="text-center">{review.message}</p>
                     </div>
