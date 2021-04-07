@@ -13,9 +13,7 @@ const ClipOnTunerCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Snark Super Snark 2 Clip-On Tuner</p>
                     <FiveStars />
-                    <Link>
-                        <p className="review-text text-center">(4 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

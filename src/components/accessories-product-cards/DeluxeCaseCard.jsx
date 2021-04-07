@@ -11,7 +11,7 @@ const DeluxeCaseCard = () => {
                 <h2 className="card-header text-center">$79.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Deluxe Dreadnought Case Black.jpg'} alt="accessories" className="img-thumbnail" />
-                    <p className="card-title">Musician's Gear Deluxe  Case</p>
+                    <p className="card-title">Musician's Gear Deluxe Case</p>
                     <FiveStars />
                     <p className="review-text text-center">(7 Reviews)</p>
                     <div class="col text-center">

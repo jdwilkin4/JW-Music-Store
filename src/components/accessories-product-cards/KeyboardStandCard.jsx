@@ -11,11 +11,9 @@ const KeyboardStandCard = () => {
                 <h2 className="card-header text-center">$29.99</h2>
                 <div className="card-body">
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear KBX2 Double-Braced Keyboard Stand Black.jpg'} alt="accessories" className="img-thumbnail" />
-                    <p className="card-title">Musician's Gear Double-Braced Keyboard Stand</p>
+                    <p className="card-title">Musician's Gear Keyboard Stand</p>
                     <FourStars />
-                    <Link>
-                        <p className="review-text text-center">(2 Reviews)</p>
-                    </Link>
+                    <p className="review-text text-center">(2 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
