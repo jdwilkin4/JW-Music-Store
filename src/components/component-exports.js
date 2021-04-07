@@ -58,3 +58,17 @@ export { default as RogueRocketeerCard } from './guitar-product-cards/Rogue-Rock
 export { default as SquierAffinityCard } from './guitar-product-cards/Squier-Affinity-card';
 export { default as SquierBulletCard } from './guitar-product-cards/Squier-Bullet-card';
 export { default as SquierBulletTelecasterCard } from './guitar-product-cards/Squier-Bullet-Telecaster-card';
+
+//amp product card exports
+export { default as AmpegSVT4Card } from './amp-product-cards/Ampeg-SVT-4-card';
+export { default as DigitechTrioCard } from './amp-product-cards/Digitech-Trio-card';
+export { default as FenderRUMBLECard } from './amp-product-cards/Fender-RUMBLE-card';
+export { default as GatorGPTPWRCard } from './amp-product-cards/Gator-GPT-PWR-card';
+export { default as HeadRushPedalboardCard } from './amp-product-cards/HeadRush-Pedalboard-card';
+export { default as Line6HelixCard } from './amp-product-cards/Line-6-Helix-card';
+export { default as LRBaggsPreampCard } from './amp-product-cards/LR-Baggs-preamp-card';
+export { default as LRBaggsVenueCard } from './amp-product-cards/LR-Baggs-Venue-card';
+export { default as MusiciansGearPedalCard } from './amp-product-cards/Musicians-Gear-pedal-card';
+export { default as PedaltrainNanoPedalCard } from './amp-product-cards/Pedaltrain-Nano-Pedal-card';
+export { default as RogueG10AmpCard } from './amp-product-cards/Rogue-G10-card';
+export { default as TCElectronicLoopCard } from './amp-product-cards/TC-Electronic-looper-card';
