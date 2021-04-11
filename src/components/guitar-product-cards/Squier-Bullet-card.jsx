@@ -12,7 +12,6 @@ const SquierBulletCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Bullet Mustang HH Limited-Edition Electric Guitar Olympic White.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Squier Bullet Mustang HH</p>
                     <FourStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

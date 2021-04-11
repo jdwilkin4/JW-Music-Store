@@ -7,7 +7,7 @@ export default [
     {
         title: 'Good for the price',
         name: ' Review by: Nick Milton',
-        message: 'It is alright for the price. I bought it for my kid and they seem to like it.'
+        message: 'It is alright for the price. I bought it for my son\'s birtday and they seem to like it.'
     },
     {
         title: 'The package is a little damaged',

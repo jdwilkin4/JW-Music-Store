@@ -12,7 +12,6 @@ const StratocasterLimitedCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster Maple Fingerboard Limited Edition Electric Guitar Shell Pink.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Stratocaster Limited Edition</p>
                     <FourStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

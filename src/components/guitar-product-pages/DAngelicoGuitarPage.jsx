@@ -8,11 +8,7 @@ const AngelicoGuitar = () => {
     return (
         <div>
             <h1 className="text-center sub-page-heading">D'Angelico Premier Series EXL-1</h1>
-            <div className="product-row">
-                <div className="review-row">
-                    <p className="product-row"><ThreeStars />(3 Reviews)</p>
-                </div>
-            </div>
+
             <div className="product-row">
                 <img src={process.env.PUBLIC_URL + '/Guitars-images/DAngelico Premier Series EXL1 Hollowbody Electric Guitar with Stairstep Tailpiece Transparent Wine.jpg'} alt="guitar" className="product-img-page" />
                 <div className="product-column">
@@ -68,6 +64,7 @@ const AngelicoGuitar = () => {
                         <h3 className="text-center">{review.title}</h3>
                         <hr />
                         <p className="text-center">{review.name}</p>
+                        <ThreeStars />
                         <p className="text-center">{review.message}</p>
                     </div>
                 ))}

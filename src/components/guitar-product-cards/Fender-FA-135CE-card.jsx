@@ -12,7 +12,6 @@ const FenderFa135Card = () => {
                     <Link to="/fender135" ><img src={process.env.PUBLIC_URL + '/Guitars-images/Fender FA135CE Concert Acoustic Electric Guitar Natural.jpg'} alt="guitar" className="img-thumbnail" /></Link>
                     <p className="card-title">Fender FA-135CE Acoustic-Electric</p>
                     <FourStars />
-                    <p className="review-text text-center">(3 Reviews)</p>
                     <div class="col text-center">
                         <Link to="/fender135" className="btn product-description btn-link">Details</Link>
                     </div>

@@ -12,7 +12,6 @@ const SquierAffinityCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Affinity Telecaster HH Electric Guitar with Matching Headstock Metallic Orange.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Squier Affinity Telecaster HH</p>
                     <FourStars />
-                    <p className="review-text text-center">(5 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

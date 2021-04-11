@@ -13,7 +13,6 @@ const RogueRd80Card = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Rogue RD80 Dreadnought Acoustic Guitar Black.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Rogue RD80 Dreadnought</p>
                     <FourStars />
-                    <p className="review-text text-center">(3 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

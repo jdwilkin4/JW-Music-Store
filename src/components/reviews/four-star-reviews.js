@@ -7,7 +7,7 @@ export default [
     {
         title: 'My daughter loves it',
         name: 'Review by: Alice Jacks',
-        message: 'I bought it for my daughter and she really like it. I would recommend it to a friend.'
+        message: 'I bought it for my daughter and she really likes it. I would recommend it to a friend.'
     },
     {
         title: 'Got it for my birthday',

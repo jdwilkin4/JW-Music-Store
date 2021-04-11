@@ -8,11 +8,7 @@ const FenderFA135CEPage = () => {
     return (
         <div>
             <h1 className="text-center sub-page-heading">Fender FA-135CE Concert Acoustic-Electric Guitar Natural</h1>
-            <div className="product-row">
-                <div className="review-row">
-                    <p className="product-row"><FourStars />(3 Reviews)</p>
-                </div>
-            </div>
+
             <div className="product-row">
                 <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender FA135CE Concert Acoustic Electric Guitar Natural.jpg'} alt="guitar" className="product-img-page" />
                 <div className="product-column">
@@ -68,6 +64,7 @@ const FenderFA135CEPage = () => {
                         <h3 className="text-center">{review.title}</h3>
                         <hr />
                         <p className="text-center">{review.name}</p>
+                        <FourStars />
                         <p className="text-center">{review.message}</p>
                     </div>
                 ))}

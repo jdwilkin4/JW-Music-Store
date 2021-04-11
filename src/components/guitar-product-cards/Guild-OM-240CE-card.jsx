@@ -12,7 +12,6 @@ const GuildOM240CECard = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Guild OM-240CE Orchestra Acoustic-Electric Guitar Charcoal Burst.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Guild OM-240CE Acoustic-Electric</p>
                     <FiveStars />
-                    <p className="review-text text-center">(7 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

@@ -12,7 +12,6 @@ const TelecasterCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Telecaster Maple Fingerboard Electric Guitar Capri Orange.jpg'} alt="guitar" className="img-thumbnail" />
                     <p className="card-title">Fender Telecaster Capri Orange</p>
                     <FourStars />
-                    <p className="review-text text-center">(6 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
