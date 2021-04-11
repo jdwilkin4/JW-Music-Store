@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ThreeStars, threeStarReview, OrderTemplate, InStock } from '../component-exports'
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
 import dAngelico from './angelico-product-specs';
+import AddReview from '../AddReviewForm';
 
 const AngelicoGuitar = () => {
+    const [reviewer, setReviewer] = useState(threeStarReview);
+
+    const addReviewer = (review) => {
+        review.id = threeStarReview.length + 1
+        setReviewer([...threeStarReview, review])
+    }
     return (
         <div>
             <h1 className="text-center sub-page-heading">D'Angelico Premier Series EXL-1</h1>
@@ -68,6 +75,11 @@ const AngelicoGuitar = () => {
                         <p className="text-center">{review.message}</p>
                     </div>
                 ))}
+            </div>
+            <div className="add-review">
+                <h2 className="text-center">Leave a Review</h2>
+                <AddReview />
+
             </div>
             <h2 className="text-center product-page-heading">People Who Bought This Item Also Bought</h2>
             <div className="product-div">
