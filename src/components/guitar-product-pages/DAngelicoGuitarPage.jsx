@@ -4,14 +4,16 @@ import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, Squ
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
 import dAngelico from './angelico-product-specs';
 import AddReview from '../AddReviewForm';
+import ReviewerList from '../reviewerList';
 
 const AngelicoGuitar = () => {
     const [reviewer, setReviewer] = useState(threeStarReview);
 
     const addReviewer = (review) => {
-        review.id = threeStarReview.length + 1
-        setReviewer([...threeStarReview, review])
+        review.id = reviewer.length + 1
+        setReviewer([...reviewer, review])
     }
+
     return (
         <div>
             <h1 className="text-center sub-page-heading">D'Angelico Premier Series EXL-1</h1>
@@ -65,20 +67,7 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Reviews</h2>
-            <div className="card-body">
-                {threeStarReview.map((review, index) => (
-                    <div className="review-container" key={index}>
-                        <h3 className="text-center">{review.title}</h3>
-                        <hr />
-                        <p className="text-center">{review.name}</p>
-                        <p className="text-center">{review.message}</p>
-                        <div className="review-btns">
-                            <button type="button" className="btn btn-primary">Edit</button>
-                            <button type="button" className="btn btn-danger">Delete</button>
-                        </div>
-                    </div>
-                ))}
-            </div>
+            <ReviewerList reviewer={reviewer} />
             <div className="add-review">
                 <h2 className="text-center product-page-heading">Leave a Review</h2>
                 <AddReview addReviewer={addReviewer} />

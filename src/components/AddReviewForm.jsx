@@ -39,11 +39,11 @@ const AddReview = (props) => {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="user">First &amp; Last name:</label>
+                    <label htmlFor="name">First &amp; Last name:</label>
                     <input
                         className="form-control"
                         type="text"
-                        name="user"
+                        name="name"
                         value={reviewer.name}
                         onChange={handleInputChange}
                         id="user"
