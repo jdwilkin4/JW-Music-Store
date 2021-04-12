@@ -77,7 +77,7 @@ const AngelicoGuitar = () => {
                 ))}
             </div>
             <div className="add-review">
-                <h2 className="text-center">Leave a Review</h2>
+                <h2 className="text-center product-page-heading">Leave a Review</h2>
                 <AddReview />
 
             </div>

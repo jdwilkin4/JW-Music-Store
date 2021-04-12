@@ -2,24 +2,22 @@ nav, footer {
     background-color: #043352;
 }
 
-.fa-truck, .fa-shield{
+.fa-truck, .fa-shield {
     padding-right: 20px;
 }
 
-.review-form{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+.review-form {
+    margin: auto;
+    padding: 15px;
     width: 50%;
-    margin: 0 auto;
     border: 2px solid #043352;
+    border-radius: 10px;
 }
 
-
-
-.review-input {
-    margin: 15px;
+.form-control {
+    margin: 10px 0;
 }
+
 
 .sub-page-heading, .product-page-heading {
     margin: 80px 0 50px;
