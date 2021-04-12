@@ -14,6 +14,10 @@ const AngelicoGuitar = () => {
         setReviewer([...reviewer, review])
     }
 
+    const deleteReview = id => {
+        setReviewer(reviewer.filter((review) => review.id !== id))
+    }
+
     return (
         <div>
             <h1 className="text-center sub-page-heading">D'Angelico Premier Series EXL-1</h1>
@@ -67,7 +71,7 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Reviews</h2>
-            <ReviewerList reviewer={reviewer} />
+            <ReviewerList deleteReview={deleteReview} reviewer={reviewer} />
             <div className="add-review">
                 <h2 className="text-center product-page-heading">Leave a Review</h2>
                 <AddReview addReviewer={addReviewer} />
