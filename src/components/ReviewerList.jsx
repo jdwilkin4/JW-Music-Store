@@ -11,7 +11,12 @@ const ReviewerList = props => {
                         <p className="text-center">{review.name}</p>
                         <p className="text-center">{review.message}</p>
                         <div className="review-btns">
-                            <button type="button" className="btn btn-primary">Edit</button>
+                            <button
+                                onClick={() => props.editReview(review)}
+                                type="button"
+                                className="btn btn-primary">
+                                Edit
+                            </button>
                             <button
                                 onClick={() => props.deleteReview(review.id)}
                                 type="button"

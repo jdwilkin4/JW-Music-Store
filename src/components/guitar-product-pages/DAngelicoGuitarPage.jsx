@@ -4,14 +4,43 @@ import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, Squ
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
 import dAngelico from './angelico-product-specs';
 import AddReview from '../AddReviewForm';
-import ReviewerList from '../reviewerList';
+import ReviewerList from '../ReviewerList';
+import UpdateReviewForm from '../UpdateReviewForm'
 
 const AngelicoGuitar = () => {
     const [reviewer, setReviewer] = useState(threeStarReview);
+    const [editing, setEditing] = useState(false);
+
+    //creating an empty state for the form since we don't know who will be editing it
+    const initialFormState = {
+        id: null,
+        title: '',
+        name: '',
+        message: ''
+    }
+
+    //check to see which review is being edited
+    const [currentUser, setCurrentUser] = useState(initialFormState)
 
     const addReviewer = (review) => {
         review.id = reviewer.length + 1
         setReviewer([...reviewer, review])
+    }
+
+    const editReview = review => {
+        setEditing(true)
+        setCurrentUser({
+            id: review.id,
+            title: review.title,
+            name: review.name,
+            message: review.message
+        })
+
+    }
+
+    const updateReview = (id, updateReviews) => {
+        setEditing(false)
+        setReviewer(reviewer.map((review) => (review.id === id ? updateReviews : review)))
     }
 
     const deleteReview = id => {
@@ -71,11 +100,27 @@ const AngelicoGuitar = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Reviews</h2>
-            <ReviewerList deleteReview={deleteReview} reviewer={reviewer} />
+            <div>
+                {editing ? (
+                    <div>
+                        <h2 className="text-center">Update Review</h2>
+                        <UpdateReviewForm
+                            setEditing={setEditing}
+                            currentUser={currentUser}
+                            updateReview={updateReview}
+                        />
+                    </div>
+                ) : (
+                        <div></div>
+
+                    )}
+            </div>
+            <ReviewerList editReview={editReview} deleteReview={deleteReview} reviewer={reviewer} />
+
+
             <div className="add-review">
                 <h2 className="text-center product-page-heading">Leave a Review</h2>
                 <AddReview addReviewer={addReviewer} />
-
             </div>
             <h2 className="text-center product-page-heading">People Who Bought This Item Also Bought</h2>
             <div className="product-div">
