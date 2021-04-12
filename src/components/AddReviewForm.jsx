@@ -58,8 +58,8 @@ const AddReview = (props) => {
                     onChange={handleInputChange}
                     autoComplete="off"
                     name="message"
-                    cols="20"
-                    rows="10"
+                    cols="5"
+                    rows="3"
                 >
                 </textarea>
                 <div className="d-flex justify-content-center">
