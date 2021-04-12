@@ -18,6 +18,10 @@ nav, footer {
     margin: 10px 0;
 }
 
+.review-btns {
+    display: flex;
+    justify-content: space-around;
+}
 
 .sub-page-heading, .product-page-heading {
     margin: 80px 0 50px;

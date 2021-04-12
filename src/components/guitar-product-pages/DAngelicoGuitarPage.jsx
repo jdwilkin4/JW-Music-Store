@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ThreeStars, threeStarReview, OrderTemplate, InStock } from '../component-exports'
+import { threeStarReview, OrderTemplate, InStock } from '../component-exports'
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
 import dAngelico from './angelico-product-specs';
@@ -71,8 +71,11 @@ const AngelicoGuitar = () => {
                         <h3 className="text-center">{review.title}</h3>
                         <hr />
                         <p className="text-center">{review.name}</p>
-                        <ThreeStars />
                         <p className="text-center">{review.message}</p>
+                        <div className="review-btns">
+                            <button type="button" className="btn btn-primary">Edit</button>
+                            <button type="button" className="btn btn-danger">Delete</button>
+                        </div>
                     </div>
                 ))}
             </div>

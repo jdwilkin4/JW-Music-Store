@@ -8,40 +8,60 @@ const AddReview = (props) => {
         message: ''
     }
     const [reviewer, setReviewer] = useState(initialFormState)
+    const handleInputChange = (event) => {
+        const { name, value } = event.target
+
+        setReviewer({ ...reviewer, [name]: value })
+    }
     return (
         <div>
-            <form className="review-form">
+            <form
+                onSubmit={(event) => {
+                    event.preventDefault()
+                    // form validation to check if user enters nothing
+                    if (!reviewer.title || !reviewer.name || !reviewer.message) return
+
+                    props.addReviewer(reviewer)
+                    setReviewer(initialFormState)
+                }}
+                className="review-form"
+            >
                 <div className="form-group">
                     <label htmlFor="title"> Title for review:</label>
-                    <input className="form-control" type="text" name="title" value="" id="title" />
+                    <input
+                        className="form-control"
+                        type="text"
+                        name="title"
+                        value={reviewer.title}
+                        onChange={handleInputChange}
+                        id="title"
+
+                    />
                 </div>
                 <div className="form-group">
                     <label htmlFor="user">First &amp; Last name:</label>
-                    <input className="form-control" type="text" name="user" value="" id="user" />
+                    <input
+                        className="form-control"
+                        type="text"
+                        name="user"
+                        value={reviewer.name}
+                        onChange={handleInputChange}
+                        id="user"
+
+                    />
                 </div>
 
-                <div className="form-check">
-                    <input className="form-check-input" type="radio" name="rating" id="fiveStar" value="fiveStar" />
-                    <label className="form-check-label" htmlFor="fiveStar"> Five star rating?</label>
-                </div>
-                <div className="form-check">
-                    <input className="form-check-input" type="radio" name="rating" id="fourStar" value="fourStar" />
-                    <label className="form-check-label" htmlFor="fourStar"> Four star rating?</label>
-                </div>
-                <div className="form-check">
-                    <input className="form-check-input" type="radio" name="rating" id="threeStar" value="threeStar" />
-                    <label className="form-check-label" htmlFor="threeStar"> Three star rating? </label>
-                </div>
-                <div className="form-check">
-                    <input className="form-check-input" type="radio" name="rating" id="twoStar" value="twoStar" />
-                    <label className="form-check-label" htmlFor="twoStar"> Two star rating? </label>
-                </div>
-                <div className="form-check">
-                    <input className="form-check-input" type="radio" name="rating" id="oneStar" value="oneStar" />
-                    <label className="form-check-label" htmlFor="oneStar"> One star rating? </label>
-                </div>
-
-                <textarea className="form-control" value="" autoComplete="off" name="message" cols="20" rows="10"></textarea>
+                <p>Please leave your review below:</p>
+                <textarea
+                    className="form-control"
+                    value={reviewer.message}
+                    onChange={handleInputChange}
+                    autoComplete="off"
+                    name="message"
+                    cols="20"
+                    rows="10"
+                >
+                </textarea>
                 <div className="d-flex justify-content-center">
                     <button className="btn btn-primary text-center review-btn">Add review</button>
                 </div>
