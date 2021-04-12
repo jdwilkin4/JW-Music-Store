@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const AddReview = (props) => {
+    const initialFormState = {
+        id: null,
+        title: '',
+        name: '',
+        message: ''
+    }
+    const [reviewer, setReviewer] = useState(initialFormState)
     return (
         <div>
             <form className="review-form">
