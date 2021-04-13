@@ -8,6 +8,7 @@ import ReviewerList from '../ReviewerList';
 import UpdateReviewForm from '../UpdateReviewForm'
 
 const AngelicoGuitar = () => {
+    //initialize state for reviews and edits 
     const [reviewer, setReviewer] = useState(threeStarReview);
     const [editing, setEditing] = useState(false);
 
