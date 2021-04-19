@@ -45,6 +45,7 @@ const AngelicoGuitar = () => {
     }
 
     const deleteReview = id => {
+        setEditing(false)
         setReviewer(reviewer.filter((review) => review.id !== id))
     }
 
@@ -116,7 +117,11 @@ const AngelicoGuitar = () => {
 
                     )}
             </div>
-            <ReviewerList editReview={editReview} deleteReview={deleteReview} reviewer={reviewer} />
+            <ReviewerList
+                editReview={editReview}
+                deleteReview={deleteReview}
+                reviewer={reviewer}
+            />
 
 
             <div className="add-review">

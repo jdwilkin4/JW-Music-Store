@@ -1,7 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const UpdateReviewForm = props => {
     const [reviewer, setReviewer] = useState(props.currentUser)
+
+    useEffect(
+        () => {
+            setReviewer(props.currentUser)
+        },
+        [props]
+    )
     const handleInputChange = (event) => {
         const { name, value } = event.target
 
