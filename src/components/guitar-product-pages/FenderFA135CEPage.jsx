@@ -1,10 +1,52 @@
-import React from 'react';
-import { Citation, FourStars, OrderTemplate, InStock } from '../component-exports';
+import React, { useState } from 'react';
+import { Citation, OrderTemplate, InStock } from '../component-exports';
 import { SquierBulletCard, GuildOM240CECard, RogueRocketeerCard, GLLimitedCard, fourStarReview } from '../component-exports';
 import { DrBeatCard, DeluxeCaseCard, BraidedCableCard, FenderGuitarStandCard, FreeShipping, GuitarWarranty } from '../component-exports';
 import fender135 from './fender135-product-specs';
+import { AddReview, ReviewerList, UpdateReviewForm } from '../component-exports';
+
 
 const FenderFA135CEPage = () => {
+    //initialize state for reviews and edits 
+    const [reviewer, setReviewer] = useState(fourStarReview);
+    const [editing, setEditing] = useState(false);
+
+    //creating an empty state for the form since we don't know who will be editing it
+    const initialFormState = {
+        id: null,
+        title: '',
+        name: '',
+        message: ''
+    }
+
+    //check to see which review is being edited
+    const [currentUser, setCurrentUser] = useState(initialFormState)
+
+    const addReviewer = (review) => {
+        review.id = reviewer.length + 1
+        setReviewer([...reviewer, review])
+    }
+
+    const editReview = review => {
+        setEditing(true)
+        setCurrentUser({
+            id: review.id,
+            title: review.title,
+            name: review.name,
+            message: review.message
+        })
+
+    }
+
+    const updateReview = (id, updateReviews) => {
+        setEditing(false)
+        setReviewer(reviewer.map((review) => (review.id === id ? updateReviews : review)))
+    }
+
+    const deleteReview = id => {
+        setEditing(false)
+        setReviewer(reviewer.filter((review) => review.id !== id))
+    }
     return (
         <div>
             <h1 className="text-center sub-page-heading">Fender FA-135CE Concert Acoustic-Electric Guitar Natural</h1>
@@ -58,17 +100,32 @@ const FenderFA135CEPage = () => {
                 </div>
             </div>
             <h2 className="text-center product-page-heading">Reviews</h2>
-            <div className="card-body">
-                {fourStarReview.map((review, index) => (
-                    <div className="review-container" key={index}>
-                        <h3 className="text-center">{review.title}</h3>
-                        <hr />
-                        <p className="text-center">{review.name}</p>
-                        <FourStars />
-                        <p className="text-center">{review.message}</p>
+            <div>
+                {editing ? (
+                    <div>
+                        <h2 className="text-center">Update Review</h2>
+                        <UpdateReviewForm
+                            setEditing={setEditing}
+                            currentUser={currentUser}
+                            updateReview={updateReview}
+                        />
                     </div>
-                ))}
+                ) : (
+                        <div></div>
+
+                    )}
             </div>
+            <ReviewerList
+                editReview={editReview}
+                deleteReview={deleteReview}
+                reviewer={reviewer}
+            />
+
+            <div className="add-review">
+                <h2 className="text-center product-page-heading">Leave a Review</h2>
+                <AddReview addReviewer={addReviewer} />
+            </div>
+
             <h2 className="text-center product-page-heading">People Who Bought This Item Also Bought</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">

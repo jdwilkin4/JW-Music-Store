@@ -1,4 +1,4 @@
-//navigation, footer, citation, star ratings, order templates, in stock, free shipping exports
+// misc exports
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Citation } from './Citation';
@@ -11,6 +11,9 @@ export { default as fiveStarReview } from './reviews/five-star-reviews';
 export { default as OrderTemplate } from './OrderTemplate';
 export { default as InStock } from './InStock';
 export { default as FreeShipping } from './FreeShipping';
+export { default as AddReview } from './AddReviewForm';
+export { default as ReviewerList } from './ReviewerList';
+export { default as UpdateReviewForm } from './UpdateReviewForm';
 
 //landing pages
 export { default as Home } from "./Home";

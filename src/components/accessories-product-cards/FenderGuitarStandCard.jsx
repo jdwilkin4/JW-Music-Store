@@ -13,7 +13,6 @@ const FenderGuitarStandCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Fender Deluxe Hanging Guitar Stand.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Fender Deluxe Guitar Stand</p>
                     <ThreeStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

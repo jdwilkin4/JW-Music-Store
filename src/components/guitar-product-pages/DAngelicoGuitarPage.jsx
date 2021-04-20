@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { threeStarReview, OrderTemplate, InStock } from '../component-exports'
+import { threeStarReview, OrderTemplate, InStock } from '../component-exports';
 import { Citation, StratocasterLimitedCard, GuildOM240CECard, GLLimitedCard, SquierBulletTelecasterCard } from '../component-exports';
 import { DeluxeCaseCard, ElixerGuitarStringsCard, FingereaseGuitarStringCard, BraidedCableCard, GuitarWarranty, FreeShipping } from '../component-exports';
+import { AddReview, ReviewerList, UpdateReviewForm } from '../component-exports';
 import dAngelico from './angelico-product-specs';
-import AddReview from '../AddReviewForm';
-import ReviewerList from '../ReviewerList';
-import UpdateReviewForm from '../UpdateReviewForm'
+
 
 const AngelicoGuitar = () => {
     //initialize state for reviews and edits 
