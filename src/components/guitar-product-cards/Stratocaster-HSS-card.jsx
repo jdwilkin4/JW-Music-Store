@@ -9,11 +9,11 @@ const StratocasterHSSCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$809.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster HSS Plus Top Maple Fingerboard Limited-Edition Electric Guitar Blue Burst.jpg'} alt="guitar" className="img-thumbnail" />
+                    <Link to="/HSSguitar"><img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster HSS Plus Top Maple Fingerboard Limited-Edition Electric Guitar Blue Burst.jpg'} alt="guitar" className="img-thumbnail" /></Link>
                     <p className="card-title">Fender Stratocaster HSS</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/HSSguitar" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />
