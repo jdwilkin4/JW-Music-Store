@@ -7,6 +7,7 @@ export { default as FourStars } from './star-ratings/4Star';
 export { default as FiveStars } from './star-ratings/5Star';
 export { default as threeStarReview } from './reviews/three-star-reviews';
 export { default as fourStarReview } from './reviews/four-star-reviews';
+export { default as fiveStarReview } from './reviews/five-star-reviews';
 export { default as OrderTemplate } from './OrderTemplate';
 export { default as InStock } from './InStock';
 export { default as FreeShipping } from './FreeShipping';
