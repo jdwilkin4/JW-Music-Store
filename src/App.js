@@ -4,10 +4,14 @@ import { Navigation, Footer } from './components/component-exports';
 import LandingPages from './routes/LandingPages';
 import GuitarProducts from './routes/GuitarProducts';
 import './custom-css.css';
+import ScrollToTop from './components/ScrollToTop';
+
 const App = () => {
   return (
     <div>
       <Router>
+        <ScrollToTop />
+
         <Navigation />
         <Switch>
           <LandingPages />
