@@ -1,6 +1,7 @@
 import React from 'react';
 import FiveStars from './star-ratings/5Star';
 import { Link, withRouter } from "react-router-dom";
+import { StratocasterHSSCard } from './component-exports';
 
 
 const Home = () => {
@@ -40,25 +41,7 @@ const Home = () => {
             <h2 className="text-center sub-page-heading">Hot Products</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$809.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Stratocaster HSS Plus Top Maple Fingerboard Limited-Edition Electric Guitar Blue Burst.jpg'} alt="guitar" className="img-thumbnail" />
-                                <p className="card-title">Fender Player Stratocaster HSS Plus</p>
-                                <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(9 Reviews)</p>
-                                </Link>
-                                <div className="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div className="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <StratocasterHSSCard />
                     <div className="col">
                         <div className="card">
                             <h2 className="card-header text-center">$229.99</h2>
