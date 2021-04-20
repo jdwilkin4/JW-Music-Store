@@ -13,7 +13,6 @@ const FingereaseGuitarStringCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Fingerease Guitar String Lubricant.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Fingerease Guitar String Lubricant</p>
                     <FourStars />
-                    <p className="review-text text-center">(6 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
