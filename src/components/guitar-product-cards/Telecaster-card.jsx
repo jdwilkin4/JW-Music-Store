@@ -9,11 +9,13 @@ const TelecasterCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$749.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Telecaster Maple Fingerboard Electric Guitar Capri Orange.jpg'} alt="guitar" className="img-thumbnail" />
+                    <Link to="/FenderTelecaster">
+                        <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Telecaster Maple Fingerboard Electric Guitar Capri Orange.jpg'} alt="guitar" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Fender Telecaster Capri Orange</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/FenderTelecaster" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

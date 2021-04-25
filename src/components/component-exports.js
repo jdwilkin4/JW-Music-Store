@@ -36,6 +36,7 @@ export { default as AngelicoGuitar } from "./guitar-product-pages/DAngelicoGuita
 export { default as FenderFA135CEPage } from './guitar-product-pages/FenderFA135CEPage';
 export { default as StratocasterHSSGuitarPage } from './guitar-product-pages/StratocasterHSSGuitarPage';
 export { default as StratocasterLimitedGuitarPage } from './guitar-product-pages/StratocasterLimitedGuitarpage';
+export { default as FenderTelecaster } from './guitar-product-pages/FenderTelecasterPage';
 
 //accessories product card exports
 export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';
