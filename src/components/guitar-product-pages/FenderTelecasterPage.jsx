@@ -50,7 +50,7 @@ const FenderTelecaster = () => {
 
     return (
         <div>
-            <h1 className="text-center sub-page-heading">Fender Player Telecaster Maple Fingerboard Electric Guitar Capri Orange</h1>
+            <h1 className="text-center sub-page-heading">Fender Player Telecaster Electric Guitar Capri Orange</h1>
 
             <div className="product-row">
                 <img src={process.env.PUBLIC_URL + '/Guitars-images/Fender Player Telecaster Maple Fingerboard Electric Guitar Capri Orange.jpg'} alt="guitar" className="product-img-page" />
