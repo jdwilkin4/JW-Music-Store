@@ -47,11 +47,9 @@ const Home = () => {
                             <h2 className="card-header text-center">$229.99</h2>
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett Solo Studio Pack (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Focusrite Scarlett Solo Studio Pack (Gen 3)</p>
+                                <p className="card-title">Focusrite Scarlett Solo Studio Pack</p>
                                 <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(6 Reviews)</p>
-                                </Link>
+
                                 <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -66,11 +64,9 @@ const Home = () => {
                             <h2 className="card-header text-center">$236.99</h2>
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Drums-images/Boss DR-01S Rhythm Partner Drum Machine.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Boss DR-01S Rhythm Partner Drum Machine</p>
+                                <p className="card-title">Boss DR-01S Rhythm Partner</p>
                                 <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(7 Reviews)</p>
-                                </Link>
+
                                 <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -85,11 +81,9 @@ const Home = () => {
                             <h2 className="card-header text-center">$1,799.99</h2>
                             <div className="card-body">
                                 <img src={process.env.PUBLIC_URL + '/Keyboards-images/Williams Symphony Grand Digital Piano with Bench Mahogany Red.jpg'} alt="keyboard" className="img-thumbnail" />
-                                <p className="card-title">Williams Symphony Grand Digital Piano</p>
+                                <p className="card-title">Williams Grand Digital Piano</p>
                                 <FiveStars />
-                                <Link>
-                                    <p className="review-text text-center">(9 Reviews)</p>
-                                </Link>
+
                                 <div className="col text-center">
                                     <Link className="btn product-description btn-link">Details</Link>
                                 </div>
@@ -107,13 +101,13 @@ const Home = () => {
                     <div className="card home-card">
                         <img src={process.env.PUBLIC_URL + '/classroom-images/Nino 4-Piece Egg Shaker Assortment.jpg'} alt="classNameroom" className="card-img-top" />
                         <div className="card-body">
-                            <Link className="card-text btn product-description btn-link">Explore our classroom instruments</Link>
+                            <Link to="/classroom" className="card-text btn product-description btn-link">Explore our classroom instruments</Link>
                         </div>
                     </div>
                     <div className="card home-card">
                         <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha CP73 73-Key Digital Stage Piano.jpg'} alt="keyboard" className="card-img-top" />
                         <div className="card-body">
-                            <Link className="card-text btn product-description btn-link">Check out our Keyboards</Link>
+                            <Link to="/keyboards" className="card-text btn product-description btn-link">Check out our Keyboards</Link>
                         </div>
                     </div>
                 </div>
@@ -176,13 +170,13 @@ const Home = () => {
                     <div className="card home-card">
                         <img src={process.env.PUBLIC_URL + '/Recording-images/Rode Complete Podcaster Recording Bundle.jpg'} alt="recording" className="card-img-top" />
                         <div className="card-body">
-                            <Link className="card-text btn product-description btn-link">Best Recording Gear</Link>
+                            <Link to="/recording" className="card-text btn product-description btn-link">Best Recording Gear</Link>
                         </div>
                     </div>
                     <div className="card home-card">
                         <img src={process.env.PUBLIC_URL + '/DJ-images/Roland DJ-202 Serato DJ Controller.jpg'} alt="dj" className="card-img-top" />
                         <div className="card-body">
-                            <Link className="card-text btn product-description btn-link">Hottest DJ Gear</Link>
+                            <Link to="/DJ" className="card-text btn product-description btn-link">Hottest DJ Gear</Link>
                         </div>
                     </div>
                 </div>
