@@ -13,7 +13,6 @@ const HeadRushPedalboardCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/HeadRush Pedalboard Multi-Effects Processor.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">HeadRush Pedalboard</p>
                     <FourStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

@@ -13,7 +13,6 @@ const RogueG10AmpCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/Rogue G10 10W 1x5 Guitar Combo Amp Black.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">Rogue G10 10W Amp</p>
                     <ThreeStars />
-                    <p className="review-text text-center">(5 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

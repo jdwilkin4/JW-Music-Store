@@ -12,7 +12,6 @@ const LRBaggsVenueCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/LR Baggs Venue DI Acoustic Guitar Direct Box and Preamp.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">LR Baggs Venue DI Preamp</p>
                     <FiveStars />
-                    <p className="review-text text-center">(7 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
