@@ -9,11 +9,13 @@ const GuildOM240CECard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$499.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/Guild OM-240CE Orchestra Acoustic-Electric Guitar Charcoal Burst.jpg'} alt="guitar" className="img-thumbnail" />
+                    <Link to="/GuildOM240CE">
+                        <img src={process.env.PUBLIC_URL + '/Guitars-images/Guild OM-240CE Orchestra Acoustic-Electric Guitar Charcoal Burst.jpg'} alt="guitar" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Guild OM-240CE Acoustic-Electric</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/GuildOM240CE" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

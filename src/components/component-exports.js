@@ -38,6 +38,7 @@ export { default as StratocasterHSSGuitarPage } from './guitar-product-pages/Str
 export { default as StratocasterLimitedGuitarPage } from './guitar-product-pages/StratocasterLimitedGuitarpage';
 export { default as FenderTelecaster } from './guitar-product-pages/FenderTelecasterPage';
 export { default as GlAsatGuitarPage } from './guitar-product-pages/GLASATClassicGuitarPage';
+export { default as GuildOM240CE } from './guitar-product-pages/GuildOM240CEGuitarPage';
 
 //accessories product card exports
 export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';
