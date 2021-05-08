@@ -12,7 +12,6 @@ const Line6HelixCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/Line 6 Helix Multi-Effects Guitar Pedal.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">Line 6 Helix Guitar Pedal</p>
                     <FourStars />
-                    <p className="review-text text-center">(3 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

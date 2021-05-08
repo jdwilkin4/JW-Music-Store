@@ -13,7 +13,6 @@ const PedaltrainNanoPedalCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/Pedaltrain Nano Pedal Board with Soft Case Black.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">Pedaltrain Nano Pedal Board </p>
                     <FiveStars />
-                    <p className="review-text text-center">(7 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

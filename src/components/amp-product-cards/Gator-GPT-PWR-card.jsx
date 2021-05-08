@@ -13,7 +13,6 @@ const GatorGPTPWRCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Amps-images/Gator GPT-PWR Powered Pedal Tote Pedal Board with Carry Bag Black.jpg'} alt="amps" className="img-thumbnail" />
                     <p className="card-title">Gator GPT-PWR Powered Pedal</p>
                     <ThreeStars />
-                    <p className="review-text text-center">(5 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>
