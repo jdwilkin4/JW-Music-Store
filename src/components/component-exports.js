@@ -40,6 +40,7 @@ export { default as FenderTelecaster } from './guitar-product-pages/FenderTeleca
 export { default as GlAsatGuitarPage } from './guitar-product-pages/GLASATClassicGuitarPage';
 export { default as GuildOM240CE } from './guitar-product-pages/GuildOM240CEGuitarPage';
 export { default as RogueRd80GuitarPage } from './guitar-product-pages/RogueRD80GuitarPage';
+export { default as RocketeerGuitarPage } from './guitar-product-pages/RogueRocketeerGuitarPage';
 
 //accessories product card exports
 export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';
