@@ -30,6 +30,21 @@ export { default as Band } from './landing-pages/Band';
 export { default as Classroom } from './landing-pages/Classroom';
 export { default as Music } from './landing-pages/Music';
 
+//routing pages
+export { default as LandingPages } from '../routes/LandingPages';
+export { default as GuitarProducts } from '../routes/GuitarProducts';
+export { default as BassProducts } from '../routes/BassProducts';
+export { default as AmpProducts } from '../routes/AmpProducts';
+export { default as DrumProducts } from '../routes/DrumProducts';
+export { default as KeyboardProducts } from '../routes/KeyboardProducts';
+export { default as LiveSoundProducts } from '../routes/LiveSoundProducts';
+export { default as RecordingProducts } from '../routes/RecordingProducts';
+export { default as AccessoriesProducts } from '../routes/AccessoriesProducts';
+export { default as DJProducts } from '../routes/DJProducts';
+export { default as BandProducts } from '../routes/BandProducts';
+export { default as ClassroomProducts } from '../routes/ClassroomProducts';
+
+
 //guitar product page exports
 export { default as GuitarWarranty } from './guitar-product-pages/GuitarWarranty';
 export { default as AngelicoGuitar } from "./guitar-product-pages/DAngelicoGuitarPage";
