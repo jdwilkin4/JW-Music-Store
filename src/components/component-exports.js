@@ -28,7 +28,6 @@ export { default as Accessories } from './landing-pages/Accessories';
 export { default as DJ } from './landing-pages/DJ';
 export { default as Band } from './landing-pages/Band';
 export { default as Classroom } from './landing-pages/Classroom';
-export { default as Music } from './landing-pages/Music';
 
 //routing pages
 export { default as LandingPages } from '../routes/LandingPages';

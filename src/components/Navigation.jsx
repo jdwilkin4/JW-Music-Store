@@ -65,9 +65,6 @@ function Navigation(props) {
                                 <Link className="dropdown-item" to="/classroom">
                                     Classroom &amp; Kids
                                 </Link>
-                                <Link className="dropdown-item" to="/music">
-                                    Sheet Music
-                                </Link>
                             </div>
                         </li>
                     </ul>
