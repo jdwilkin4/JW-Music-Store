@@ -9,11 +9,13 @@ const SquierBulletCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$179.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Bullet Mustang HH Limited-Edition Electric Guitar Olympic White.jpg'} alt="guitar" className="img-thumbnail" />
+                    <Link to="/squierbulletmustang">
+                        <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Bullet Mustang HH Limited-Edition Electric Guitar Olympic White.jpg'} alt="guitar" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Squier Bullet Mustang HH</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/squierbulletmustang" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

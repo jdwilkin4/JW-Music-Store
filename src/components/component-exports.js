@@ -42,6 +42,8 @@ export { default as GuildOM240CE } from './guitar-product-pages/GuildOM240CEGuit
 export { default as RogueRd80GuitarPage } from './guitar-product-pages/RogueRD80GuitarPage';
 export { default as RocketeerGuitarPage } from './guitar-product-pages/RogueRocketeerGuitarPage';
 export { default as SquierAffinityHHGuitarPage } from './guitar-product-pages/SquierAffinityGuitarPage';
+export { default as SquierBulletMustangGuitarPage } from './guitar-product-pages/SquierBulletMustangGuitarPage';
+export { default as SquierBulletTelecasterGuitarPage } from './guitar-product-pages/SquierBulletTelecasterGuitarPage';
 
 //accessories product card exports
 export { default as DrBeatCard } from './accessories-product-cards/DrBeatCard';
