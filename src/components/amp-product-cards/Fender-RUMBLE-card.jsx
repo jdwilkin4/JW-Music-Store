@@ -9,11 +9,13 @@ const FenderRUMBLECard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$119.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/Fender RUMBLE 25 1x8 25W Bass Combo Amp.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/fenderrumble">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/Fender RUMBLE 25 1x8 25W Bass Combo Amp.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Fender RUMBLE 25 Amp</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/fenderrumble" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

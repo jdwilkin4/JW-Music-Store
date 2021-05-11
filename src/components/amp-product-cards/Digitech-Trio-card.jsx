@@ -10,12 +10,13 @@ const DigitechTrioCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$354.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/Digitech Trio+ Band Creator Plus Looper Guitar Effects Pedal.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/digitechtrio">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/Digitech Trio+ Band Creator Plus Looper Guitar Effects Pedal.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Digitech Trio+ Band Creator</p>
                     <FourStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/digitechtrio" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

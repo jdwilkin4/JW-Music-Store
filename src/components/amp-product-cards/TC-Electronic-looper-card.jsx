@@ -10,11 +10,13 @@ const TCElectronicLoopCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$98.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/TC Electronic Ditto Looper Guitar Effects Pedal.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/tcelectroniclooper">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/TC Electronic Ditto Looper Guitar Effects Pedal.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">TC Electronic Ditto Looper</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/tcelectroniclooper" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

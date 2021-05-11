@@ -9,11 +9,13 @@ const AmpegSVT4Card = () => {
             <div className="card">
                 <h2 className="card-header text-center">$1,699.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/Ampeg SVT-4 PRO Series Bass Head.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/ampegsvt4">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/Ampeg SVT-4 PRO Series Bass Head.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Ampeg SVT-4 PRO Series</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/ampegsvt4" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

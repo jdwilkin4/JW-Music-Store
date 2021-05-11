@@ -10,11 +10,13 @@ const RogueG10AmpCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$44.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/Rogue G10 10W 1x5 Guitar Combo Amp Black.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/rogueg10amp">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/Rogue G10 10W 1x5 Guitar Combo Amp Black.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Rogue G10 10W Amp</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/rogueg10amp" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

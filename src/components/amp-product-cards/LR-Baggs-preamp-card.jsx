@@ -10,12 +10,13 @@ const LRBaggsPreampCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$199.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/LR Baggs Para Acoustic Guitar DI and Preamp.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/lrbaggspreamp">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/LR Baggs Para Acoustic Guitar DI and Preamp.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">LR Baggs Para Guitar Preamp</p>
                     <FourStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/lrbaggspreamp" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

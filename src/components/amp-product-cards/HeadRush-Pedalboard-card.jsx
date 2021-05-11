@@ -10,11 +10,13 @@ const HeadRushPedalboardCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$999.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Amps-images/HeadRush Pedalboard Multi-Effects Processor.jpg'} alt="amps" className="img-thumbnail" />
+                    <Link to="/headrushpedalboard">
+                        <img src={process.env.PUBLIC_URL + '/Amps-images/HeadRush Pedalboard Multi-Effects Processor.jpg'} alt="amps" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">HeadRush Pedalboard</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/headrushpedalboard" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />
