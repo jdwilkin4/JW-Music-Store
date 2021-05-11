@@ -13,7 +13,6 @@ const RapcoMicCableCard = () => {
                     <img src={process.env.PUBLIC_URL + '/Accessories-images/Rapco RoadHOG XLR Microphone Cable 60 ft.jpg'} alt="accessories" className="img-thumbnail" />
                     <p className="card-title">Rapco RoadHOG Mic Cable 60 ft</p>
                     <ThreeStars />
-                    <p className="review-text text-center">(8 Reviews)</p>
                     <div class="col text-center">
                         <Link className="btn product-description btn-link">Details</Link>
                     </div>

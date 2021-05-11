@@ -100,3 +100,17 @@ export { default as MusiciansGearPedalCard } from './amp-product-cards/Musicians
 export { default as PedaltrainNanoPedalCard } from './amp-product-cards/Pedaltrain-Nano-Pedal-card';
 export { default as RogueG10AmpCard } from './amp-product-cards/Rogue-G10-card';
 export { default as TCElectronicLoopCard } from './amp-product-cards/TC-Electronic-looper-card';
+
+//bass product card exports
+export { default as CremonaSb3BassCard } from './bass-product-cards/Cremona-SB3-card';
+export { default as FenderFretlessBassCard } from './bass-product-cards/Fender-Tony-Franklin-Fretless-card';
+export { default as IbanezBassCard } from './bass-product-cards/Ibanez-Bass-card';
+export { default as IbanezGsrm20BassCard } from './bass-product-cards/Ibanez-GSRM20-bass-card';
+export { default as RogueLx205BassCard } from './bass-product-cards/Rogue-LX205B-bass-card';
+export { default as SchecterGuitarResearchBassCard } from './bass-product-cards/Schecter-Guitar-Research-bass-card';
+export { default as SchecterGuitarStudioBassCard } from './bass-product-cards/Schecter-Guitar-Studio-4-bass-card';
+export { default as SilverCreekBassCard } from './bass-product-cards/Silver-Creek-Rocker-Upright-bass-card';
+export { default as SterlingStingRayBassCard } from './bass-product-cards/Sterling-StingRay-bass-card';
+export { default as SterlingRay4BassCard } from './bass-product-cards/Sterling-Ray4-bass-card';
+export { default as YamahaTrbx305BassCard } from './bass-product-cards/Yamaha-TRBX305-bass-card';
+export { default as YamahaTrbx504BassCard } from './bass-product-cards/Yamaha-TRBX504-bass-card';
