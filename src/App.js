@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import { Navigation, Footer, DrumProducts, AmpProducts } from './components/component-exports';
+import { Navigation, Footer, DrumProducts, AmpProducts, HelpBot } from './components/component-exports';
 import { LandingPages, GuitarProducts, BassProducts } from './components/component-exports';
 import { KeyboardProducts, LiveSoundProducts, RecordingProducts, AccessoriesProducts } from './components/component-exports';
 import { DJProducts, BandProducts, ClassroomProducts } from './components/component-exports'
@@ -50,7 +50,7 @@ const App = () => {
         <Switch>
           <ClassroomProducts />
         </Switch>
-
+        <HelpBot />
         <Footer />
       </Router>
     </div>

@@ -38,7 +38,7 @@ const Home = () => {
                 </a>
             </div>
 
-            <h2 className="text-center sub-page-heading">Hot Products</h2>
+            <h2 className="text-center product-page-heading">Hot Products</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <StratocasterHSSCard />
@@ -115,7 +115,7 @@ const Home = () => {
 
 
 
-            <h2 className="text-center sub-page-heading">Special Deals</h2>
+            <h2 className="text-center product-page-heading">Special Deals</h2>
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
