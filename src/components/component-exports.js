@@ -115,3 +115,17 @@ export { default as SterlingStingRayBassCard } from './bass-product-cards/Sterli
 export { default as SterlingRay4BassCard } from './bass-product-cards/Sterling-Ray4-bass-card';
 export { default as YamahaTrbx305BassCard } from './bass-product-cards/Yamaha-TRBX305-bass-card';
 export { default as YamahaTrbx504BassCard } from './bass-product-cards/Yamaha-TRBX504-bass-card';
+
+//drum product card exports
+export { default as AlesisCompactKitDrumCard } from './drum-product-cards/Alesis-CompactKit-drum-card';
+export { default as AlesisCrimsonDrumCard } from './drum-product-cards/Alesis-Crimson-II-drum-card';
+export { default as BossDr01SDrumCard } from './drum-product-cards/Boss-DR-01S-drum-card';
+export { default as DwPerformanceDrumCard } from './drum-product-cards/DW-Performance-drum-card';
+export { default as KatPercussionDrumCard } from './drum-product-cards/KAT-Percussion-drum-card';
+export { default as MusicianGearDrumStickCard } from './drum-product-cards/Musicians-Gear-drum-sticks-card';
+export { default as PorkPieSnareCard } from './drum-product-cards/Pork-Pie-Exotic-Snare-card';
+export { default as Rogue5PieceDrumCard } from './drum-product-cards/Rogue-5-Piece-drum-card';
+export { default as RolandKd120DrumCard } from './drum-product-cards/Roland-KD-120-drum-card';
+export { default as SimmonsSd600DrumCard } from './drum-product-cards/Simmons-SD600-drum-card';
+export { default as TrapsDrumCard } from './drum-product-cards/Traps-Drums-card';
+export { default as YamahaStageDrumCard } from './drum-product-cards/Yamaha-Stage-drum-card';
