@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import ThreeStars from '../star-ratings/3Star';
+import FiveStars from '../star-ratings/5Star';
 import AddToCartBtn from '../product-card-templates/AddToCart';
 
 const YamahaP45WithStandCard = () => {
@@ -12,8 +12,8 @@ const YamahaP45WithStandCard = () => {
                     <Link to="/yamahap45withstand">
                         <img src={process.env.PUBLIC_URL + '/Keyboards-images/Yamaha P-45 Digital Piano With Stand and Bench.jpg'} alt="keyboard" className="img-thumbnail" />
                     </Link>
-                    <p className="card-title">Yamaha P-45 Digital Piano With Stand and Bench</p>
-                    <ThreeStars />
+                    <p className="card-title">Yamaha P-45 Piano With Stand</p>
+                    <FiveStars />
 
                     <div class="col text-center">
                         <Link to="/yamahap45withstand" className="btn product-description btn-link">Details</Link>
