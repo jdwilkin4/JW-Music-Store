@@ -129,3 +129,17 @@ export { default as RolandKd120DrumCard } from './drum-product-cards/Roland-KD-1
 export { default as SimmonsSd600DrumCard } from './drum-product-cards/Simmons-SD600-drum-card';
 export { default as TrapsDrumCard } from './drum-product-cards/Traps-Drums-card';
 export { default as YamahaStageDrumCard } from './drum-product-cards/Yamaha-Stage-drum-card';
+
+//keyboard product card exports
+export { default as KorgB2spKeyboardCard } from './keyboards-product-cards/Korg-B2SP-keyboard-card';
+export { default as NordStageKeyboardCard } from './keyboards-product-cards/Nord-Stage-keyboard-card';
+export { default as RolandDp603KeyboardCard } from './keyboards-product-cards/Roland-DP603-keyboard-card';
+export { default as SuzukiCtpKeyboardCard } from './keyboards-product-cards/Suzuki-CTP-88-keyboard-card';
+export { default as SuzukiMdg330KeyboardCard } from './keyboards-product-cards/Suzuki-MDG-330-keyboard-card';
+export { default as WilliamsOvertureKeyboardCard } from './keyboards-product-cards/Williams-Overture-keyboard-card';
+export { default as WilliamsSymphonyKeyboardCard } from './keyboards-product-cards/Williams-Symphony-keyboard-card';
+export { default as YamahaAriusKeyboardCard } from './keyboards-product-cards/Yamaha-Arius-keyboard-card';
+export { default as YamahaClavinovaKeyboardCard } from './keyboards-product-cards/Yamaha-Clavinova-keyboard-card'
+export { default as YamahaCp73KeyboardCard } from './keyboards-product-cards/Yamaha-CP73-keyboard-card';
+export { default as YamahaP45KeyboardCard } from './keyboards-product-cards/Yamaha-P-45-keyboard-card';
+export { default as YamahaP45WithStandCard } from './keyboards-product-cards/Yamaha-P-45-with-stand-keyboard-card';
