@@ -143,3 +143,17 @@ export { default as YamahaClavinovaKeyboardCard } from './keyboards-product-card
 export { default as YamahaCp73KeyboardCard } from './keyboards-product-cards/Yamaha-CP73-keyboard-card';
 export { default as YamahaP45KeyboardCard } from './keyboards-product-cards/Yamaha-P-45-keyboard-card';
 export { default as YamahaP45WithStandCard } from './keyboards-product-cards/Yamaha-P-45-with-stand-keyboard-card';
+
+//Live sound product cards
+export { default as Behringer5ChannelCard } from './live-sound-product-cards/Behringer-5-channel-product-cards';
+export { default as Drdk4PieceDrumMicKitCard } from './live-sound-product-cards/DRDK4-4-piece-drum-mic-kit-product-card';
+export { default as Drv200VocalMicCard } from './live-sound-product-cards/DRV200-voca-mic-product-card';
+export { default as HarbingerChannelMixerCard } from './live-sound-product-cards/Harbinger-channel-mixer-product-card';
+export { default as HarbingerVariCard } from './live-sound-product-cards/Harbinger-Vari-product-card';
+export { default as KustomPaCard } from './live-sound-product-cards/Kustom-Pa-product-card';
+export { default as LivewireCableTesterCard } from './live-sound-product-cards/Livewire-Cable-Tester-product-card';
+export { default as MusicianGearClipCard } from './live-sound-product-cards/Musician-Gear-Clip-Type-product-card';
+export { default as Mxl990MicCard } from './live-sound-product-cards/MXL-990-Microphone-product-card';
+export { default as ShureDynamicMicCard } from './live-sound-product-cards/Shure-Dynamic-Microphone-product-card';
+export { default as SterlingMeshPopFilterCard } from './live-sound-product-cards/Sterling-Mesh-Pop-Filter-product-card';
+export { default as TascamVocalProcessorCard } from './live-sound-product-cards/Tascam-TA-1VP-Vocal-Processor-product-card';
