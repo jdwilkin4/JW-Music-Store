@@ -157,3 +157,11 @@ export { default as Mxl990MicCard } from './live-sound-product-cards/MXL-990-Mic
 export { default as ShureDynamicMicCard } from './live-sound-product-cards/Shure-Dynamic-Microphone-product-card';
 export { default as SterlingMeshPopFilterCard } from './live-sound-product-cards/Sterling-Mesh-Pop-Filter-product-card';
 export { default as TascamVocalProcessorCard } from './live-sound-product-cards/Tascam-TA-1VP-Vocal-Processor-product-card';
+
+//recording product cards
+export { default as FocusriteScarlettCard } from './recording-product-cards/Focusrite-Scarlett-product-card';
+export { default as FocusriteScarlettPackCard } from './recording-product-cards/Focusrite-Scarlett-pack-product-card';
+export { default as Line6PodStudioCard } from './recording-product-cards/Line-6-POD-Studio-product-card';
+export { default as PresonusAudioBox96Card } from './recording-product-cards/Presonus-AudioBox-96-product-card';
+export { default as RodeCompletePodcasterCard } from './recording-product-cards/Rode-Complete-Podcaster-product-card';
+
