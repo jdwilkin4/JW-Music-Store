@@ -164,4 +164,11 @@ export { default as FocusriteScarlettPackCard } from './recording-product-cards/
 export { default as Line6PodStudioCard } from './recording-product-cards/Line-6-POD-Studio-product-card';
 export { default as PresonusAudioBox96Card } from './recording-product-cards/Presonus-AudioBox-96-product-card';
 export { default as RodeCompletePodcasterCard } from './recording-product-cards/Rode-Complete-Podcaster-product-card';
+export { default as RodeStudioCard } from './recording-product-cards/Rode-Studio-product-card';
+export { default as SeElectronicsX1sStudioCard } from './recording-product-cards/sE-Electronics-X1S-Studio-product-card';
+export { default as SeElectronicsX1sVocalCard } from './recording-product-cards/sE-Electronics-X1S-Vocal-product-card';
+export { default as IconQconExG2Card } from './recording-product-cards/Icon-Qcon-EX-G2-product-card';
+export { default as ShureChooseMicCard } from './recording-product-cards/Shure-Choose-mic-product-card';
+export { default as UniversalAudioApolloCard } from './recording-product-cards/Universal-Audio-Apollo-product-card';
+export { default as ZoomHandyVideoRecorderCard } from './recording-product-cards/Zoom-handy-video-recorder-product-card';
 
