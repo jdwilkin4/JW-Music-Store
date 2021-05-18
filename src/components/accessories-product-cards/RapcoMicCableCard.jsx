@@ -10,11 +10,13 @@ const RapcoMicCableCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$59.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Rapco RoadHOG XLR Microphone Cable 60 ft.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/rapcoroadhogmiccable">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Rapco RoadHOG XLR Microphone Cable 60 ft.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Rapco RoadHOG Mic Cable 60 ft</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/rapcoroadhogmiccable" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

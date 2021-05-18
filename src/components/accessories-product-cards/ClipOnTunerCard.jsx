@@ -10,12 +10,13 @@ const ClipOnTunerCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$26.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/snarksupersnarktuner">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Snark Super Snark 2 Clip-On Tuner</p>
                     <FiveStars />
-                    <p className="review-text text-center">(4 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

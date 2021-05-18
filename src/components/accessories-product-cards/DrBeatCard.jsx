@@ -11,11 +11,13 @@ const DrBeatCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$153.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/bossdb90drbeat">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/bossdb90drbeat" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

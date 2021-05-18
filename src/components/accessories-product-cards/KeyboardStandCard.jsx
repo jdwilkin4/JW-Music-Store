@@ -10,12 +10,13 @@ const KeyboardStandCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$29.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear KBX2 Double-Braced Keyboard Stand Black.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/musiciangearkeyboardstand">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear KBX2 Double-Braced Keyboard Stand Black.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Musician's Gear Keyboard Stand</p>
                     <FourStars />
-                    <p className="review-text text-center">(2 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/musiciangearkeyboardstand" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

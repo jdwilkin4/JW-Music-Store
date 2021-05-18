@@ -10,12 +10,13 @@ const DJStandCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$59.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/DR-Pro-DJ-Laptop-Stand.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/drprodjstand">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/DR-Pro-DJ-Laptop-Stand.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">DR-Pro-DJ-Laptop-Stand</p>
                     <FourStars />
-                    <p className="review-text text-center">(5 Reviews)</p>
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/drprodjstand" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

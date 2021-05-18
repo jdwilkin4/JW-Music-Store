@@ -10,11 +10,13 @@ const BraidedCableCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$6.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Braided Instrument Cable Green 1 ft.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/musiciansgearbraidedcable">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Musicians Gear Braided Instrument Cable Green 1 ft.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Musicians Gear Braided Cable</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/musiciansgearbraidedcable" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

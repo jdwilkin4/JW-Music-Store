@@ -10,11 +10,13 @@ const ElixerGuitarStringsCard = () => {
             <div className="card">
                 <h2 className="card-header text-center">$11.99</h2>
                 <div className="card-body">
-                    <img src={process.env.PUBLIC_URL + '/Accessories-images/Elixer-Electric-Guitar-Strings.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/elixerguitarstrings">
+                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Elixer-Electric-Guitar-Strings.jpg'} alt="accessories" className="img-thumbnail" />
+                    </Link>
                     <p className="card-title">Elixer Electric Guitar Strings</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link">Details</Link>
+                        <Link to="/elixerguitarstrings" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />
