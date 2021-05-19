@@ -9,7 +9,7 @@ const DrBeatCard = () => {
 
         <div className="col">
             <div className="card">
-                <h2 className="card-header text-center">$153.99</h2>
+                <h2 className="card-header text-center">$130.89</h2>
                 <div className="card-body">
                     <Link to="/bossdb90drbeat">
                         <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
