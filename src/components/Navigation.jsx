@@ -59,9 +59,7 @@ function Navigation(props) {
                                 <Link className="dropdown-item" to="/DJ">
                                     DJ Gear
                                 </Link>
-                                <Link className="dropdown-item" to="/band">
-                                    Band &amp; Orchestra
-                                </Link>
+
                                 <Link className="dropdown-item" to="/classroom">
                                     Classroom &amp; Kids
                                 </Link>
