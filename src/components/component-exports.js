@@ -14,7 +14,12 @@ export { default as FreeShipping } from './FreeShipping';
 export { default as AddReview } from './AddReviewForm';
 export { default as ReviewerList } from './ReviewerList';
 export { default as UpdateReviewForm } from './UpdateReviewForm';
-export { default as HelpBot } from './HelpBot';
+
+//helpbot files
+export { default as HelpBot } from './helpbot/HelpBot';
+export { default as Config } from './helpbot/config';
+export { default as theme } from './helpbot/theme';
+export { default as steps } from './helpbot/steps';
 
 //landing pages
 export { default as Home } from "./Home";
