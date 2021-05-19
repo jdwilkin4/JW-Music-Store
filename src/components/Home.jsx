@@ -1,7 +1,6 @@
 import React from 'react';
-import FiveStars from './star-ratings/5Star';
 import { Link, withRouter } from "react-router-dom";
-import { StratocasterHSSCard } from './component-exports';
+import { BossDr01SDrumCard, FocusriteScarlettPackCard, StratocasterHSSCard, WilliamsSymphonyKeyboardCard } from './component-exports';
 
 
 const Home = () => {
@@ -17,9 +16,6 @@ const Home = () => {
                     </div>
                     <div className="carousel-item">
                         <img src={process.env.PUBLIC_URL + '/home-keyboard.jpeg'} className="d-block  img-fluid home-img" alt="Piano keyboard" />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={process.env.PUBLIC_URL + '/home-strings.jpeg'} className="d-block  img-fluid home-img" alt="Strings" />
                     </div>
                     <div className="carousel-item">
                         <img src={process.env.PUBLIC_URL + '/home-dj-gear.jpeg'} className="d-block  img-fluid home-img" alt="Dj gear" />
@@ -42,66 +38,18 @@ const Home = () => {
             <div className="product-div">
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <StratocasterHSSCard />
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$229.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Recording-images/Focusrite Scarlett Solo Studio Pack (Gen 3).jpg'} alt="recording" className="img-thumbnail" />
-                                <p className="card-title">Focusrite Scarlett Solo Studio Pack</p>
-                                <FiveStars />
-
-                                <div className="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div className="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$236.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Drums-images/Boss DR-01S Rhythm Partner Drum Machine.jpg'} alt="drums" className="img-thumbnail" />
-                                <p className="card-title">Boss DR-01S Rhythm Partner</p>
-                                <FiveStars />
-
-                                <div className="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div className="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <h2 className="card-header text-center">$1,799.99</h2>
-                            <div className="card-body">
-                                <img src={process.env.PUBLIC_URL + '/Keyboards-images/Williams Symphony Grand Digital Piano with Bench Mahogany Red.jpg'} alt="keyboard" className="img-thumbnail" />
-                                <p className="card-title">Williams Grand Digital Piano</p>
-                                <FiveStars />
-
-                                <div className="col text-center">
-                                    <Link className="btn product-description btn-link">Details</Link>
-                                </div>
-                                <div className="col text-center">
-                                    <button className="btn btn-primary">Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <FocusriteScarlettPackCard />
+                    <BossDr01SDrumCard />
+                    <WilliamsSymphonyKeyboardCard />
                 </div>
             </div>
 
             <div className="product-div">
                 <div className="row">
                     <div className="card home-card">
-                        <img src={process.env.PUBLIC_URL + '/classroom-images/Nino 4-Piece Egg Shaker Assortment.jpg'} alt="classNameroom" className="card-img-top" />
+                        <img src={process.env.PUBLIC_URL + '/Drums-images/Rogue 5-Piece Complete Drum Set Black.jpg'} alt="classNameroom" className="card-img-top" />
                         <div className="card-body">
-                            <Link to="/classroom" className="card-text btn product-description btn-link">Explore our classroom instruments</Link>
+                            <Link to="/drums" className="card-text btn product-description btn-link">Check out our Drums</Link>
                         </div>
                     </div>
                     <div className="card home-card">
@@ -120,44 +68,52 @@ const Home = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="card-img-top" />
+                            <Link to="/mxl990mic">
+                                <img src={process.env.PUBLIC_URL + '/Live-images/MXL 990 Condenser Microphone With Shockmount.jpg'} alt="live sound" className="card-img-top" />
+                            </Link>
                             <div className="card-body">
                                 <p className="card-text"><s>$99.99</s> $74.99</p>
                                 <p className="card-text discount-text">25% off</p>
-                                <Link className="btn product-description btn-link">Details</Link>
+                                <Link to="/mxl990mic" className="btn product-description btn-link">Details</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/DJ-images/Denon DJ SC5000 Prime Professional Media Player.jpg'} alt="dj" className="card-img-top" />
+                            <Link to="/denondjsc5000">
+                                <img src={process.env.PUBLIC_URL + '/DJ-images/Denon DJ SC5000 Prime Professional Media Player.jpg'} alt="dj" className="card-img-top" />
+                            </Link>
                             <div className="card-body">
                                 <p className="card-text"><s>$749.99</s> $674.99</p>
                                 <p className="card-text discount-text">10% off</p>
-                                <Link className="btn product-description btn-link">Details</Link>
+                                <Link to="/denondjsc5000" className="btn product-description btn-link">Details</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="card-img-top" />
+                            <Link to="/snarksupersnarktuner">
+                                <img src={process.env.PUBLIC_URL + '/Accessories-images/Snark Super Snark 2 Clip-On Tuner Black.jpg'} alt="accessories" className="card-img-top" />
+                            </Link>
                             <div className="card-body">
                                 <p className="card-text"><s>$29.99</s> $26.99</p>
                                 <p className="card-text discount-text">10% off</p>
-                                <Link className="btn product-description btn-link">Details</Link>
+                                <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Details</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Classroom-images/Suzuki Alto Xylophone.jpg'} alt="classNameroom" className="card-img-top" />
+                            <Link to="/bossdb90drbeat">
+                                <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="card-img-top" />
+                            </Link>
                             <div className="card-body">
-                                <p className="card-text"><s>$419.99</s> $356.99</p>
+                                <p className="card-text"><s>$153.99</s> $130.89</p>
                                 <p className="card-text discount-text">15% off</p>
-                                <Link className="btn product-description btn-link">Details</Link>
+                                <Link to="/bossdb90drbeat" className="btn product-description btn-link">Details</Link>
                             </div>
                         </div>
                     </div>

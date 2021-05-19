@@ -38,32 +38,23 @@ function Navigation(props) {
                                 Keyboards
                             </Link>
                         </li>
-                        <li className={`nav-item  ${props.location.pathname === "/live" ? "active" : ""}`} >
-                            <Link className="nav-link" to="/live">
-                                Live Sound
-                            </Link>
-                        </li>
-                        <li className={`nav-item  ${props.location.pathname === "/recording" ? "active" : ""}`} >
-                            <Link className="nav-link" to="/recording">
-                                Recording
-                            </Link>
-                        </li>
+
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 More
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <Link className="dropdown-item" to="/recording">
+                                    Recording
+                                </Link>
+                                <Link className="dropdown-item" to="/live">
+                                    Live Sound
+                                </Link>
                                 <Link className="dropdown-item" to="/accessories">
                                     Accessories
                                 </Link>
                                 <Link className="dropdown-item" to="/DJ">
                                     DJ Gear
-                                </Link>
-                                <Link className="dropdown-item" to="/band">
-                                    Band &amp; Orchestra
-                                </Link>
-                                <Link className="dropdown-item" to="/classroom">
-                                    Classroom &amp; Kids
                                 </Link>
                             </div>
                         </li>

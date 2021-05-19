@@ -27,8 +27,6 @@ export { default as LiveSound } from './landing-pages/LiveSound';
 export { default as Recording } from './landing-pages/Recording';
 export { default as Accessories } from './landing-pages/Accessories';
 export { default as DJ } from './landing-pages/DJ';
-export { default as Band } from './landing-pages/Band';
-export { default as Classroom } from './landing-pages/Classroom';
 
 //routing pages
 export { default as LandingPages } from '../routes/LandingPages';
@@ -41,8 +39,6 @@ export { default as LiveSoundProducts } from '../routes/LiveSoundProducts';
 export { default as RecordingProducts } from '../routes/RecordingProducts';
 export { default as AccessoriesProducts } from '../routes/AccessoriesProducts';
 export { default as DJProducts } from '../routes/DJProducts';
-export { default as BandProducts } from '../routes/BandProducts';
-export { default as ClassroomProducts } from '../routes/ClassroomProducts';
 
 
 //guitar product page exports
@@ -172,3 +168,16 @@ export { default as ShureChooseMicCard } from './recording-product-cards/Shure-C
 export { default as UniversalAudioApolloCard } from './recording-product-cards/Universal-Audio-Apollo-product-card';
 export { default as ZoomHandyVideoRecorderCard } from './recording-product-cards/Zoom-handy-video-recorder-product-card';
 
+//dj product cards
+export { default as ArtDjPreampCard } from './dj-product-cards/Art-DJ-Preamp-product-card';
+export { default as ArtUsbPhonoCard } from './dj-product-cards/Art-USB-Phono-product-card';
+export { default as BbeFjb200XCard } from './dj-product-cards/BBE-FJB-200X-product-card';
+export { default as DenonDjSc5000Card } from './dj-product-cards/Denon-DJ-SC5000-product-card';
+export { default as DenonDjX1800Card } from './dj-product-cards/Denon-DJ-X1800-product-card';
+export { default as GeminiCdmp1500PlayerCard } from './dj-product-cards/Gemini-CDMP-1500-Player-product-card';
+export { default as NumarkNv2DjCard } from './dj-product-cards/Numark-NVII-DJ-Controller-product-card';
+export { default as NumarkPartyControllerCard } from './dj-product-cards/Numark-Party-Controller-product-card';
+export { default as NumarkScratchDjMixerCard } from './dj-product-cards/Numark-Scratch-DJ-Mixer-product-card';
+export { default as Pioneer4ChannelMixerCard } from "./dj-product-cards/Pioneer-4-Channel-Mixer-product-card";
+export { default as PioneerPlx1000Card } from './dj-product-cards/Pioneer-PLX-1000-Turntable-product-card';
+export { default as RolandDj202SeratoControllerCard } from './dj-product-cards/Roland-DJ-202-Serato-Controller-product-card';

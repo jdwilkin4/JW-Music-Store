@@ -3,21 +3,19 @@ import { Link, withRouter } from "react-router-dom";
 import AddToCartBtn from '../product-card-templates/AddToCart';
 import ThreeStars from '../star-ratings/3Star';
 
-
-const DrBeatCard = () => {
+const GeminiCdmp1500PlayerCard = () => {
     return (
-
         <div className="col">
             <div className="card">
-                <h2 className="card-header text-center">$130.89</h2>
+                <h2 className="card-header text-center">$249.95</h2>
                 <div className="card-body">
-                    <Link to="/bossdb90drbeat">
-                        <img src={process.env.PUBLIC_URL + '/Accessories-images/Boss DB-90 Dr. Beat Metronome.jpg'} alt="accessories" className="img-thumbnail" />
+                    <Link to="/geminicdmp1500player">
+                        <img src={process.env.PUBLIC_URL + '/DJ-images/Gemini CDMP 1500 Single 1U CD MP3 USB Player.jpg'} alt="dj" className="img-thumbnail" />
                     </Link>
-                    <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
+                    <p className="card-title">Gemini CDMP 1500 Player</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/bossdb90drbeat" className="btn product-description btn-link">Details</Link>
+                        <Link to="/geminicdmp1500player" className="btn product-description btn-link">Details</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />
@@ -25,8 +23,6 @@ const DrBeatCard = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
-export default withRouter(DrBeatCard);
+export default withRouter(GeminiCdmp1500PlayerCard)

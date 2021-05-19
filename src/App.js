@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Navigation, Footer, DrumProducts, AmpProducts, HelpBot } from './components/component-exports';
 import { LandingPages, GuitarProducts, BassProducts } from './components/component-exports';
 import { KeyboardProducts, LiveSoundProducts, RecordingProducts, AccessoriesProducts } from './components/component-exports';
-import { DJProducts, BandProducts, ClassroomProducts } from './components/component-exports'
+import { DJProducts } from './components/component-exports'
 import './custom-css.css';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -43,12 +43,6 @@ const App = () => {
         </Switch>
         <Switch>
           <DJProducts />
-        </Switch>
-        <Switch>
-          <BandProducts />
-        </Switch>
-        <Switch>
-          <ClassroomProducts />
         </Switch>
         <HelpBot />
         <Footer />
