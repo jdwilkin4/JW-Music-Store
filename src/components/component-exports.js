@@ -27,7 +27,6 @@ export { default as LiveSound } from './landing-pages/LiveSound';
 export { default as Recording } from './landing-pages/Recording';
 export { default as Accessories } from './landing-pages/Accessories';
 export { default as DJ } from './landing-pages/DJ';
-export { default as Classroom } from './landing-pages/Classroom';
 
 //routing pages
 export { default as LandingPages } from '../routes/LandingPages';
@@ -40,7 +39,6 @@ export { default as LiveSoundProducts } from '../routes/LiveSoundProducts';
 export { default as RecordingProducts } from '../routes/RecordingProducts';
 export { default as AccessoriesProducts } from '../routes/AccessoriesProducts';
 export { default as DJProducts } from '../routes/DJProducts';
-export { default as ClassroomProducts } from '../routes/ClassroomProducts';
 
 
 //guitar product page exports
