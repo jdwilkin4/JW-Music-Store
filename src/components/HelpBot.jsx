@@ -19,8 +19,9 @@ const HelpBot = () => {
     });
 
     const config = {
+        botAvatar: "/color-music-note.jpg",
         width: "300px",
-        height: "300px",
+        height: "400px",
         floating: true,
         headerTitle: 'JW Music Store Chat'
     };
@@ -40,13 +41,13 @@ const HelpBot = () => {
     const steps = [
         {
             id: '1',
-            message: 'Welcome to JW Music Store!',
+            message: 'My name is JW Bot',
             trigger: '2',
         },
         {
             id: '2',
-            delay: 1000,
-            message: 'My name is JW Bot. How may I help you today?',
+            delay: 1500,
+            message: ' How may I help you today?',
             end: true
         }
     ];
