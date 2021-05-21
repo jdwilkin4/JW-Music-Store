@@ -1,4 +1,4 @@
-import StratocasterHSSCard from '../guitar-product-cards/Stratocaster-HSS-card'
+import HSSHelpbotCard from './HSS-chatbot-card';
 
 const steps = [
     {
@@ -42,9 +42,18 @@ const steps = [
     },
     {
         id: '7',
-        component: (<StratocasterHSSCard />),
-        asMessage: true,
-
+        component: (<HSSHelpbotCard />),
+        asMessage: false,
+        trigger: '8'
+    },
+    {
+        id: '8',
+        message: 'What else would you like to do?',
+        trigger: '9'
+    },
+    {
+        id: '9',
+        user: true
     }
 
 

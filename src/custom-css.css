@@ -54,7 +54,12 @@ nav, footer {
     margin-bottom: 20px;
 }
 
-
+.card-recommendation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
 
 .review-container {
     text-align: center;
