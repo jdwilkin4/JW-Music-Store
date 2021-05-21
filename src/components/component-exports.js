@@ -118,6 +118,7 @@ export { default as YamahaTrbx504BassCard } from './bass-product-cards/Yamaha-TR
 export { default as CremonaSb3BassPage } from './bass-product-pages/Cremona-SB-3-bass-page';
 export { default as FenderTonyFranklinBassPage } from './bass-product-pages/Fender-Tony-Franklin-Fretless-bass-page';
 export { default as IbanezSRH505BassPage } from './bass-product-pages/Ibanez-Bass-SRH505F-bass-page';
+export { default as IbanezGsrm20BassPage } from './bass-product-pages/Ibanez-GSRM20-bass-page';
 
 
 
