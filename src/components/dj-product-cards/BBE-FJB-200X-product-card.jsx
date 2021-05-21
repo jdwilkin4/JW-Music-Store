@@ -15,7 +15,7 @@ const BbeFjb200XCard = () => {
                     <p className="card-title">BBE FJB-200X Phono Preamp</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/bbefjm200xpreamp" className="btn product-description btn-link">Details</Link>
+                        <Link to="/bbefjm200xpreamp" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

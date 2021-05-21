@@ -16,7 +16,7 @@ const RogueRd80Card = () => {
                     <p className="card-title">Rogue RD80 Dreadnought</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/roguerd80" className="btn product-description btn-link">Details</Link>
+                        <Link to="/roguerd80" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

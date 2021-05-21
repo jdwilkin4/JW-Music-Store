@@ -16,7 +16,7 @@ const LivewireCableTesterCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/livewirecabletester" className="btn product-description btn-link">Details</Link>
+                        <Link to="/livewirecabletester" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

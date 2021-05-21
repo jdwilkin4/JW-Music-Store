@@ -16,7 +16,7 @@ const DeluxeCaseCard = () => {
                     <p className="card-title">Musician's Gear Deluxe Case</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/musiciansgeardeluxcase" className="btn product-description btn-link">Details</Link>
+                        <Link to="/musiciansgeardeluxcase" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

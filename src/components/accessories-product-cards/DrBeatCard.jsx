@@ -17,7 +17,7 @@ const DrBeatCard = () => {
                     <p className="card-title">Boss DB-90 Dr. Beat Metronome</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/bossdb90drbeat" className="btn product-description btn-link">Details</Link>
+                        <Link to="/bossdb90drbeat" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

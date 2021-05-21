@@ -15,7 +15,7 @@ const RolandDj202SeratoControllerCard = () => {
                     <p className="card-title">Roland DJ-202 Serato Controller</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/rolanddj202" className="btn product-description btn-link">Details</Link>
+                        <Link to="/rolanddj202" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

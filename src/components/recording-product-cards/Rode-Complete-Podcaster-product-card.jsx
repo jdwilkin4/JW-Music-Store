@@ -16,7 +16,7 @@ const RodeCompletePodcasterCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/rodcompletepodcaster" className="btn product-description btn-link">Details</Link>
+                        <Link to="/rodcompletepodcaster" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

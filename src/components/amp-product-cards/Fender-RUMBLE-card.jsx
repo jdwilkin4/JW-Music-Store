@@ -15,7 +15,7 @@ const FenderRUMBLECard = () => {
                     <p className="card-title">Fender RUMBLE 25 Amp</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/fenderrumble" className="btn product-description btn-link">Details</Link>
+                        <Link to="/fenderrumble" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

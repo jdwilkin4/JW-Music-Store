@@ -16,7 +16,7 @@ const UniversalAudioApolloCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/universalaudio" className="btn product-description btn-link">Details</Link>
+                        <Link to="/universalaudio" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

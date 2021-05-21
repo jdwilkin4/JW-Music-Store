@@ -15,7 +15,7 @@ const RoadRunnerBagCard = () => {
                     <p className="card-title">Road Runner Drum Bag Set</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/roadrunnerdrumbag" className="btn product-description btn-link">Details</Link>
+                        <Link to="/roadrunnerdrumbag" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

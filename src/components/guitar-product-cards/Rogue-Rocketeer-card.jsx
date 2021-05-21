@@ -15,7 +15,7 @@ const RogueRocketeerCard = () => {
                     <p className="card-title">Rogue Rocketeer Guitar Pack </p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/rocketeer" className="btn product-description btn-link">Details</Link>
+                        <Link to="/rocketeer" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

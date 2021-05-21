@@ -15,7 +15,7 @@ const SquierBulletCard = () => {
                     <p className="card-title">Squier Bullet Mustang HH</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/squierbulletmustang" className="btn product-description btn-link">Details</Link>
+                        <Link to="/squierbulletmustang" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

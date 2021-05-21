@@ -16,7 +16,7 @@ const GatorGPTPWRCard = () => {
                     <p className="card-title">Gator GPT-PWR Powered Pedal</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/gatorgptpwr" className="btn product-description btn-link">Details</Link>
+                        <Link to="/gatorgptpwr" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

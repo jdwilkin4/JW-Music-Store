@@ -16,7 +16,7 @@ const TCElectronicLoopCard = () => {
                     <p className="card-title">TC Electronic Ditto Looper</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/tcelectroniclooper" className="btn product-description btn-link">Details</Link>
+                        <Link to="/tcelectroniclooper" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

@@ -15,7 +15,7 @@ const NumarkScratchDjMixerCard = () => {
                     <p className="card-title">Numark Scratch DJ Mixer</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/numarkscratchdjmixer" className="btn product-description btn-link">Details</Link>
+                        <Link to="/numarkscratchdjmixer" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

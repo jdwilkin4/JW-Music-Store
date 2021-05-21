@@ -15,7 +15,7 @@ const Pioneer4ChannelMixerCard = () => {
                     <p className="card-title">Pioneer 4-Channel Mixer</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/pioneer4channelmixer" className="btn product-description btn-link">Details</Link>
+                        <Link to="/pioneer4channelmixer" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

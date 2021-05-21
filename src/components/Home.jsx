@@ -74,7 +74,7 @@ const Home = () => {
                             <div className="card-body">
                                 <p className="card-text"><s>$99.99</s> $74.99</p>
                                 <p className="card-text discount-text">25% off</p>
-                                <Link to="/mxl990mic" className="btn product-description btn-link">Details</Link>
+                                <Link to="/mxl990mic" className="btn product-description btn-link">Product info</Link>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ const Home = () => {
                             <div className="card-body">
                                 <p className="card-text"><s>$749.99</s> $674.99</p>
                                 <p className="card-text discount-text">10% off</p>
-                                <Link to="/denondjsc5000" className="btn product-description btn-link">Details</Link>
+                                <Link to="/denondjsc5000" className="btn product-description btn-link">Product info</Link>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const Home = () => {
                             <div className="card-body">
                                 <p className="card-text"><s>$29.99</s> $26.99</p>
                                 <p className="card-text discount-text">10% off</p>
-                                <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Details</Link>
+                                <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Product info</Link>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const Home = () => {
                             <div className="card-body">
                                 <p className="card-text"><s>$153.99</s> $130.89</p>
                                 <p className="card-text discount-text">15% off</p>
-                                <Link to="/bossdb90drbeat" className="btn product-description btn-link">Details</Link>
+                                <Link to="/bossdb90drbeat" className="btn product-description btn-link">Product info</Link>
                             </div>
                         </div>
                     </div>

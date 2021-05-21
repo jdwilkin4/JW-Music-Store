@@ -15,7 +15,7 @@ const ArtDjPreampCard = () => {
                     <p className="card-title">Art DJ Pre II Phono Preamp</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/artdjpreamp" className="btn product-description btn-link">Details</Link>
+                        <Link to="/artdjpreamp" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

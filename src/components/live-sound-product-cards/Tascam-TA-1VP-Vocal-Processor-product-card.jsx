@@ -16,7 +16,7 @@ const TascamVocalProcessorCard = () => {
                     <ThreeStars />
 
                     <div class="col text-center">
-                        <Link to="/tascamta1vp" className="btn product-description btn-link">Details</Link>
+                        <Link to="/tascamta1vp" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

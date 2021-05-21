@@ -15,7 +15,7 @@ const GLLimitedCard = () => {
                     <p className="card-title">G&amp;L Limited ASAT Classic</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/glasatguitar" className="btn product-description btn-link">Details</Link>
+                        <Link to="/glasatguitar" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

@@ -15,7 +15,7 @@ const GuildOM240CECard = () => {
                     <p className="card-title">Guild OM-240CE Acoustic-Electric</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/GuildOM240CE" className="btn product-description btn-link">Details</Link>
+                        <Link to="/GuildOM240CE" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

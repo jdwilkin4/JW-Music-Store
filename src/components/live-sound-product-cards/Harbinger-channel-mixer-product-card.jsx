@@ -16,7 +16,7 @@ const HarbingerChannelMixerCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/harbinger14mixer" className="btn product-description btn-link">Details</Link>
+                        <Link to="/harbinger14mixer" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

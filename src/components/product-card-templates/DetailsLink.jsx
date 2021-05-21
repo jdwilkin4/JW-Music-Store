@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 
-const Details = () => <Link className="btn product-description btn-link">Details</Link>
+const Product info = () => <Link className="btn product-description btn-link">Product info</Link>
 
 
-export default withRouter(Details)
+export default withRouter(Product info)

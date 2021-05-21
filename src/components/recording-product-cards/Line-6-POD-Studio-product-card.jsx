@@ -16,7 +16,7 @@ const Line6PodStudioCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/line6podstudio" className="btn product-description btn-link">Details</Link>
+                        <Link to="/line6podstudio" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

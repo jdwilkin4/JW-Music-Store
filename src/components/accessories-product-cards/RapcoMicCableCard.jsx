@@ -16,7 +16,7 @@ const RapcoMicCableCard = () => {
                     <p className="card-title">Rapco RoadHOG Mic Cable 60 ft</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/rapcoroadhogmiccable" className="btn product-description btn-link">Details</Link>
+                        <Link to="/rapcoroadhogmiccable" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

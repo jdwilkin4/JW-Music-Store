@@ -16,7 +16,7 @@ const Drv200VocalMicCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/drv200leadvocalmic" className="btn product-description btn-link">Details</Link>
+                        <Link to="/drv200leadvocalmic" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

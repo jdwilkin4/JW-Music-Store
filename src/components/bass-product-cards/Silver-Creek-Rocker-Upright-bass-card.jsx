@@ -16,7 +16,7 @@ const SilverCreekBassCard = () => {
                     <ThreeStars />
 
                     <div class="col text-center">
-                        <Link to="/silverrockerbass" className="btn product-description btn-link">Details</Link>
+                        <Link to="/silverrockerbass" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

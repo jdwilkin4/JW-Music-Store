@@ -16,7 +16,7 @@ const ClipOnTunerCard = () => {
                     <p className="card-title">Snark Super Snark 2 Clip-On Tuner</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Details</Link>
+                        <Link to="/snarksupersnarktuner" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

@@ -15,7 +15,7 @@ const LRBaggsVenueCard = () => {
                     <p className="card-title">LR Baggs Venue DI Preamp</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/lrbaggsvenue" className="btn product-description btn-link">Details</Link>
+                        <Link to="/lrbaggsvenue" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

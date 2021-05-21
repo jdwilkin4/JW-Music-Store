@@ -15,7 +15,7 @@ const NumarkPartyControllerCard = () => {
                     <p className="card-title">Numark Party Controller</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/numarkpartycontroller" className="btn product-description btn-link">Details</Link>
+                        <Link to="/numarkpartycontroller" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

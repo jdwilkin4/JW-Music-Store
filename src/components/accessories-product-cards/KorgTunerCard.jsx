@@ -16,7 +16,7 @@ const KorgTunerCard = () => {
                     <p className="card-title">Korg TM-60 Tuner Metronome White</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/korgtm60tuner" className="btn product-description btn-link">Details</Link>
+                        <Link to="/korgtm60tuner" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

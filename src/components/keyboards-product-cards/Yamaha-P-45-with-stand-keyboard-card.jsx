@@ -16,7 +16,7 @@ const YamahaP45WithStandCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/yamahap45withstand" className="btn product-description btn-link">Details</Link>
+                        <Link to="/yamahap45withstand" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

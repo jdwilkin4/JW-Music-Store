@@ -16,7 +16,7 @@ const RogueLx205BassCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/roguelx205bass" className="btn product-description btn-link">Details</Link>
+                        <Link to="/roguelx205bass" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

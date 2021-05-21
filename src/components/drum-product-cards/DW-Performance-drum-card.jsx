@@ -16,7 +16,7 @@ const DwPerformanceDrumCard = () => {
                     <ThreeStars />
 
                     <div class="col text-center">
-                        <Link to="/dwperformance" className="btn product-description btn-link">Details</Link>
+                        <Link to="/dwperformance" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

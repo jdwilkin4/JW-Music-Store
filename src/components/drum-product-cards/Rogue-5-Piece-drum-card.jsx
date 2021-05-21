@@ -16,7 +16,7 @@ const Rogue5PieceDrumCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/rogue5peicedrum" className="btn product-description btn-link">Details</Link>
+                        <Link to="/rogue5peicedrum" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

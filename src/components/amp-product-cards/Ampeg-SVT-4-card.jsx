@@ -15,7 +15,7 @@ const AmpegSVT4Card = () => {
                     <p className="card-title">Ampeg SVT-4 PRO Series</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/ampegsvt4" className="btn product-description btn-link">Details</Link>
+                        <Link to="/ampegsvt4" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

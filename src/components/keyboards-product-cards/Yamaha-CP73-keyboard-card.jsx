@@ -16,7 +16,7 @@ const YamahaCp73KeyboardCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/yamahacp73keyboard" className="btn product-description btn-link">Details</Link>
+                        <Link to="/yamahacp73keyboard" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

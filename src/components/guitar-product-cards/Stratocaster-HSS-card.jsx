@@ -13,7 +13,7 @@ const StratocasterHSSCard = () => {
                     <p className="card-title">Fender Stratocaster HSS</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/HSSguitar" className="btn product-description btn-link">Details</Link>
+                        <Link to="/HSSguitar" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

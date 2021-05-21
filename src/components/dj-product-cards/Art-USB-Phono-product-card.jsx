@@ -15,7 +15,7 @@ const ArtUsbPhonoCard = () => {
                     <p className="card-title">Art USB Phono Plus Series</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/artusbphono" className="btn product-description btn-link">Details</Link>
+                        <Link to="/artusbphono" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

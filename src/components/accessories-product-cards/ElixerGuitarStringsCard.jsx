@@ -16,7 +16,7 @@ const ElixerGuitarStringsCard = () => {
                     <p className="card-title">Elixer Electric Guitar Strings</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/elixerguitarstrings" className="btn product-description btn-link">Details</Link>
+                        <Link to="/elixerguitarstrings" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

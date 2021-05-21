@@ -16,7 +16,7 @@ const Mxl990MicCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/mxl990mic" className="btn product-description btn-link">Details</Link>
+                        <Link to="/mxl990mic" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

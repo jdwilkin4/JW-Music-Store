@@ -13,7 +13,7 @@ const DAngelicoCard = () => {
                     <p className="card-title">D'Angelico Premier Series</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link className="btn product-description btn-link" to="/angelico">Details</Link>
+                        <Link className="btn product-description btn-link" to="/angelico">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

@@ -15,7 +15,7 @@ const TelecasterCard = () => {
                     <p className="card-title">Fender Telecaster Capri Orange</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/FenderTelecaster" className="btn product-description btn-link">Details</Link>
+                        <Link to="/FenderTelecaster" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

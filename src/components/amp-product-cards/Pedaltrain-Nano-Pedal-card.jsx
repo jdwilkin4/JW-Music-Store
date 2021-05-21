@@ -16,7 +16,7 @@ const PedaltrainNanoPedalCard = () => {
                     <p className="card-title">Pedaltrain Nano Pedal Board </p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/pedaltrainnanopedal" className="btn product-description btn-link">Details</Link>
+                        <Link to="/pedaltrainnanopedal" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

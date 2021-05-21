@@ -16,7 +16,7 @@ const YamahaTrbx305BassCard = () => {
                     <ThreeStars />
 
                     <div class="col text-center">
-                        <Link to="/yamahatrbx305bass" className="btn product-description btn-link">Details</Link>
+                        <Link to="/yamahatrbx305bass" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

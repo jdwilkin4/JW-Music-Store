@@ -15,7 +15,7 @@ const Line6HelixCard = () => {
                     <p className="card-title">Line 6 Helix Guitar Pedal</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/line6helix" className="btn product-description btn-link">Details</Link>
+                        <Link to="/line6helix" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

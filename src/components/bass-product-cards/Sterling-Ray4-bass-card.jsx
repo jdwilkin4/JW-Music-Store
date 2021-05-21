@@ -16,7 +16,7 @@ const SterlingRay4BassCard = () => {
                     <FiveStars />
 
                     <div class="col text-center">
-                        <Link to="/sterlingray4bass" className="btn product-description btn-link">Details</Link>
+                        <Link to="/sterlingray4bass" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

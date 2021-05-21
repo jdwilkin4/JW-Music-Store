@@ -16,7 +16,7 @@ const CremonaSb3BassCard = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/cremonasb3bass" className="btn product-description btn-link">Details</Link>
+                        <Link to="/cremonasb3bass" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

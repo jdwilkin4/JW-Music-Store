@@ -16,7 +16,7 @@ const IconQconExG2Card = () => {
                     <FourStars />
 
                     <div class="col text-center">
-                        <Link to="/iconqconexg2" className="btn product-description btn-link">Details</Link>
+                        <Link to="/iconqconexg2" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

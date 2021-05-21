@@ -16,7 +16,7 @@ const FenderGuitarStandCard = () => {
                     <p className="card-title">Fender Deluxe Guitar Stand</p>
                     <ThreeStars />
                     <div class="col text-center">
-                        <Link to="/fenderdeluxeguitarstand" className="btn product-description btn-link">Details</Link>
+                        <Link to="/fenderdeluxeguitarstand" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

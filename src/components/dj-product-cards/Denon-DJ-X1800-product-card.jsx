@@ -15,7 +15,7 @@ const DenonDjX1800Card = () => {
                     <p className="card-title">Denon DJ X1800 Prime</p>
                     <FiveStars />
                     <div class="col text-center">
-                        <Link to="/denondjx1800" className="btn product-description btn-link">Details</Link>
+                        <Link to="/denondjx1800" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

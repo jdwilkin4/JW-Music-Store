@@ -16,7 +16,7 @@ const BraidedCableCard = () => {
                     <p className="card-title">Musicians Gear Braided Cable</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/musiciansgearbraidedcable" className="btn product-description btn-link">Details</Link>
+                        <Link to="/musiciansgearbraidedcable" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

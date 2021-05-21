@@ -16,7 +16,7 @@ const LRBaggsPreampCard = () => {
                     <p className="card-title">LR Baggs Para Guitar Preamp</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/lrbaggspreamp" className="btn product-description btn-link">Details</Link>
+                        <Link to="/lrbaggspreamp" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

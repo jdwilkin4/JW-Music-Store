@@ -15,7 +15,7 @@ const SquierAffinityCard = () => {
                     <p className="card-title">Squier Affinity Telecaster HH</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/squieraffinity" className="btn product-description btn-link">Details</Link>
+                        <Link to="/squieraffinity" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

@@ -15,7 +15,7 @@ const PioneerPlx1000Card = () => {
                     <p className="card-title">Pioneer PLX-1000 Turntable</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/pioneerplx1000" className="btn product-description btn-link">Details</Link>
+                        <Link to="/pioneerplx1000" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />

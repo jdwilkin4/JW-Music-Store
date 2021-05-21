@@ -15,7 +15,7 @@ const StratocasterLimitedCard = () => {
                     <p className="card-title">Stratocaster Limited Edition</p>
                     <FourStars />
                     <div class="col text-center">
-                        <Link to="/StratocasterLimited" className="btn product-description btn-link">Details</Link>
+                        <Link to="/StratocasterLimited" className="btn product-description btn-link">Product info</Link>
                     </div>
                     <div class="col text-center">
                         <AddToCartBtn />
