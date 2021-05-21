@@ -150,6 +150,8 @@ span.carousel-control-prev-icon {
 }
 
 .product-column {
+    width: 45%;
+    min-width: 300px;
     border: 1px solid gray;
     margin-bottom: 20px;
 }
@@ -160,7 +162,9 @@ span.carousel-control-prev-icon {
 }
 
 .product-img-page {
-    width: 500px;
+    min-width: 400px;
+    min-height: 400px;
+    width: 40%;
     height: 50%;
 }
 
