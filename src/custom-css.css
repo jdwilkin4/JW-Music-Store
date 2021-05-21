@@ -57,6 +57,7 @@ nav, footer {
 
 
 .review-container {
+    text-align: center;
     border: 1px solid gray;
     border-radius: 15px;
     margin:25px auto;
@@ -149,16 +150,21 @@ span.carousel-control-prev-icon {
 }
 
 .product-column {
+    width: 45%;
+    min-width: 300px;
     border: 1px solid gray;
     margin-bottom: 20px;
 }
 
 .product-row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .product-img-page {
-    width: 500px;
+    min-width: 400px;
+    min-height: 400px;
+    width: 40%;
     height: 50%;
 }
 
