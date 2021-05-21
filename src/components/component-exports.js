@@ -40,6 +40,20 @@ export { default as RecordingProducts } from '../routes/RecordingProducts';
 export { default as AccessoriesProducts } from '../routes/AccessoriesProducts';
 export { default as DJProducts } from '../routes/DJProducts';
 
+// guitar product card exports
+export { default as DAngelicoCard } from './guitar-product-cards/DAngelico-card';
+export { default as FenderFa135Card } from './guitar-product-cards/Fender-FA-135CE-card';
+export { default as StratocasterHSSCard } from './guitar-product-cards/Stratocaster-HSS-card';
+export { default as StratocasterLimitedCard } from './guitar-product-cards/Stratocaster-limited-card';
+export { default as TelecasterCard } from './guitar-product-cards/Telecaster-card';
+export { default as GLLimitedCard } from './guitar-product-cards/GL-limited-card';
+export { default as GuildOM240CECard } from './guitar-product-cards/Guild-OM-240CE-card';
+export { default as RogueRd80Card } from './guitar-product-cards/Rogue-RD80-card';
+export { default as RogueRocketeerCard } from './guitar-product-cards/Rogue-Rocketeer-card';
+export { default as SquierAffinityCard } from './guitar-product-cards/Squier-Affinity-card';
+export { default as SquierBulletCard } from './guitar-product-cards/Squier-Bullet-card';
+export { default as SquierBulletTelecasterCard } from './guitar-product-cards/Squier-Bullet-Telecaster-card';
+
 
 //guitar product page exports
 export { default as GuitarWarranty } from './guitar-product-pages/GuitarWarranty';
@@ -70,19 +84,7 @@ export { default as RapcoMicCableCard } from './accessories-product-cards/RapcoM
 export { default as RoadRunnerBagCard } from './accessories-product-cards/RoadRunnerBagCard';
 export { default as ClipOnTunerCard } from './accessories-product-cards/ClipOnTunerCard';
 
-// guitar product card exports
-export { default as DAngelicoCard } from './guitar-product-cards/DAngelico-card';
-export { default as FenderFa135Card } from './guitar-product-cards/Fender-FA-135CE-card';
-export { default as StratocasterHSSCard } from './guitar-product-cards/Stratocaster-HSS-card';
-export { default as StratocasterLimitedCard } from './guitar-product-cards/Stratocaster-limited-card';
-export { default as TelecasterCard } from './guitar-product-cards/Telecaster-card';
-export { default as GLLimitedCard } from './guitar-product-cards/GL-limited-card';
-export { default as GuildOM240CECard } from './guitar-product-cards/Guild-OM-240CE-card';
-export { default as RogueRd80Card } from './guitar-product-cards/Rogue-RD80-card';
-export { default as RogueRocketeerCard } from './guitar-product-cards/Rogue-Rocketeer-card';
-export { default as SquierAffinityCard } from './guitar-product-cards/Squier-Affinity-card';
-export { default as SquierBulletCard } from './guitar-product-cards/Squier-Bullet-card';
-export { default as SquierBulletTelecasterCard } from './guitar-product-cards/Squier-Bullet-Telecaster-card';
+
 
 //amp product card exports
 export { default as AmpegSVT4Card } from './amp-product-cards/Ampeg-SVT-4-card';
@@ -111,6 +113,10 @@ export { default as SterlingStingRayBassCard } from './bass-product-cards/Sterli
 export { default as SterlingRay4BassCard } from './bass-product-cards/Sterling-Ray4-bass-card';
 export { default as YamahaTrbx305BassCard } from './bass-product-cards/Yamaha-TRBX305-bass-card';
 export { default as YamahaTrbx504BassCard } from './bass-product-cards/Yamaha-TRBX504-bass-card';
+
+//bass page exports
+export { default as CremonaSb3BassPage } from './bass-product-pages/Cremona-SB-3-bass-page';
+
 
 //drum product card exports
 export { default as AlesisCompactKitDrumCard } from './drum-product-cards/Alesis-CompactKit-drum-card';
