@@ -1,12 +1,12 @@
 const Config = {
     botAvatar: "/color-music-note.jpg",
     bubbleStyle: {
-        color: 'white',
+        color: 'black',
         fontSize: '1.1rem',
-        backgroundColor: '#043352'
+        backgroundColor: 'white'
     },
     width: "600px",
-    height: "400px",
+    height: "500px",
     floating: true,
     headerTitle: 'JW Music Store Chat'
 }
