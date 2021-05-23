@@ -6,7 +6,7 @@ const Config = {
         backgroundColor: 'white'
     },
     width: "600px",
-    height: "500px",
+    height: "400px",
     floating: true,
     headerTitle: 'JW Music Store Chat'
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import FiveStars from '../star-ratings/5Star';
+import AddToCartBtn from '../product-card-templates/AddToCart';
 
 const HSSHelpbotCard = () => {
     return (
@@ -13,6 +14,9 @@ const HSSHelpbotCard = () => {
                 <FiveStars />
                 <div class="col text-center">
                     <Link to="/HSSguitar" className="btn product-description btn-link">Product info</Link>
+                </div>
+                <div class="col text-center">
+                    <AddToCartBtn />
                 </div>
             </div>
         </div>
