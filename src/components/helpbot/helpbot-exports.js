@@ -4,3 +4,6 @@ export { default as SquierBulletTelecasterChatbotCard } from './Squier-Bullet-Te
 export { default as CremonaUprightBassChatbotCard } from './Cremona-upright-bass-chatbot-card';
 export { default as SchecterGuitarChatbotCard } from './Schecter-Guitar-chatbot-card';
 export { default as SterlingRay4ChatbotCard } from './Sterling-Ray4-chatbot-card';
+export { default as PedaltrainNanoChatbotCard } from './Pedaltrain-Nano-chatbot-card';
+export { default as FenderRumbleChatbotCard } from './Fender-RUMBLE-chatbot-card';
+export { default as LRBaggsVenueChatbotCard } from './LR-Baggs-Venue-chatbot-card';

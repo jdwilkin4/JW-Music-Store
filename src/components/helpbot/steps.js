@@ -1,5 +1,7 @@
 import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, SchecterGuitarChatbotCard } from './helpbot-exports';
-import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard } from './helpbot-exports';
+import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
+import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard } from './helpbot-exports';
+
 
 const steps = [
     {
@@ -44,7 +46,7 @@ const steps = [
         options: [
             { value: 1, label: 'Guitars', trigger: 'guitars' },
             { value: 2, label: 'Basses', trigger: 'basses' },
-            { value: 3, label: 'Amps', trigger: '' },
+            { value: 3, label: 'Amps', trigger: 'amps' },
             { value: 4, label: 'Drums', trigger: '' },
             { value: 5, label: 'Keyboards', trigger: '' },
             { value: 6, label: 'Other', trigger: '' }
@@ -64,6 +66,14 @@ const steps = [
             { value: 1, label: 'Cremona Upright', trigger: 'Cremona' },
             { value: 2, label: 'Schecter Guitar', trigger: 'Schecter' },
             { value: 3, label: 'Sterling Ray4', trigger: 'Sterling' }
+        ]
+    },
+    {
+        id: 'amps',
+        options: [
+            { value: 1, label: 'Fender Rumble', trigger: 'Rumble' },
+            { value: 2, label: 'LR Baggs Venue', trigger: 'LR' },
+            { value: 3, label: 'Pedaltrain', trigger: 'Pedaltrain' }
         ]
     },
     //guitar options
@@ -98,6 +108,32 @@ const steps = [
         component: <SterlingRay4ChatbotCard />,
         trigger: 'more'
     },
+    //amps options
+    {
+        id: 'Pedaltrain',
+        component: <PedaltrainNanoChatbotCard />,
+        trigger: 'more'
+    },
+    {
+        id: 'Rumble',
+        component: <FenderRumbleChatbotCard />,
+        trigger: 'more'
+    },
+    {
+        id: 'LR',
+        component: <LRBaggsVenueChatbotCard />,
+        trigger: 'more'
+    },
+    /*     //Drums
+        {
+    
+        },
+        {
+    
+        },
+        {
+    
+        }, */
     {
         id: 'more',
         message: 'What else would you like to do?',
