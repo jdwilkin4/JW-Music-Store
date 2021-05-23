@@ -1,7 +1,7 @@
 import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, SchecterGuitarChatbotCard } from './helpbot-exports';
 import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
-import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard } from './helpbot-exports';
-
+import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
+import { AlesisCrimsonChatobotCard } from './helpbot-exports';
 
 const steps = [
     {
@@ -47,7 +47,7 @@ const steps = [
             { value: 1, label: 'Guitars', trigger: 'guitars' },
             { value: 2, label: 'Basses', trigger: 'basses' },
             { value: 3, label: 'Amps', trigger: 'amps' },
-            { value: 4, label: 'Drums', trigger: '' },
+            { value: 4, label: 'Drums', trigger: 'drums' },
             { value: 5, label: 'Keyboards', trigger: '' },
             { value: 6, label: 'Other', trigger: '' }
         ]
@@ -76,75 +76,37 @@ const steps = [
             { value: 3, label: 'Pedaltrain', trigger: 'Pedaltrain' }
         ]
     },
+    {
+        id: 'drums',
+        options: [
+            { value: 1, label: 'Boss DR machine', trigger: 'BossDR' },
+            { value: 2, label: 'Rogue 5 Piece Drum set', trigger: 'Rogue' },
+            { value: 3, label: 'Alesis Crimson', trigger: 'Alesis' }
+        ]
+    },
     //guitar options
-    {
-        id: 'HSS',
-        component: <HSSHelpbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'Guild',
-        component: <GuildOmChatbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'Squier',
-        component: <SquierBulletTelecasterChatbotCard />,
-        trigger: 'more'
-    },
-    //bass options
-    {
-        id: 'Cremona',
-        component: <CremonaUprightBassChatbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'Schecter',
-        component: <SchecterGuitarChatbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'Sterling',
-        component: <SterlingRay4ChatbotCard />,
-        trigger: 'more'
-    },
-    //amps options
-    {
-        id: 'Pedaltrain',
-        component: <PedaltrainNanoChatbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'Rumble',
-        component: <FenderRumbleChatbotCard />,
-        trigger: 'more'
-    },
-    {
-        id: 'LR',
-        component: <LRBaggsVenueChatbotCard />,
-        trigger: 'more'
-    },
-    /*     //Drums
-        {
-    
-        },
-        {
-    
-        },
-        {
-    
-        }, */
-    {
-        id: 'more',
-        message: 'What else would you like to do?',
-        trigger: 'options'
-    },
-    {
-        id: 'exit',
-        message: 'Glad to help. Goodbye!',
-        end: true
-    }
+    { id: 'HSS', component: <HSSHelpbotCard />, trigger: 'more' },
+    { id: 'Guild', component: <GuildOmChatbotCard />, trigger: 'more' },
+    { id: 'Squier', component: <SquierBulletTelecasterChatbotCard />, trigger: 'more' },
 
+    //bass options
+    { id: 'Cremona', component: <CremonaUprightBassChatbotCard />, trigger: 'more' },
+    { id: 'Schecter', component: <SchecterGuitarChatbotCard />, trigger: 'more' },
+    { id: 'Sterling', component: <SterlingRay4ChatbotCard />, trigger: 'more' },
+
+    //amps options
+    { id: 'Pedaltrain', component: <PedaltrainNanoChatbotCard />, trigger: 'more' },
+    { id: 'Rumble', component: <FenderRumbleChatbotCard />, trigger: 'more' },
+    { id: 'LR', component: <LRBaggsVenueChatbotCard />, trigger: 'more' },
+
+    //Drums
+    { id: 'BossDR', component: <BossDrChatbotCard />, trigger: 'more' },
+    { id: 'Rogue', component: <RogueDrumsetChatbotCard />, trigger: 'more' },
+    { id: 'Alesis', component: <AlesisCrimsonChatobotCard />, trigger: 'more' },
+
+    { id: 'more', message: 'What else would you like to do?', trigger: 'options' },
+
+    { id: 'exit', message: 'Glad to help. Goodbye!', end: true }
 
 
 ];

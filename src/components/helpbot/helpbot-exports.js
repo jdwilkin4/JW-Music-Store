@@ -7,3 +7,6 @@ export { default as SterlingRay4ChatbotCard } from './Sterling-Ray4-chatbot-card
 export { default as PedaltrainNanoChatbotCard } from './Pedaltrain-Nano-chatbot-card';
 export { default as FenderRumbleChatbotCard } from './Fender-RUMBLE-chatbot-card';
 export { default as LRBaggsVenueChatbotCard } from './LR-Baggs-Venue-chatbot-card';
+export { default as BossDrChatbotCard } from './Boss-DR-machine-chatbot-card';
+export { default as RogueDrumsetChatbotCard } from './Rogue-Drumset-chatbot-card';
+export { default as AlesisCrimsonChatobotCard } from './Alesis-Crimson-chatbot-card';
