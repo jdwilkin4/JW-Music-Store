@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 import AddToCartBtn from '../product-card-templates/AddToCart';
-import FourStars from '../star-ratings/4Star';
+import FiveStars from '../star-ratings/5Star';
 
 const SquierBulletTelecasterCard = () => {
     return (
@@ -13,7 +13,7 @@ const SquierBulletTelecasterCard = () => {
                         <img src={process.env.PUBLIC_URL + '/Guitars-images/Squier Bullet Telecaster Limited Edition Electric Guitar Surf Green.jpg'} alt="guitar" className="img-thumbnail" />
                     </Link>
                     <p className="card-title">Squier Bullet Telecaster</p>
-                    <FourStars />
+                    <FiveStars />
                     <div class="col text-center">
                         <Link to="/squierbullettelecaster" className="btn product-description btn-link">Product info</Link>
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import FourStars from '../star-ratings/4Star';
+import FiveStars from '../star-ratings/5Star';
 import AddToCartBtn from '../product-card-templates/AddToCart';
 
 const CremonaSb3BassCard = () => {
@@ -13,7 +13,7 @@ const CremonaSb3BassCard = () => {
                         <img src={process.env.PUBLIC_URL + '/Basses-images/Cremona SB-3 Upright Bass.jpg'} alt="bass" className="img-thumbnail" />
                     </Link>
                     <p className="card-title">Cremona SB-3 Upright Bass 3/4</p>
-                    <FourStars />
+                    <FiveStars />
 
                     <div class="col text-center">
                         <Link to="/cremonasb3bass" className="btn product-description btn-link">Product info</Link>
