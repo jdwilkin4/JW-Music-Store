@@ -1,7 +1,7 @@
 import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, SchecterGuitarChatbotCard } from './helpbot-exports';
 import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
 import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
-import { AlesisCrimsonChatobotCard } from './helpbot-exports';
+import { AlesisCrimsonChatobotCard, WilliamsSymphonyChatbotCard, YamahaP45ChatbotCard, SuzukiCtpChatbotCard } from './helpbot-exports';
 
 const steps = [
     {
@@ -48,8 +48,7 @@ const steps = [
             { value: 2, label: 'Basses', trigger: 'basses' },
             { value: 3, label: 'Amps', trigger: 'amps' },
             { value: 4, label: 'Drums', trigger: 'drums' },
-            { value: 5, label: 'Keyboards', trigger: '' },
-            { value: 6, label: 'Other', trigger: '' }
+            { value: 5, label: 'Keyboards', trigger: 'keyboards' }
         ]
     },
     {
@@ -84,6 +83,14 @@ const steps = [
             { value: 3, label: 'Alesis Crimson', trigger: 'Alesis' }
         ]
     },
+    {
+        id: 'keyboards',
+        options: [
+            { value: 1, label: 'Williams Symphony Piano', trigger: 'williamsSymphony' },
+            { value: 2, label: 'Yamaha P 45', trigger: 'yamahaPiano' },
+            { value: 3, label: 'Suzuki CTP', trigger: 'suzukiCTP' },
+        ]
+    },
     //guitar options
     { id: 'HSS', component: <HSSHelpbotCard />, trigger: 'more' },
     { id: 'Guild', component: <GuildOmChatbotCard />, trigger: 'more' },
@@ -99,13 +106,18 @@ const steps = [
     { id: 'Rumble', component: <FenderRumbleChatbotCard />, trigger: 'more' },
     { id: 'LR', component: <LRBaggsVenueChatbotCard />, trigger: 'more' },
 
-    //Drums
+    //Drum options
     { id: 'BossDR', component: <BossDrChatbotCard />, trigger: 'more' },
     { id: 'Rogue', component: <RogueDrumsetChatbotCard />, trigger: 'more' },
     { id: 'Alesis', component: <AlesisCrimsonChatobotCard />, trigger: 'more' },
 
-    { id: 'more', message: 'What else would you like to do?', trigger: 'options' },
+    //Keyboard options
+    { id: 'williamsSymphony', component: <WilliamsSymphonyChatbotCard />, trigger: 'more' },
+    { id: 'yamahaPiano', component: <YamahaP45ChatbotCard />, trigger: 'more' },
+    { id: 'suzukiCTP', component: <SuzukiCtpChatbotCard />, trigger: 'more' },
 
+
+    { id: 'more', message: 'What else would you like to do?', trigger: 'options' },
     { id: 'exit', message: 'Glad to help. Goodbye!', end: true }
 
 

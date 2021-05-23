@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import FourStars from '../star-ratings/4Star';
+import FiveStars from '../star-ratings/5Star';
 import AddToCartBtn from '../product-card-templates/AddToCart';
 
 const SuzukiCtpKeyboardCard = () => {
@@ -13,7 +13,7 @@ const SuzukiCtpKeyboardCard = () => {
                         <img src={process.env.PUBLIC_URL + '/Keyboards-images/Suzuki CTP-88 Innovation Digital Piano.jpg'} alt="keyboard" className="img-thumbnail" />
                     </Link>
                     <p className="card-title">Suzuki CTP-88 Digital Piano</p>
-                    <FourStars />
+                    <FiveStars />
 
                     <div class="col text-center">
                         <Link to="/suzukictpkeyboard" className="btn product-description btn-link">Product info</Link>
