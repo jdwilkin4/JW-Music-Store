@@ -6,7 +6,6 @@ import { Config, theme, steps } from '../component-exports';
 
 
 const HelpBot = () => {
-
     //only show chatbot on ipads and desktops
     const [largeScreen, setLargeScreen] = useState(window.innerWidth > 700);
 
@@ -29,7 +28,7 @@ const HelpBot = () => {
                         />
                     </ThemeProvider>
                 ) : (
-                        <div></div>
+                        <div />
                     )
             }
         </div>

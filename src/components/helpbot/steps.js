@@ -1,60 +1,76 @@
-import HSSHelpbotCard from './HSS-chatbot-card';
+import { HSSHelpbotCard } from './helpbot-exports';
 
 const steps = [
     {
-        id: '1',
-        delay: 1500,
-        message: 'Hi, my name is JW Bot! How may I help you today?',
-        trigger: '2',
+        id: 'intro',
+        delay: 2200,
+        message: 'Hi, my name is JW Bot! What\'s your name?',
+        trigger: 'name',
     },
     {
-        id: '2',
+        id: 'name',
+        user: true,
+        validator: (value) => {
+            if (value === '' || /[0-9!@#$%^&*<>?]/.test(value)) {
+                return 'Won\'t you provide me with a name?'
+            }
+            return true
+        },
+        trigger: 'response'
+    },
+    {
+        id: 'response',
+        message: 'Hi, {previousValue}! How may I help you?',
+        trigger: 'options'
+    },
+    {
+        id: 'options',
         options: [
-            { value: 1, label: 'Product recommendations', trigger: '3' },
-            //{ value: 2, label: 'FAQ', trigger: '' },
-            //{ value: 3, label: 'Store hours', trigger: '' },
+            { value: 1, label: 'Top products', trigger: 'products' },
+            { value: 2, label: 'FAQ', trigger: '' },
+            { value: 3, label: 'Store hours', trigger: '' },
+            { value: 4, label: 'Exit chat', trigger: 'exit' }
         ]
     },
-
     {
-        id: '3',
+        id: 'products',
         message: 'Pick a category',
-        trigger: '4'
+        trigger: 'categories'
     },
     {
-        id: '4',
+        id: 'categories',
         options: [
-            { value: 1, label: 'Guitars', trigger: '5' },
-            //{value:2, label:'Basses', trigger:''}
+            { value: 1, label: 'Guitars', trigger: 'guitars' },
+            { value: 2, label: 'Basses', trigger: '' },
+            { value: 3, label: 'Amps', trigger: '' },
+            { value: 4, label: 'Drums', trigger: '' },
+            { value: 5, label: 'Keyboards', trigger: '' },
+            { value: 6, label: 'Other', trigger: '' }
         ]
     },
     {
-        id: '5',
-        message: 'Here are the top guitar products.',
-        trigger: '6'
-    },
-    {
-        id: '6',
+        id: 'guitars',
         options: [
-            { value: 1, label: 'Fender Stratocaster HSS', trigger: '7' },
+            { value: 1, label: 'Fender Stratocaster HSS', trigger: 'HSS' },
             //{}
         ]
     },
     {
-        id: '7',
-        component: (<HSSHelpbotCard />),
-        asMessage: false,
-        trigger: '8'
+        id: 'HSS',
+        component: <HSSHelpbotCard />,
+        trigger: 'more'
     },
     {
-        id: '8',
+        id: 'more',
         message: 'What else would you like to do?',
-        trigger: '9'
+        trigger: 'options'
     },
     {
-        id: '9',
-        user: true
+        id: 'exit',
+        message: 'Glad to help. Goodbye!',
+        end: true
     }
+
 
 
 ];
