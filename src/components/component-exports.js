@@ -16,6 +16,7 @@ export { default as ReviewerList } from './ReviewerList';
 export { default as UpdateReviewForm } from './UpdateReviewForm';
 
 //footer links
+export { default as FooterLinks } from '../routes/Footerlinks';
 export { default as FAQ } from './faq/FAQ';
 
 //helpbot files

@@ -1,5 +1,4 @@
 const data = {
-    title: '',
     rows: [
         {
             title: 'What are your shipping policies?',
@@ -31,11 +30,11 @@ const data = {
         },
         {
             title: 'Do you charge sales tax on your products?',
-            content: 'We are required to collect sales tax on all orders, except those shipped to the following states: Alaska, Delaware, Montana, New Hampshire and Oregon. If you are purchasing on behalf of a tax exempt organization, please fax your tax exemption information to 800-555-5555.'
+            content: 'We are required to collect sales tax on all orders, except those shipped to the following states: Alaska, Delaware, Montana, New Hampshire and Oregon. If you are purchasing on behalf of a tax exempt organization, please fax your tax exemption information to 1-555-555-5555.'
         },
         {
             title: 'Can I pay for my order with a check by phone?',
-            content: 'Unfortunately, we are not able to accept check by phone at this time. You may pay with Visa, Mastercard, American Express, Discover, the Musician\'s Friend Platinum Card, and PayPal. We do accept personal checks and money orders by mail. For more information, please call us at 1-800-555-5555.'
+            content: 'Unfortunately, we are not able to accept check by phone at this time. You may pay with Visa, Mastercard, American Express, Discover, the Musician\'s Friend Platinum Card, and PayPal. We do accept personal checks and money orders by mail. For more information, please call us at 1-555-555-5555.'
         }
     ]
 }

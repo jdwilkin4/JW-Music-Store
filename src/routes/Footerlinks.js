@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import FAQ from '../components/faq/FAQ';
+import { FAQ } from '../components/component-exports';
 
 const FooterLinks = () => {
     return (

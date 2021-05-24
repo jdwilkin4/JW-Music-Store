@@ -2,7 +2,7 @@ import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, Sche
 import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
 import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
 import { AlesisCrimsonChatobotCard, WilliamsSymphonyChatbotCard, YamahaP45ChatbotCard, SuzukiCtpChatbotCard } from './helpbot-exports';
-
+import { FAQ } from '../component-exports';
 
 const steps = [
     //introduction
@@ -23,16 +23,17 @@ const steps = [
 
     { id: 'response', message: 'Hi, {previousValue}! How may I help you?', trigger: 'options' },
 
-
     {
         id: 'options',
         options: [
             { value: 1, label: 'Top products', trigger: 'products' },
-            { value: 2, label: 'FAQ', trigger: '' },
+            { value: 2, label: 'FAQ', trigger: 'faq' },
             { value: 3, label: 'Store hours', trigger: '' },
             { value: 4, label: 'Exit chat', trigger: 'exit' }
         ]
     },
+
+    { id: 'faq', component: <FAQ />, trigger: 'more' },
 
     //product categories
     { id: 'products', message: 'Pick a category', trigger: 'categories' },
