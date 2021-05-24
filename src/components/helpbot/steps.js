@@ -2,7 +2,7 @@ import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, Sche
 import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
 import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
 import { AlesisCrimsonChatobotCard, WilliamsSymphonyChatbotCard, YamahaP45ChatbotCard, SuzukiCtpChatbotCard } from './helpbot-exports';
-import { FAQ } from '../component-exports';
+import { FAQChatbotCard } from './helpbot-exports';
 
 const steps = [
     //introduction
@@ -33,7 +33,7 @@ const steps = [
         ]
     },
 
-    { id: 'faq', component: <FAQ />, trigger: 'more' },
+    { id: 'faq', component: <FAQChatbotCard />, asMessage: true, trigger: 'more' },
 
     //product categories
     { id: 'products', message: 'Pick a category', trigger: 'categories' },
