@@ -15,6 +15,9 @@ export { default as AddReview } from './AddReviewForm';
 export { default as ReviewerList } from './ReviewerList';
 export { default as UpdateReviewForm } from './UpdateReviewForm';
 
+//footer links
+export { default as FAQ } from './faq/FAQ';
+
 //helpbot files
 export { default as HelpBot } from './helpbot/HelpBot';
 export { default as Config } from './helpbot/config';
