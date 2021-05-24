@@ -35,6 +35,30 @@ const data = {
         {
             title: 'Can I pay for my order with a check by phone?',
             content: 'Unfortunately, we are not able to accept check by phone at this time. You may pay with Visa, Mastercard, American Express, Discover, the Musician\'s Friend Platinum Card, and PayPal. We do accept personal checks and money orders by mail. For more information, please call us at 1-555-555-5555.'
+        },
+        {
+            title: 'Will my product have manufacture warranty?',
+            content: ' All new products are sold with the manufacturer\'s limited warranty. The warranty period and repair service center vary by manufacturer. Please contact our Gear Heads Monday - Friday, from 6:00 a.m. - 8:00 p.m. PST and Weekends, from 7:00 a.m. - 7:00 p.m. PST at 1-555-555-5555 or email us to request warranty details and repair service locations.'
+        },
+        {
+            title: 'Can I special order an item not found in your catalog or on the web site?',
+            content: 'Please note that special orders are subject to the following conditions: Special orders are non-returnable unless the item is defective. In the case of a defect, it will be exchanged for the same item. Special orders are billed at the time the order is placed. Special orders cannot be canceled once they have been placed. Special order items take an average of 3-4 weeks for delivery, but availability will vary depending on manufacturer and stock on hand.'
+        },
+        {
+            title: 'Do you sell left-handed guitars?',
+            content: 'We do not carry left handed guitars.'
+        },
+        {
+            title: 'How much does international shipping cost?',
+            content: 'International shipping is calculated based on a number of factors including the desired service level (Standard, Economy Air, Express), the number of items you are purchasing, the weight of the items and the destination country/region. International shipping will be calculated and guaranteed during global checkout based on the items you are purchasing and your shipping destination.'
+        },
+        {
+            title: 'Will you sponsor my band?',
+            content: 'At this time, we do not offer sponsorships for bands.'
+        },
+        {
+            title: 'I did not get a warranty card with my instrument. Would you please send me one?',
+            content: 'Unfortunately, we do not have warranty cards to send out. Note that many manufacturers no longer include warranty cards with their products. All you will need for proof of purchase for warranty work is your original invoice that was included with your shipment, so keep it in a safe place. In addition, most manufacturers now have online product registration through their web sites.'
         }
     ]
 }
