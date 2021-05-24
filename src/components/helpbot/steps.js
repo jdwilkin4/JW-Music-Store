@@ -3,13 +3,12 @@ import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainN
 import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
 import { AlesisCrimsonChatobotCard, WilliamsSymphonyChatbotCard, YamahaP45ChatbotCard, SuzukiCtpChatbotCard } from './helpbot-exports';
 
+
 const steps = [
-    {
-        id: 'intro',
-        delay: 1800,
-        message: 'Hi, my name is JW Bot! What\'s your name?',
-        trigger: 'name',
-    },
+    //introduction
+
+    { id: 'intro', delay: 1800, message: 'Hi, my name is JW Bot! What\'s your name?', trigger: 'name' },
+
     {
         id: 'name',
         user: true,
@@ -21,11 +20,10 @@ const steps = [
         },
         trigger: 'response'
     },
-    {
-        id: 'response',
-        message: 'Hi, {previousValue}! How may I help you?',
-        trigger: 'options'
-    },
+
+    { id: 'response', message: 'Hi, {previousValue}! How may I help you?', trigger: 'options' },
+
+
     {
         id: 'options',
         options: [
@@ -35,12 +33,10 @@ const steps = [
             { value: 4, label: 'Exit chat', trigger: 'exit' }
         ]
     },
+
     //product categories
-    {
-        id: 'products',
-        message: 'Pick a category',
-        trigger: 'categories'
-    },
+    { id: 'products', message: 'Pick a category', trigger: 'categories' },
+
     {
         id: 'categories',
         options: [
