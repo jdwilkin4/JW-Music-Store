@@ -2,7 +2,7 @@ import { HSSHelpbotCard, GuildOmChatbotCard, CremonaUprightBassChatbotCard, Sche
 import { SquierBulletTelecasterChatbotCard, SterlingRay4ChatbotCard, PedaltrainNanoChatbotCard } from './helpbot-exports';
 import { FenderRumbleChatbotCard, LRBaggsVenueChatbotCard, BossDrChatbotCard, RogueDrumsetChatbotCard } from './helpbot-exports';
 import { AlesisCrimsonChatobotCard, WilliamsSymphonyChatbotCard, YamahaP45ChatbotCard, SuzukiCtpChatbotCard } from './helpbot-exports';
-import { FAQChatbotCard } from './helpbot-exports';
+import { FAQChatbotCard, ContactChatbotCard } from './helpbot-exports';
 
 const steps = [
     //introduction
@@ -28,12 +28,13 @@ const steps = [
         options: [
             { value: 1, label: 'Top products', trigger: 'products' },
             { value: 2, label: 'FAQ', trigger: 'faq' },
-            { value: 3, label: 'Store hours', trigger: '' },
+            { value: 3, label: 'Contact info', trigger: 'contact' },
             { value: 4, label: 'Exit chat', trigger: 'exit' }
         ]
     },
 
     { id: 'faq', component: <FAQChatbotCard />, asMessage: true, trigger: 'more' },
+    { id: 'contact', component: <ContactChatbotCard />, asMessage: true, trigger: 'more' },
 
     //product categories
     { id: 'products', message: 'Pick a category', trigger: 'categories' },
@@ -115,7 +116,7 @@ const steps = [
 
 
     { id: 'more', message: 'What else would you like to do?', trigger: 'options' },
-    { id: 'exit', message: 'Glad to help. Goodbye!', end: true }
+    { id: 'exit', message: 'Glad to help. Goodbye!', end: true, floating: false }
 
 
 ];

@@ -14,3 +14,4 @@ export { default as WilliamsSymphonyChatbotCard } from './Williams-Symphony-Pian
 export { default as YamahaP45ChatbotCard } from './Yamaha-P45-chatbot-card';
 export { default as SuzukiCtpChatbotCard } from './Suzuki-CTP-chatbot-card';
 export { default as FAQChatbotCard } from './Faq-chatbot-card';
+export { default as ContactChatbotCard } from './Contact-chatbot-card';
