@@ -1,3 +1,6 @@
+# Welcome to JW Music Store
+This is an online concept store built with the MERN stack. You will be able to filter through different products, create a user login and complete the full checkout process using PayPal and Braintree. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
